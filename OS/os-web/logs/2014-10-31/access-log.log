@@ -1,0 +1,122 @@
+2014-10-31 00:12:17.619 [btpool0-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Enabling session validation scheduler...
+2014-10-31 00:12:17.657 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Cache with name 'shiro-activeSessionCache' does not yet exist.  Creating now.
+2014-10-31 00:12:17.661 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Added EhCache named [shiro-activeSessionCache]
+2014-10-31 00:12:17.665 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2014-10-31 00:12:17.670 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2014-10-31 22:19:48.399 [btpool0-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Enabling session validation scheduler...
+2014-10-31 22:19:48.483 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Cache with name 'shiro-activeSessionCache' does not yet exist.  Creating now.
+2014-10-31 22:19:48.485 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Added EhCache named [shiro-activeSessionCache]
+2014-10-31 22:19:48.487 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2014-10-31 22:19:48.492 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2014-10-31 22:36:12.370 [btpool0-2] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Enabling session validation scheduler...
+2014-10-31 22:36:12.406 [btpool0-2] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Cache with name 'shiro-activeSessionCache' does not yet exist.  Creating now.
+2014-10-31 22:36:12.408 [btpool0-2] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Added EhCache named [shiro-activeSessionCache]
+2014-10-31 22:36:12.411 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2014-10-31 22:36:12.416 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2014-10-31 22:55:05.747 [btpool0-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Enabling session validation scheduler...
+2014-10-31 22:55:05.781 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Cache with name 'shiro-activeSessionCache' does not yet exist.  Creating now.
+2014-10-31 22:55:05.783 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Added EhCache named [shiro-activeSessionCache]
+2014-10-31 22:55:05.785 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2014-10-31 22:55:05.789 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2014-10-31 22:58:39.590 [btpool0-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Enabling session validation scheduler...
+2014-10-31 22:58:39.623 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Cache with name 'shiro-activeSessionCache' does not yet exist.  Creating now.
+2014-10-31 22:58:39.625 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Added EhCache named [shiro-activeSessionCache]
+2014-10-31 22:58:39.627 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2014-10-31 22:58:39.631 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2014-10-31 23:05:36.003 [btpool0-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Enabling session validation scheduler...
+2014-10-31 23:05:36.040 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Cache with name 'shiro-activeSessionCache' does not yet exist.  Creating now.
+2014-10-31 23:05:36.044 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2014-10-31 23:05:36.045 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Cache with name 'shiro-activeSessionCache' does not yet exist.  Creating now.
+2014-10-31 23:05:36.046 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Added EhCache named [shiro-activeSessionCache]
+2014-10-31 23:09:28.783 [btpool0-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Enabling session validation scheduler...
+2014-10-31 23:09:28.816 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Cache with name 'shiro-activeSessionCache' does not yet exist.  Creating now.
+2014-10-31 23:09:28.818 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Added EhCache named [shiro-activeSessionCache]
+2014-10-31 23:09:28.819 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2014-10-31 23:09:28.824 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2014-10-31 23:16:39.391 [btpool0-2] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Enabling session validation scheduler...
+2014-10-31 23:16:39.438 [btpool0-2] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Cache with name 'shiro-activeSessionCache' does not yet exist.  Creating now.
+2014-10-31 23:16:39.441 [btpool0-2] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Added EhCache named [shiro-activeSessionCache]
+2014-10-31 23:16:39.442 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2014-10-31 23:16:39.447 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2014-10-31 23:19:17.343 [btpool0-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Enabling session validation scheduler...
+2014-10-31 23:19:17.378 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Cache with name 'shiro-activeSessionCache' does not yet exist.  Creating now.
+2014-10-31 23:19:17.380 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Added EhCache named [shiro-activeSessionCache]
+2014-10-31 23:19:17.381 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2014-10-31 23:19:17.386 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2014-10-31 23:26:01.611 [btpool0-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Enabling session validation scheduler...
+2014-10-31 23:26:01.645 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Cache with name 'shiro-activeSessionCache' does not yet exist.  Creating now.
+2014-10-31 23:26:01.648 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Added EhCache named [shiro-activeSessionCache]
+2014-10-31 23:26:01.649 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2014-10-31 23:26:01.653 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2014-10-31 23:34:53.118 [btpool0-2] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Enabling session validation scheduler...
+2014-10-31 23:34:53.158 [btpool0-2] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Cache with name 'shiro-activeSessionCache' does not yet exist.  Creating now.
+2014-10-31 23:34:53.160 [btpool0-2] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Added EhCache named [shiro-activeSessionCache]
+2014-10-31 23:34:53.163 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2014-10-31 23:34:53.167 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2014-10-31 23:55:03.353 [btpool0-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Enabling session validation scheduler...
+2014-10-31 23:55:03.388 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Cache with name 'shiro-activeSessionCache' does not yet exist.  Creating now.
+2014-10-31 23:55:03.391 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2014-10-31 23:55:03.392 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Added EhCache named [shiro-activeSessionCache]
+2014-10-31 23:55:03.392 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Using existing EHCache named [shiro-activeSessionCache]
+2014-10-31 23:55:03.396 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.

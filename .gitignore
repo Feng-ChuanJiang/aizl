@@ -1,0 +1,9 @@
+/OS/os-web/target/os-web-tests.jar
+/OS/os-web/target/gisEngine.war
+/OS/os-web/target/os-web-sources.jar
+/OS/os-web/target/*.jar
+/OS/target/*.jar
+/OS/os-web/target/classes/org
+/OS/os-web/target/classes/plugins
+/OS/os-web/target/classes/deploys
+/OS/os-web/target/classes/org/lemonPig/os/web/controller/*.class
