@@ -82,11 +82,7 @@
 			<artifactId>jackson-mapper-asl</artifactId>
 		</dependency>
 		<!-- project -->
-		<dependency>
-			<groupId>org.lemonPig</groupId>
-			<artifactId>os-core</artifactId>
-			<version>${project.version}</version>
-		</dependency>
+
 		<dependency>
 			<groupId>org.lemonPig</groupId>
 			<artifactId>os-common</artifactId>

@@ -2,7 +2,6 @@ package org.lemonPig.os.common;
 
 import java.io.IOException;
 
-import org.codehaus.jackson.JsonProcessingException;
 import org.codehaus.jackson.map.ObjectMapper;
 
 
@@ -10,6 +9,7 @@ import org.codehaus.jackson.map.ObjectMapper;
 public class Result {
 	private String code;
 	private boolean success;
+	private Object data;
 	private String[] messages;
 	public Result() {
 		
@@ -32,6 +32,12 @@ public class Result {
 	public void setMessages(String[] messages) {
 		this.messages = messages;
 	}
+	public Object getData() {
+		return data;
+	}
+	public void setData(Object data) {
+		this.data = data;
+	}
 	public String toJson() throws IOException {
 		ObjectMapper objectMapper=new ObjectMapper();
 		return objectMapper.writeValueAsString(this);
@@ -42,10 +48,11 @@ public class Result {
 		result.setMessages(errors);
 		return result;
 	}
-	public static Result buildSuccessResult(String... msg) {
+	public static Result buildSuccessResult(Object data,String... msg) {
 		Result result=new Result();
 		result.setSuccess(true);
 		result.setMessages(msg);
+		result.setData(data);
 		return result;
 	}
 }

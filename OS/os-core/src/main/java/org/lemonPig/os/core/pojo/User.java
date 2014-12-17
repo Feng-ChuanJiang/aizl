@@ -5,20 +5,24 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import org.lemonPig.os.assist.mybaties.annotation.Entity;
 import org.lemonPig.os.core.constants.UserStatus;
 
 /**
  * @author ai.zhanglin
  *
  */
+@Entity(alias = "User", tableName = "user")
 public class User {
 	private Long id;
 	private String userName;
 	private String passWord;
 	private UserStatus status;
 	private String salt;
-	private List<Resource> resources;
-	private List<Role> roles;
+	private String tel;
+	private String mail;
+	private List<Permission> permissions=new ArrayList<Permission>();
+	private List<Role> roles=new ArrayList<Role>();
 	public Long getId() {
 		return id;
 	}
@@ -40,6 +44,18 @@ public class User {
 	public UserStatus getStatus() {
 		return status;
 	}
+	public String getTel() {
+		return tel;
+	}
+	public void setTel(String tel) {
+		this.tel = tel;
+	}
+	public String getMail() {
+		return mail;
+	}
+	public void setMail(String mail) {
+		this.mail = mail;
+	}
 	public void setStatus(UserStatus status) {
 		this.status = status;
 	}
@@ -49,11 +65,8 @@ public class User {
 	public void setSalt(String salt) {
 		this.salt = salt;
 	}
-	public List<Resource> getResources() {
-		return resources;
-	}
-	public void setResources(List<Resource> resources) {
-		this.resources = resources;
+	public void setPermissions(List<Permission> permissions) {
+		this.permissions = permissions;
 	}
 	public List<Role> getRoles() {
 		return roles;
@@ -72,14 +85,14 @@ public class User {
 	}
 	public Set<String> getPermissions() {
 		Set<String> permissionss=new HashSet<String>();
-		List<Resource> resources=new ArrayList<Resource>();
+		List<Permission> resources=new ArrayList<Permission>();
 		if (roles!=null) {
 			for (Role role : roles) {
-				resources.addAll(role.getResources());
+				resources.addAll(role.getPermissions());
 			}
 		}
-		resources.addAll(this.resources);
-		for (Resource resource : resources) {
+		resources.addAll(this.permissions);
+		for (Permission resource : resources) {
 			permissionss.add(resource.getPermission());
 		}
 		return permissionss;

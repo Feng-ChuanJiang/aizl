@@ -1,8 +1,53 @@
+/*
+$.fn.dataTableExt.oApi.fnReloadAjax = function (oSettings, sNewSource, fnCallback, bStandingRedraw) {
+    if (typeof sNewSource != 'undefined' && sNewSource != null) {
+        oSettings.sAjaxSource = sNewSource;
+    }
+    this.oApi._fnProcessingDisplay(oSettings, true);
+    var that = this;
+    var iStart = oSettings._iDisplayStart;
+    var aData = [];
+
+    this.oApi._fnServerParams(oSettings, aData);
+
+    oSettings.fnServerData(oSettings.sAjaxSource, aData, function (json) {
+         Clear the old information from the table 
+        that.oApi._fnClearTable(oSettings);
+
+         Got the data - add it to the table 
+        var aData = (oSettings.sAjaxDataProp !== "") ?
+            that.oApi._fnGetObjectDataFn(oSettings.sAjaxDataProp)(json) : json;
+
+        for (var i = 0; i < aData.length; i++) {
+            that.oApi._fnAddData(oSettings, aData[i]);
+        }
+
+        oSettings.aiDisplay = oSettings.aiDisplayMaster.slice();
+        that.fnDraw();
+
+        if (typeof bStandingRedraw != 'undefined' && bStandingRedraw === true) {
+            oSettings._iDisplayStart = iStart;
+            that.fnDraw(false);
+        }
+
+        that.oApi._fnProcessingDisplay(oSettings, false);
+
+         Callback user function - for event handlers etc 
+        if (typeof fnCallback == 'function' && fnCallback != null) {
+            fnCallback(oSettings);
+        }
+    }, oSettings);
+}*/
+
+//$("#userFilter").on("change", function () {
+//        oTable.fnReloadAjax(); // In your case this would be 'tblOrders.fnReloadAjax();'
+//    });
 /* Set the defaults for DataTables initialisation */
 $.extend( true, $.fn.dataTable.defaults, {
 	"sDom": "<'dt-top-row'lf>r<'dt-wrapper't><'dt-row dt-bottom-row'<'row'<'col-sm-6'i><'col-sm-6 text-right'p>",
 	"sPaginationType": "bootstrap",
 	"oLanguage": {
+		"oPaginate":{"sFirst":"首页","sPrevious": "上一页","sNext":"下一页","sLast":"尾页"},
 		"sLengthMenu": "_MENU_",
 		"sSearch": "_INPUT_"
 	}

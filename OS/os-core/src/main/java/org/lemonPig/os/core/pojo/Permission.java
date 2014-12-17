@@ -1,14 +1,18 @@
 package org.lemonPig.os.core.pojo;
 
 
+import java.util.Date;
+
 import org.lemonPig.os.core.constants.GrantAble;
 
-public class Resource {
+public class Permission {
 	private Long id;
 	private String ename;
 	private String cname;
 	private String permission;
 	private GrantAble grantAble;
+	private User grantee;
+	private Date expiration;
 	public Long getId() {
 		return id;
 	}
@@ -38,6 +42,18 @@ public class Resource {
 	}
 	public void setGrantAble(GrantAble grantAble) {
 		this.grantAble = grantAble;
+	}
+	public Date getExpiration() {
+		return expiration;
+	}
+	public void setExpiration(Date expiration) {
+		this.expiration = expiration;
+	}
+	public User getGrantee() {
+		return grantee;
+	}
+	public void setGrantee(User grantee) {
+		this.grantee = grantee;
 	}
 	
 }

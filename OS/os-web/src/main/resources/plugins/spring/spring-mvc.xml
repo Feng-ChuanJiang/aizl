@@ -20,7 +20,14 @@
 	<bean
 		class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping"></bean>
 	<bean id="conversionService"
-		class="org.springframework.format.support.FormattingConversionServiceFactoryBean"></bean>
+		class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+		<property name="converters">
+			<list>
+				<bean class="org.springframework.core.convert.support.StringToEnumConverterFactory" />
+				<bean class="org.lemonPig.os.assist.spring.StringToDateConvert" />
+			</list>
+		</property>
+	</bean>
 	<context:component-scan base-package="org.lemonPig.os.**.web.controller"
 		use-default-filters="false">
 		<context:include-filter type="annotation"

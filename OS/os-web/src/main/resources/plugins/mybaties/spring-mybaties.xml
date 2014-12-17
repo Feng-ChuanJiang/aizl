@@ -6,7 +6,7 @@
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />
 		<property name="configLocation" value="classpath:plugins/mybaties/mybatisConfig.xml" />
-		<property name="mapperLocations" value="classpath*:com/teamax/gisEngine/core/mybatiesCfg/*.xml" />
+		<property name="mapperLocations" value="classpath*:mybaties/mappings/*.xml" />
 	</bean>
     
 </beans>

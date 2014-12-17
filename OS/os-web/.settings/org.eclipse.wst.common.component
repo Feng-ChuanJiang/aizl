@@ -7,10 +7,10 @@
         <dependent-module archiveName="os-core-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/os-core/os-core">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="os-assist-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/os-assist/os-assist">
+        <dependent-module archiveName="os-common-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/os-common/os-common">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="os-common-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/os-common/os-common">
+        <dependent-module archiveName="os-assist-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/os-assist/os-assist">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <property name="java-output-path" value="/os-web/target/classes"/>

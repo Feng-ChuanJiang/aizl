@@ -4,6 +4,7 @@ import java.beans.BeanInfo;
 import java.beans.IntrospectionException;
 import java.beans.Introspector;
 import java.beans.PropertyDescriptor;
+import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
@@ -12,19 +13,26 @@ import java.util.List;
 
 
 public class ReflectUtils {
-	public static PropertyDescriptor[] getPropertiesDescriptor(Object obj) {
-		BeanInfo beanInfo = null;
-		try {
-			beanInfo = Introspector.getBeanInfo(obj.getClass(),Object.class);
-		} catch (IntrospectionException e) {
-			e.printStackTrace();
+	public static String getClassName(Object obj) {
+		if (obj instanceof Class<?>) {
+			return ((Class<?>) obj).getName();
+		}else {
+			return obj.getClass().getName();
 		}
-		return beanInfo.getPropertyDescriptors();
+	}
+	public static PropertyDescriptor[] getPropertiesDescriptor(Object obj) {
+		return getPropertiesDescriptor(obj, Object.class);
 	}
 	public static PropertyDescriptor[] getPropertiesDescriptor(Object obj,Class<?> clazz) {
 		BeanInfo beanInfo = null;
+		Class<?> objClass=null;
+		if (obj instanceof Class<?>) {
+			objClass=(Class<?>) obj;
+		}else {
+			objClass=obj.getClass();
+		}
 		try {
-			beanInfo = Introspector.getBeanInfo(obj.getClass(),clazz);
+			beanInfo = Introspector.getBeanInfo(objClass,clazz);
 		} catch (IntrospectionException e) {
 			e.printStackTrace();
 		}
@@ -42,6 +50,12 @@ public class ReflectUtils {
 		}
 		return value;
 	}
+	/**
+	 * 获取字段泛型
+	 * @param field 指定字段
+	 * @param index 第几个泛型
+	 * @return
+	 */
 	public static Class<?> getGenericClass(Field field,int index) {
 		Type type=field.getGenericType();
 		if (type instanceof ParameterizedType) {
@@ -102,5 +116,17 @@ public class ReflectUtils {
 			Field[] rt=new Field[listResult.size()];
 			return listResult.toArray(rt);
 		}
+	}
+	/**
+	 * 获取class上的注解
+	 * @param clazz
+	 * @param annotationClass
+	 * @return
+	 */
+	public static <T extends Annotation>T getAnnotation(Class<?> clazz,Class<T> annotationClass) {
+		return clazz.getAnnotation(annotationClass);
+	}
+	public static boolean hasAnnotation(Class<?> clazz,Class<? extends Annotation> annotationClass) {
+		return clazz.isAnnotationPresent(annotationClass);
 	}
 }

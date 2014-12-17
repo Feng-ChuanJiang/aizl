@@ -9,7 +9,7 @@ public class Role {
 	private Long id;
 	private String ename;
 	private String cname;
-	private List<Resource> resources;
+	private List<Permission> permissions;
 	private List<User> users;
 	private GrantAble grantAble;
 	public Long getId() {
@@ -30,11 +30,11 @@ public class Role {
 	public void setCname(String cname) {
 		this.cname = cname;
 	}
-	public List<Resource> getResources() {
-		return resources;
+	public List<Permission> getPermissions() {
+		return permissions;
 	}
-	public void setResources(List<Resource> resources) {
-		this.resources = resources;
+	public void setPermissions(List<Permission> permissions) {
+		this.permissions = permissions;
 	}
 	public List<User> getUsers() {
 		return users;
@@ -48,5 +48,4 @@ public class Role {
 	public void setGrantAble(GrantAble grantAble) {
 		this.grantAble = grantAble;
 	}
-	
 }

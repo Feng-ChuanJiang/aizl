@@ -1,4 +1,4 @@
-package org.lemonPig.os.assist.shiro;
+package org.lemonPig.os.web.support;
 
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;

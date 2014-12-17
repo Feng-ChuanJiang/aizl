@@ -110,5 +110,16 @@
 			<groupId>org.codehaus.jackson</groupId>
 			<artifactId>jackson-mapper-asl</artifactId>
 		</dependency>
+		<!-- project -->
+		<dependency>
+			<groupId>org.lemonPig</groupId>
+			<artifactId>os-common</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.lemonPig</groupId>
+			<artifactId>os-assist</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 	</dependencies>
 </project>
