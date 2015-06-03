@@ -2,6 +2,7 @@
 <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+	<!-- 这些是mybatis全局设置，可以参考官方说明 -->
 	<settings>
 		<setting name="cacheEnabled" value="false" />
 		<setting name="lazyLoadingEnabled" value="false" />
@@ -17,9 +18,11 @@
 		<setting name="jdbcTypeForNull" value="NULL" />
 		<setting name="lazyLoadTriggerMethods" value="equals,clone,hashCode,toString" />
 	</settings>
+	<!-- 这里扫描所有的实体类，mybatis的mapper文件中就可以不用全类名 -->
 	<typeAliases>
 		<package name="org.lemonPig.os.core.pojo" />
 	</typeAliases>
+	<!-- mybatis分页插件，他默认的是逻辑分页(假分页) -->
 	<plugins>
 		<plugin interceptor="org.lemonPig.os.assist.mybaties.OffsetLimitInterceptor">
 			<property name="dialectClass"

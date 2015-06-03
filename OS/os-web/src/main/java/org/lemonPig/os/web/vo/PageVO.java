@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.lemonPig.os.assist.mybaties.bean.PageList;
 
+
 public class PageVO <T>{
 	private String sEcho;
 	private Integer iTotalRecords;

@@ -12,8 +12,8 @@ import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.util.ByteSource;
 import org.lemonPig.os.core.constants.UserStatus;
+import org.lemonPig.os.core.dto.User;
 import org.lemonPig.os.core.iservice.IUserService;
-import org.lemonPig.os.core.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class UserRealm extends AuthorizingRealm {
@@ -26,7 +26,7 @@ public class UserRealm extends AuthorizingRealm {
 		SimpleAuthorizationInfo authorizationInfo = new SimpleAuthorizationInfo();
 		User user=iUserService.findUserByUserName(username);
 		authorizationInfo.setRoles(user.getRoleENames());
-		authorizationInfo.setStringPermissions(user.getPermissions());
+		authorizationInfo.setStringPermissions(user.getPermissionNames());
 		return authorizationInfo;
 	}
 	@Override

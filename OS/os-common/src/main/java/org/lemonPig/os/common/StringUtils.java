@@ -87,14 +87,6 @@ public class StringUtils {
 		return content.toString();
 	}
 
-	public static String objectToString(Object object) {
-		String rt = null;
-		try {
-			rt = object.toString();
-		} catch (NullPointerException e) {
-		}
-		return rt;
-	}
 
 	public static String clean(String in) {
 		String out = in;

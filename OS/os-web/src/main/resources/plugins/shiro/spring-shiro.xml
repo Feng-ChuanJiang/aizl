@@ -104,7 +104,7 @@
 	<!-- Shiro生命周期处理器 -->
 	<bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor" />
 
-	<!-- shiro form表单过滤器 -->
+	<!-- shiro form表单过滤器 ,仅用于验证登录身份 -->
 	<bean id="formAuthenticationFilter"
 		class="org.lemonPig.os.assist.shiro.CustomFormAuthenticationFilter">
 		<property name="usernameParam" value="${shiro.usernameParam}" />
@@ -139,7 +139,7 @@
 		</property>
 		<property name="filterChainDefinitions">
 			<value>
-				/login.jsp = anon
+				/jsp/permission/login.jsp = anon
 				/user/queryPageList = anon
 				/jsp/permission/user/user.jsp = anon
 				/ajax/** = anon

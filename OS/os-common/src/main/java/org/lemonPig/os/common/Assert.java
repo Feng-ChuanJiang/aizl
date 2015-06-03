@@ -3,6 +3,7 @@ package org.lemonPig.os.common;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 import java.util.Collection;
+import java.util.List;
 
 
 
@@ -129,6 +130,18 @@ public class Assert {
 		}
 	}
 	/**
+	 * 断言collection长度
+	 * @param list
+	 * @param num
+	 * @param message
+	 */
+	public static void assertLengthEqual(Collection<?> collection,Integer num,String message) {
+		if (collection==null||collection.size()==num) {
+			buildException(message);
+		}
+	}
+	
+	/**
 	 * 使用异常信息构建异常
 	 * @param message 信息内容
 	 */
@@ -139,4 +152,5 @@ public class Assert {
 			throw new RuntimeException();
 		}
 	}
+	
 }

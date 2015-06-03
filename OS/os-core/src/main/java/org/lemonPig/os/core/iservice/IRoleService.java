@@ -3,7 +3,7 @@ package org.lemonPig.os.core.iservice;
 import java.util.List;
 import java.util.Set;
 
-import org.lemonPig.os.core.pojo.Role;
+import org.lemonPig.os.core.dto.Role;
 
 public interface IRoleService {
 

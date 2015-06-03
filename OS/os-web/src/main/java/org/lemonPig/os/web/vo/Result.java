@@ -1,4 +1,4 @@
-package org.lemonPig.os.common;
+package org.lemonPig.os.web.vo;
 
 import java.io.IOException;
 

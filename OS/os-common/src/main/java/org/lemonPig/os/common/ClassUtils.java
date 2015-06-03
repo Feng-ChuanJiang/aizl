@@ -2,11 +2,26 @@ package org.lemonPig.os.common;
 
 import java.io.File;
 import java.io.FilenameFilter;
+import java.lang.annotation.Annotation;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
 
 
 
 
 public class ClassUtils {
+	private static final Map<Class<?>, Class<?>> primitiveWrapperTypeMap = new HashMap<Class<?>, Class<?>>(8);
+	static{
+		primitiveWrapperTypeMap.put(Boolean.class, boolean.class);
+		primitiveWrapperTypeMap.put(Byte.class, byte.class);
+		primitiveWrapperTypeMap.put(Character.class, char.class);
+		primitiveWrapperTypeMap.put(Double.class, double.class);
+		primitiveWrapperTypeMap.put(Float.class, float.class);
+		primitiveWrapperTypeMap.put(Integer.class, int.class);
+		primitiveWrapperTypeMap.put(Long.class, long.class);
+		primitiveWrapperTypeMap.put(Short.class, short.class);
+	}
 	public static Class<? extends Object> loadClass(String className){
 		Class<? extends Object> clazz = null;
 		try {
@@ -92,5 +107,26 @@ public class ClassUtils {
 		if (cl == null)
 			cl = (ClassUtils.class).getClassLoader();
 		return cl;
+	}
+	public static boolean isPrimitiveOrWrapper(Class<?> clazz) {
+		return (clazz.isPrimitive() || isPrimitiveWrapper(clazz));
+	}
+	public static boolean isPrimitiveWrapper(Class<?> clazz) {
+		return primitiveWrapperTypeMap.containsKey(clazz);
+	}
+	public static boolean isCollection(Class<?> clazz) {
+		return Collection.class.isAssignableFrom(clazz);
+	}
+	public static boolean isMap(Class<?> clazz) {
+		return Map.class.isAssignableFrom(clazz);
+	}
+	@SuppressWarnings("unchecked")
+	public static boolean hasAnnotation(Class<?> clazz,Class<? extends Annotation>... annotationClasses) {
+		for (Class<? extends Annotation> annotationClass : annotationClasses) {
+			if (clazz.isAnnotationPresent(annotationClass)) {
+				return true;
+			}
+		}
+		return false;
 	}
 }

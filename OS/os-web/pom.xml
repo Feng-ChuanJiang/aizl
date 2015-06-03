@@ -17,11 +17,18 @@
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 		</dependency>
+		<!-- 单元测试 -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<!-- jstl标签-->
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
@@ -51,12 +58,17 @@
 		</dependency>
 		<dependency>
 			<groupId>org.lemonPig</groupId>
-			<artifactId>os-assist</artifactId>
+			<artifactId>os-assist-shiro</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.lemonPig</groupId>
-			<artifactId>os-assist</artifactId>
+			<artifactId>os-assist-logback</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.lemonPig</groupId>
+			<artifactId>os-assist-spring</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 	</dependencies>

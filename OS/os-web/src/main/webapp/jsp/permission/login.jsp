@@ -60,7 +60,7 @@
 		</div>
 
 		<span id="login-header-space"> <span class="hidden-mobile">Need
-				an account?</span> <a href="register.html" class="btn btn-danger">Creat
+				an account?</span> <a href="<%=path%>/jsp/permission/user/register.jsp" class="btn btn-danger">Creat
 				account</a>
 		</span>
 
@@ -110,7 +110,7 @@
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
 					<div class="well no-padding">
-						<form action="<%=path%>/user/login" id="login-form"
+						<form id="login-form"
 							class="smart-form client-form" method="post">
 							<header> 登 录 </header>
 
@@ -142,7 +142,7 @@
 								</section>
 							</fieldset>
 							<footer>
-								<button type="submit" class="btn btn-primary">登 录</button>
+								<button id="loginBtn" type="submit" class="btn btn-primary">登 录</button>
 							</footer>
 						</form>
 
@@ -171,49 +171,52 @@
 	<!--================================================== -->
 
 	<!-- PACE LOADER - turn this on if you want ajax loading to show (caution: uses lots of memory on iDevices)-->
-	<script src="js/plugin/pace/pace.min.js"></script>
+	<script src="<%=path%>/js/plugin/pace/pace.min.js"></script>
 
 	<!-- Link to Google CDN's jQuery + jQueryUI; fall back to local -->
-	<script src="js/libs/jquery-2.0.2.min.js"></script>
+	<script src="<%=path%>/js/libs/jquery-2.0.2.min.js"></script>
 
-	<script src="js/libs/jquery-ui-1.10.3.min.js"></script>
+	<script src="<%=path%>/js/libs/jquery-ui-1.10.3.min.js"></script>
 
 	<!-- JS TOUCH : include this plugin for mobile drag / drop touch events 		
-		<script src="js/plugin/jquery-touch/jquery.ui.touch-punch.min.js"></script> -->
+		<script src="<%=path%>/js/plugin/jquery-touch/jquery.ui.touch-punch.min.js"></script> -->
 
 	<!-- BOOTSTRAP JS -->
-	<script src="js/bootstrap/bootstrap.min.js"></script>
+	<script src="<%=path%>/js/bootstrap/bootstrap.min.js"></script>
 
 	<!-- CUSTOM NOTIFICATION -->
-	<script src="js/notification/SmartNotification.min.js"></script>
+	<script src="<%=path%>/js/notification/SmartNotification.min.js"></script>
 
 	<!-- JARVIS WIDGETS -->
-	<script src="js/smartwidgets/jarvis.widget.min.js"></script>
+	<script src="<%=path%>/js/smartwidgets/jarvis.widget.min.js"></script>
 
 	<!-- EASY PIE CHARTS -->
-	<script src="js/plugin/easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
+	<script src="<%=path%>/js/plugin/easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
 
 	<!-- SPARKLINES -->
-	<script src="js/plugin/sparkline/jquery.sparkline.min.js"></script>
+	<script src="<%=path%>/js/plugin/sparkline/jquery.sparkline.min.js"></script>
 
 	<!-- JQUERY VALIDATE -->
-	<script src="js/plugin/jquery-validate/jquery.validate.min.js"></script>
+	<script src="<%=path%>/js/plugin/jquery-validate/jquery.validate.min.js"></script>
 
 	<!-- JQUERY MASKED INPUT -->
-	<script src="js/plugin/masked-input/jquery.maskedinput.min.js"></script>
+	<script src="<%=path%>/js/plugin/masked-input/jquery.maskedinput.min.js"></script>
 
 	<!-- JQUERY SELECT2 INPUT -->
-	<script src="js/plugin/select2/select2.min.js"></script>
+	<script src="<%=path%>/js/plugin/select2/select2.min.js"></script>
 
 	<!-- JQUERY UI + Bootstrap Slider -->
-	<script src="js/plugin/bootstrap-slider/bootstrap-slider.min.js"></script>
+	<script src<%=path%>/js/s/plugin/bootstrap-slider/bootstrap-slider.min.js"></script>
 
 	<!-- browser msie issue fix -->
-	<script src="js/plugin/msie-fix/jquery.mb.browser.min.js"></script>
+	<script src="<%=path%>/js/plugin/msie-fix/jquery.mb.browser.min.js"></script>
 
 	<!-- FastClick: For mobile devices -->
-	<script src="js/plugin/fastclick/fastclick.js"></script>
-
+	<script src="<%=path%>/js/plugin/fastclick/fastclick.js"></script>
+	<!-- 全局工具包 -->
+	<script data-contextpath="<%=path%>" src="<%=path%>/js/os/os.js"></script>
+	
+	<script src="<%=path%>/js/os/permission/login.js"></script>
 	<!--[if IE 7]>
 			
 			<h1>Your browser is out of date, please update your browser by going to www.microsoft.com/download</h1>
@@ -221,7 +224,7 @@
 		<![endif]-->
 
 	<!-- MAIN APP JS FILE -->
-	<script src="js/app.js"></script>
+	<script src="<%=path%>/js/app.js"></script>
 
 	<script type="text/javascript">
 		runAllForms();

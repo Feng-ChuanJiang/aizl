@@ -2,11 +2,12 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
-	<!--myBatis 配置 -->
+	<!--  spring-myBatis 配置 -->
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSource" />
-		<property name="configLocation" value="classpath:plugins/mybaties/mybatisConfig.xml" />
-		<property name="mapperLocations" value="classpath*:mybaties/mappings/*.xml" />
+		<!-- 引入mybatis主配置 -->
+		<property name="configLocation" value="classpath:plugins/mybatis/mybatisConfig.xml" />
+		<!-- 引入mapping文件 -->
+		<property name="mapperLocations" value="classpath*:org/lemonPig/os/core/mybatis/mappings/*.xml" />
 	</bean>
-    
 </beans>

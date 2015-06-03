@@ -9,7 +9,7 @@
 		<welcome-file>index</welcome-file>
 		<welcome-file>index.html</welcome-file>
 		<welcome-file>index.htm</welcome-file>
-		<welcome-file>jsp/index.jsp</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
 	</welcome-file-list>
 	<!-- spring applicationContext -->
 	<context-param>
@@ -18,7 +18,7 @@
 			classpath:plugins/spring/spring-beans.xml,
 			classpath:plugins/spring/spring-task.xml,
 			classpath:plugins/shiro/spring-shiro.xml,
-			classpath:plugins/mybaties/spring-mybaties.xml,
+			classpath:plugins/mybatis/spring-mybatis.xml,
 			classpath:plugins/memcached/spring-memcached.xml,
 			classpath:plugins/jdbc/spring-jdbc.xml,
 			classpath:plugins/ehcache/spring-ehcache.xml
@@ -80,46 +80,6 @@
 	<servlet-mapping>
 		<servlet-name>springMVC</servlet-name>
 		<url-pattern>/</url-pattern>
-	</servlet-mapping>
-	<servlet-mapping>
-		<servlet-name>default</servlet-name>
-		<url-pattern>*.jpg</url-pattern>
-	</servlet-mapping>
-	<servlet-mapping>
-		<servlet-name>default</servlet-name>
-		<url-pattern>*.png</url-pattern>
-	</servlet-mapping>
-	<servlet-mapping>
-		<servlet-name>default</servlet-name>
-		<url-pattern>*.js</url-pattern>
-	</servlet-mapping>
-	<servlet-mapping>
-		<servlet-name>default</servlet-name>
-		<url-pattern>*.map</url-pattern>
-	</servlet-mapping>
-	<servlet-mapping>
-		<servlet-name>default</servlet-name>
-		<url-pattern>*.css</url-pattern>
-	</servlet-mapping>
-	<servlet-mapping>
-		<servlet-name>default</servlet-name>
-		<url-pattern>*.ico</url-pattern>
-	</servlet-mapping>
-	<servlet-mapping>
-		<servlet-name>default</servlet-name>
-		<url-pattern>*.woff</url-pattern>
-	</servlet-mapping>
-	<servlet-mapping>
-		<servlet-name>default</servlet-name>
-		<url-pattern>*.ttf</url-pattern>
-	</servlet-mapping>
-	<servlet-mapping>
-		<servlet-name>default</servlet-name>
-		<url-pattern>*.svg</url-pattern>
-	</servlet-mapping>
-	<servlet-mapping>
-		<servlet-name>default</servlet-name>
-		<url-pattern>*.swf</url-pattern>
 	</servlet-mapping>
 	<session-config>
 		<session-timeout>60</session-timeout>
