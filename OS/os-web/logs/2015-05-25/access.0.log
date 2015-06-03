@@ -1,0 +1,1431 @@
+2015-05-25 00:10:41.665 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-05-25 00:10:41.674 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-05-25 00:10:41.675 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-05-25 00:10:41.675 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-05-25 00:10:41.676 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-05-25 00:10:41.676 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-05-25 00:10:41.676 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-05-25 00:10:41.676 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-05-25 00:10:41.676 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-05-25 00:10:41.676 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-05-25 00:10:41.676 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-05-25 00:10:41.676 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-05-25 00:10:41.676 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-05-25 00:10:41.676 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-05-25 00:10:41.676 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-05-25 00:10:41.676 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-05-25 00:10:41.676 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-05-25 00:10:41.676 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-05-25 00:10:41.676 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-05-25 00:10:41.676 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-05-25 00:10:41.677 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-05-25 00:10:41.677 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-05-25 00:10:41.677 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-05-25 00:10:41.677 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-05-25 00:10:41.677 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-05-25 00:10:41.677 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-05-25 00:10:41.677 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-05-25 00:10:41.677 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-05-25 00:10:41.677 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-05-25 00:10:41.677 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-05-25 00:10:42.048 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-05-25 00:10:42.049 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-05-25 00:11:07.854 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-05-25 00:11:07.863 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-05-25 00:11:07.864 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-05-25 00:11:07.865 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-05-25 00:11:07.865 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-05-25 00:11:07.865 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-05-25 00:11:07.865 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-05-25 00:11:07.865 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-05-25 00:11:07.865 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-05-25 00:11:07.865 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-05-25 00:11:07.866 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-05-25 00:11:07.866 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-05-25 00:11:07.866 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-05-25 00:11:07.866 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-05-25 00:11:07.866 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-05-25 00:11:07.866 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-05-25 00:11:07.866 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-05-25 00:11:07.866 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-05-25 00:11:07.866 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-05-25 00:11:07.867 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-05-25 00:11:07.867 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-05-25 00:11:07.867 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-05-25 00:11:07.867 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-05-25 00:11:07.867 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-05-25 00:11:07.867 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-05-25 00:11:07.867 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-05-25 00:11:07.867 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-05-25 00:11:07.867 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-05-25 00:11:07.868 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-05-25 00:11:07.868 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-05-25 00:11:08.223 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-05-25 00:11:08.224 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-05-25 00:13:19.709 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-05-25 00:13:19.717 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-05-25 00:13:19.717 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-05-25 00:13:19.718 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-05-25 00:13:19.719 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-05-25 00:13:19.719 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-05-25 00:13:19.719 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-05-25 00:13:19.719 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-05-25 00:13:19.719 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-05-25 00:13:19.719 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-05-25 00:13:19.719 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-05-25 00:13:19.719 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-05-25 00:13:19.719 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-05-25 00:13:19.719 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-05-25 00:13:19.720 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-05-25 00:13:19.720 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-05-25 00:13:19.720 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-05-25 00:13:19.720 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-05-25 00:13:19.720 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-05-25 00:13:19.720 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-05-25 00:13:19.720 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-05-25 00:13:19.720 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-05-25 00:13:19.720 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-05-25 00:13:19.720 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-05-25 00:13:19.720 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-05-25 00:13:19.720 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-05-25 00:13:19.721 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-05-25 00:13:19.721 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-05-25 00:13:19.721 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-05-25 00:13:19.721 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-05-25 00:13:19.958 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-05-25 00:13:19.959 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-05-25 00:14:14.763 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-05-25 00:14:14.771 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-05-25 00:14:14.772 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-05-25 00:14:14.772 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-05-25 00:14:14.772 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-05-25 00:14:14.772 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-05-25 00:14:14.772 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-05-25 00:14:14.773 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-05-25 00:14:14.773 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-05-25 00:14:14.773 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-05-25 00:14:14.773 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-05-25 00:14:14.773 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-05-25 00:14:14.773 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-05-25 00:14:14.773 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-05-25 00:14:14.773 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-05-25 00:14:14.773 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-05-25 00:14:14.773 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-05-25 00:14:14.773 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-05-25 00:14:14.773 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-05-25 00:14:14.773 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-05-25 00:14:14.773 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-05-25 00:14:14.773 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-05-25 00:14:14.773 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-05-25 00:14:14.773 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-05-25 00:14:14.773 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-05-25 00:14:14.774 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-05-25 00:14:14.774 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-05-25 00:14:14.774 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-05-25 00:14:14.774 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-05-25 00:14:14.774 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-05-25 00:14:15.146 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-05-25 00:14:15.147 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-05-25 00:16:39.665 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-05-25 00:16:39.671 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-05-25 00:16:39.671 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-05-25 00:16:39.672 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-05-25 00:16:39.672 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-05-25 00:16:39.672 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-05-25 00:16:39.672 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-05-25 00:16:39.672 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-05-25 00:16:39.672 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-05-25 00:16:39.672 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-05-25 00:16:39.672 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-05-25 00:16:39.672 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-05-25 00:16:39.672 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-05-25 00:16:39.672 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-05-25 00:16:39.672 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-05-25 00:16:39.673 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-05-25 00:16:39.673 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-05-25 00:16:39.673 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-05-25 00:16:39.673 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-05-25 00:16:39.673 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-05-25 00:16:39.673 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-05-25 00:16:39.673 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-05-25 00:16:39.673 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-05-25 00:16:39.673 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-05-25 00:16:39.673 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-05-25 00:16:39.673 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-05-25 00:16:39.673 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-05-25 00:16:39.673 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-05-25 00:16:39.673 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-05-25 00:16:39.673 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-05-25 00:16:39.900 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-05-25 00:16:39.900 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-05-25 00:16:56.400 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-05-25 00:16:56.407 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-05-25 00:16:56.407 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-05-25 00:16:56.409 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-05-25 00:16:56.410 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-05-25 00:16:56.410 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-05-25 00:16:56.410 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-05-25 00:16:56.410 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-05-25 00:16:56.410 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-05-25 00:16:56.411 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-05-25 00:16:56.411 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-05-25 00:16:56.411 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-05-25 00:16:56.411 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-05-25 00:16:56.411 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-05-25 00:16:56.411 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-05-25 00:16:56.411 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-05-25 00:16:56.411 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-05-25 00:16:56.411 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-05-25 00:16:56.411 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-05-25 00:16:56.411 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-05-25 00:16:56.411 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-05-25 00:16:56.411 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-05-25 00:16:56.411 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-05-25 00:16:56.412 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-05-25 00:16:56.412 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-05-25 00:16:56.412 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-05-25 00:16:56.412 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-05-25 00:16:56.412 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-05-25 00:16:56.412 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-05-25 00:16:56.412 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-05-25 00:16:56.876 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-05-25 00:16:56.876 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-05-25 00:17:36.699 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-05-25 00:17:36.709 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-05-25 00:17:36.709 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-05-25 00:17:36.710 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-05-25 00:17:36.711 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-05-25 00:17:36.711 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-05-25 00:17:36.711 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-05-25 00:17:36.711 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-05-25 00:17:36.711 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-05-25 00:17:36.711 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-05-25 00:17:36.711 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-05-25 00:17:36.711 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-05-25 00:17:36.711 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-05-25 00:17:36.711 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-05-25 00:17:36.712 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-05-25 00:17:36.712 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-05-25 00:17:36.712 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-05-25 00:17:36.712 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-05-25 00:17:36.712 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-05-25 00:17:36.712 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-05-25 00:17:36.712 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-05-25 00:17:36.712 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-05-25 00:17:36.712 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-05-25 00:17:36.712 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-05-25 00:17:36.712 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-05-25 00:17:36.712 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-05-25 00:17:36.712 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-05-25 00:17:36.712 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-05-25 00:17:36.713 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-05-25 00:17:36.713 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-05-25 00:17:37.074 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-05-25 00:17:37.075 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-05-25 00:19:12.159 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-05-25 00:19:12.168 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-05-25 00:19:12.168 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-05-25 00:19:12.169 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-05-25 00:19:12.169 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-05-25 00:19:12.169 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-05-25 00:19:12.169 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-05-25 00:19:12.169 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-05-25 00:19:12.169 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-05-25 00:19:12.169 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-05-25 00:19:12.170 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-05-25 00:19:12.170 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-05-25 00:19:12.170 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-05-25 00:19:12.170 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-05-25 00:19:12.170 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-05-25 00:19:12.170 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-05-25 00:19:12.170 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-05-25 00:19:12.170 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-05-25 00:19:12.170 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-05-25 00:19:12.170 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-05-25 00:19:12.170 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-05-25 00:19:12.170 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-05-25 00:19:12.170 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-05-25 00:19:12.170 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-05-25 00:19:12.170 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-05-25 00:19:12.171 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-05-25 00:19:12.171 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-05-25 00:19:12.171 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-05-25 00:19:12.171 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-05-25 00:19:12.171 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-05-25 00:19:12.548 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-05-25 00:19:12.549 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-05-25 00:19:15.341 [net.sf.ehcache.CacheManager@21a3f9a6] DEBUG net.sf.ehcache.util.UpdateChecker -
+				Update check failed: 
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.7.0_67]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.7.0_67]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339) ~[na:1.7.0_67]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200) ~[na:1.7.0_67]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182) ~[na:1.7.0_67]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.7.0_67]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.7.0_67]
+	at java.net.Socket.connect(Socket.java:579) ~[na:1.7.0_67]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[na:1.7.0_67]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[na:1.7.0_67]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[na:1.7.0_67]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[na:1.7.0_67]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[na:1.7.0_67]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[na:1.7.0_67]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:996) ~[na:1.7.0_67]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:932) ~[na:1.7.0_67]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:850) ~[na:1.7.0_67]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1300) ~[na:1.7.0_67]
+	at net.sf.ehcache.util.UpdateChecker.getUpdateProperties(UpdateChecker.java:108) [ehcache-core-2.6.8.jar:na]
+	at net.sf.ehcache.util.UpdateChecker.doCheck(UpdateChecker.java:72) [ehcache-core-2.6.8.jar:na]
+	at net.sf.ehcache.util.UpdateChecker.checkForUpdate(UpdateChecker.java:60) [ehcache-core-2.6.8.jar:na]
+	at net.sf.ehcache.util.UpdateChecker.run(UpdateChecker.java:51) [ehcache-core-2.6.8.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.7.0_67]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.7.0_67]
+2015-05-25 00:20:45.135 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-05-25 00:20:45.147 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-05-25 00:20:45.148 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-05-25 00:20:45.149 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-05-25 00:20:45.149 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-05-25 00:20:45.149 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-05-25 00:20:45.149 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-05-25 00:20:45.149 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-05-25 00:20:45.149 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-05-25 00:20:45.149 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-05-25 00:20:45.149 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-05-25 00:20:45.149 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-05-25 00:20:45.149 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-05-25 00:20:45.149 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-05-25 00:20:45.149 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-05-25 00:20:45.150 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-05-25 00:20:45.150 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-05-25 00:20:45.150 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-05-25 00:20:45.150 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-05-25 00:20:45.150 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-05-25 00:20:45.150 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-05-25 00:20:45.150 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-05-25 00:20:45.150 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-05-25 00:20:45.150 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-05-25 00:20:45.150 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-05-25 00:20:45.150 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-05-25 00:20:45.150 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-05-25 00:20:45.150 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-05-25 00:20:45.150 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-05-25 00:20:45.150 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-05-25 00:20:45.545 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-05-25 00:20:45.546 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-05-25 00:23:01.965 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-05-25 00:23:01.973 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-05-25 00:23:01.973 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-05-25 00:23:01.976 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-05-25 00:23:01.976 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-05-25 00:23:01.976 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-05-25 00:23:01.976 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-05-25 00:23:01.976 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-05-25 00:23:01.976 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-05-25 00:23:01.976 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-05-25 00:23:01.976 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-05-25 00:23:01.976 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-05-25 00:23:01.976 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-05-25 00:23:01.976 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-05-25 00:23:01.976 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-05-25 00:23:01.977 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-05-25 00:23:01.977 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-05-25 00:23:01.977 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-05-25 00:23:01.977 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-05-25 00:23:01.977 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-05-25 00:23:01.977 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-05-25 00:23:01.977 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-05-25 00:23:01.977 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-05-25 00:23:01.977 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-05-25 00:23:01.977 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-05-25 00:23:01.977 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-05-25 00:23:01.977 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-05-25 00:23:01.977 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-05-25 00:23:01.977 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-05-25 00:23:01.977 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-05-25 00:23:02.349 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-05-25 00:23:02.349 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-05-25 00:35:29.866 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-05-25 00:35:29.875 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-05-25 00:35:29.876 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-05-25 00:35:29.876 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-05-25 00:35:29.876 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-05-25 00:35:29.877 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-05-25 00:35:29.877 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-05-25 00:35:29.877 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-05-25 00:35:29.877 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-05-25 00:35:29.877 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-05-25 00:35:29.877 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-05-25 00:35:29.877 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-05-25 00:35:29.877 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-05-25 00:35:29.877 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-05-25 00:35:29.877 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-05-25 00:35:29.877 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-05-25 00:35:29.877 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-05-25 00:35:29.878 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-05-25 00:35:29.878 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-05-25 00:35:29.878 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-05-25 00:35:29.878 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-05-25 00:35:29.878 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-05-25 00:35:29.878 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-05-25 00:35:29.878 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-05-25 00:35:29.878 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-05-25 00:35:29.878 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-05-25 00:35:29.878 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-05-25 00:35:29.878 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-05-25 00:35:29.878 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-05-25 00:35:29.878 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-05-25 00:35:30.208 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-05-25 00:35:30.209 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-05-25 00:37:16.985 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-05-25 00:37:16.997 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-05-25 00:37:16.997 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-05-25 00:37:16.998 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-05-25 00:37:16.998 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-05-25 00:37:16.998 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-05-25 00:37:16.999 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-05-25 00:37:16.999 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-05-25 00:37:16.999 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-05-25 00:37:16.999 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-05-25 00:37:16.999 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-05-25 00:37:16.999 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-05-25 00:37:16.999 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-05-25 00:37:16.999 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-05-25 00:37:16.999 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-05-25 00:37:16.999 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-05-25 00:37:16.999 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-05-25 00:37:16.999 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-05-25 00:37:16.999 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-05-25 00:37:16.999 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-05-25 00:37:16.999 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-05-25 00:37:16.999 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-05-25 00:37:17.000 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-05-25 00:37:17.000 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-05-25 00:37:17.000 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-05-25 00:37:17.000 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-05-25 00:37:17.000 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-05-25 00:37:17.000 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-05-25 00:37:17.000 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-05-25 00:37:17.000 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-05-25 00:37:17.351 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-05-25 00:37:17.351 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-05-25 00:38:08.180 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-05-25 00:38:08.190 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-05-25 00:38:08.190 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-05-25 00:38:08.191 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-05-25 00:38:08.191 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-05-25 00:38:08.191 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-05-25 00:38:08.191 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-05-25 00:38:08.192 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-05-25 00:38:08.192 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-05-25 00:38:08.192 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-05-25 00:38:08.192 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-05-25 00:38:08.192 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-05-25 00:38:08.192 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-05-25 00:38:08.192 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-05-25 00:38:08.192 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-05-25 00:38:08.192 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-05-25 00:38:08.192 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-05-25 00:38:08.193 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-05-25 00:38:08.193 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-05-25 00:38:08.193 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-05-25 00:38:08.193 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-05-25 00:38:08.193 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-05-25 00:38:08.193 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-05-25 00:38:08.193 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-05-25 00:38:08.193 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-05-25 00:38:08.193 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-05-25 00:38:08.193 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-05-25 00:38:08.193 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-05-25 00:38:08.193 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-05-25 00:38:08.193 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-05-25 00:38:08.533 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-05-25 00:38:08.534 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-05-25 00:38:57.345 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-05-25 00:38:57.353 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-05-25 00:38:57.354 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-05-25 00:38:57.355 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-05-25 00:38:57.355 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-05-25 00:38:57.355 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-05-25 00:38:57.355 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-05-25 00:38:57.355 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-05-25 00:38:57.355 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-05-25 00:38:57.355 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-05-25 00:38:57.356 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-05-25 00:38:57.356 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-05-25 00:38:57.356 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-05-25 00:38:57.356 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-05-25 00:38:57.356 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-05-25 00:38:57.356 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-05-25 00:38:57.356 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-05-25 00:38:57.356 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-05-25 00:38:57.356 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-05-25 00:38:57.356 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-05-25 00:38:57.357 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-05-25 00:38:57.357 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-05-25 00:38:57.357 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-05-25 00:38:57.357 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-05-25 00:38:57.357 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-05-25 00:38:57.357 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-05-25 00:38:57.357 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-05-25 00:38:57.357 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-05-25 00:38:57.357 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-05-25 00:38:57.357 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-05-25 00:38:57.754 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-05-25 00:38:57.755 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-05-25 00:41:10.045 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-05-25 00:41:10.055 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-05-25 00:41:10.056 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-05-25 00:41:10.058 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-05-25 00:41:10.058 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-05-25 00:41:10.058 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-05-25 00:41:10.058 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-05-25 00:41:10.058 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-05-25 00:41:10.058 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-05-25 00:41:10.058 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-05-25 00:41:10.058 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-05-25 00:41:10.058 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-05-25 00:41:10.058 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-05-25 00:41:10.058 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-05-25 00:41:10.058 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-05-25 00:41:10.058 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-05-25 00:41:10.058 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-05-25 00:41:10.059 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-05-25 00:41:10.059 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-05-25 00:41:10.059 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-05-25 00:41:10.059 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-05-25 00:41:10.059 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-05-25 00:41:10.059 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-05-25 00:41:10.059 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-05-25 00:41:10.059 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-05-25 00:41:10.059 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-05-25 00:41:10.059 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-05-25 00:41:10.059 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-05-25 00:41:10.059 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-05-25 00:41:10.059 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-05-25 00:41:10.418 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-05-25 00:41:10.419 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-05-25 00:43:20.680 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-05-25 00:43:20.686 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-05-25 00:43:20.687 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-05-25 00:43:20.687 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-05-25 00:43:20.687 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-05-25 00:43:20.688 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-05-25 00:43:20.688 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-05-25 00:43:20.688 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-05-25 00:43:20.688 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-05-25 00:43:20.688 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-05-25 00:43:20.688 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-05-25 00:43:20.688 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-05-25 00:43:20.688 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-05-25 00:43:20.688 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-05-25 00:43:20.688 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-05-25 00:43:20.689 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-05-25 00:43:20.689 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-05-25 00:43:20.689 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-05-25 00:43:20.689 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-05-25 00:43:20.689 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-05-25 00:43:20.689 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-05-25 00:43:20.689 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-05-25 00:43:20.689 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-05-25 00:43:20.689 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-05-25 00:43:20.689 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-05-25 00:43:20.689 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-05-25 00:43:20.689 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-05-25 00:43:20.689 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-05-25 00:43:20.689 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-05-25 00:43:20.689 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-05-25 00:43:21.054 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-05-25 00:43:21.055 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-05-25 00:46:05.679 [Timer-1] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-05-25 00:46:05.686 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-05-25 00:46:05.687 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-05-25 00:46:05.687 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-05-25 00:46:05.687 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-05-25 00:46:05.688 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-05-25 00:46:05.688 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-05-25 00:46:05.688 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-05-25 00:46:05.688 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-05-25 00:46:05.688 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-05-25 00:46:05.688 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-05-25 00:46:05.688 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-05-25 00:46:05.688 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-05-25 00:46:05.688 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-05-25 00:46:05.688 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-05-25 00:46:05.688 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-05-25 00:46:05.689 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-05-25 00:46:05.689 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-05-25 00:46:05.689 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-05-25 00:46:05.689 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-05-25 00:46:05.689 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-05-25 00:46:05.689 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-05-25 00:46:05.689 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-05-25 00:46:05.689 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-05-25 00:46:05.690 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-05-25 00:46:05.690 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-05-25 00:46:05.690 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-05-25 00:46:05.690 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-05-25 00:46:05.690 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-05-25 00:46:05.690 [Timer-1] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-05-25 00:46:06.084 [Timer-1] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-05-25 00:46:06.085 [Timer-1] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-05-25 00:47:46.714 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-05-25 00:47:46.722 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-05-25 00:47:46.722 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-05-25 00:47:46.723 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-05-25 00:47:46.723 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-05-25 00:47:46.723 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-05-25 00:47:46.723 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-05-25 00:47:46.723 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-05-25 00:47:46.723 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-05-25 00:47:46.723 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-05-25 00:47:46.723 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-05-25 00:47:46.723 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-05-25 00:47:46.723 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-05-25 00:47:46.723 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-05-25 00:47:46.723 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-05-25 00:47:46.723 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-05-25 00:47:46.723 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-05-25 00:47:46.724 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-05-25 00:47:46.724 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-05-25 00:47:46.724 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-05-25 00:47:46.724 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-05-25 00:47:46.724 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-05-25 00:47:46.724 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-05-25 00:47:46.724 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-05-25 00:47:46.724 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-05-25 00:47:46.724 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-05-25 00:47:46.724 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-05-25 00:47:46.724 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-05-25 00:47:46.724 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-05-25 00:47:46.724 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-05-25 00:47:47.099 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-05-25 00:47:47.100 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-05-25 00:49:31.604 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-05-25 00:49:31.611 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-05-25 00:49:31.611 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-05-25 00:49:31.613 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-05-25 00:49:31.614 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-05-25 00:49:31.614 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-05-25 00:49:31.614 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-05-25 00:49:31.615 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-05-25 00:49:31.615 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-05-25 00:49:31.615 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-05-25 00:49:31.615 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-05-25 00:49:31.615 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-05-25 00:49:31.615 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-05-25 00:49:31.616 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-05-25 00:49:31.616 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-05-25 00:49:31.616 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-05-25 00:49:31.616 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-05-25 00:49:31.616 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-05-25 00:49:31.616 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-05-25 00:49:31.616 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-05-25 00:49:31.616 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-05-25 00:49:31.616 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-05-25 00:49:31.616 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-05-25 00:49:31.616 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-05-25 00:49:31.616 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-05-25 00:49:31.616 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-05-25 00:49:31.617 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-05-25 00:49:31.617 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-05-25 00:49:31.617 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-05-25 00:49:31.617 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-05-25 00:49:31.995 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-05-25 00:49:31.996 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-05-25 00:52:40.412 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-05-25 00:52:40.420 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-05-25 00:52:40.420 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-05-25 00:52:40.421 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-05-25 00:52:40.421 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-05-25 00:52:40.421 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-05-25 00:52:40.421 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-05-25 00:52:40.421 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-05-25 00:52:40.421 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-05-25 00:52:40.422 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-05-25 00:52:40.422 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-05-25 00:52:40.422 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-05-25 00:52:40.422 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-05-25 00:52:40.422 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-05-25 00:52:40.422 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-05-25 00:52:40.422 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-05-25 00:52:40.422 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-05-25 00:52:40.422 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-05-25 00:52:40.422 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-05-25 00:52:40.422 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-05-25 00:52:40.422 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-05-25 00:52:40.422 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-05-25 00:52:40.423 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-05-25 00:52:40.423 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-05-25 00:52:40.423 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-05-25 00:52:40.423 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-05-25 00:52:40.423 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-05-25 00:52:40.423 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-05-25 00:52:40.423 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-05-25 00:52:40.423 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-05-25 00:52:40.794 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-05-25 00:52:40.795 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-05-25 23:53:03.794 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-05-25 23:53:03.794 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-05-25 23:53:03.794 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-05-25 23:53:03.810 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-05-25 23:53:45.057 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-05-25 23:53:45.057 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-05-25 23:53:45.057 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-05-25 23:53:45.057 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-05-25 23:53:45.057 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-05-25 23:53:45.057 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-05-25 23:53:45.057 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-05-25 23:53:45.057 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-05-25 23:53:45.057 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-05-25 23:53:45.073 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-05-25 23:53:45.073 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-05-25 23:53:45.073 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-05-25 23:53:45.073 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-05-25 23:53:45.073 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-05-25 23:53:45.073 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-05-25 23:53:45.073 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-05-25 23:53:45.073 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-05-25 23:53:45.073 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-05-25 23:53:45.073 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-05-25 23:53:45.073 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-05-25 23:53:45.073 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-05-25 23:53:45.073 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-05-25 23:53:45.073 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-05-25 23:53:45.073 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-05-25 23:53:45.073 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-05-25 23:53:45.073 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-05-25 23:53:45.073 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-05-25 23:53:45.073 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-05-25 23:53:45.073 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-05-25 23:53:45.073 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-05-25 23:53:45.385 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-05-25 23:53:45.385 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only

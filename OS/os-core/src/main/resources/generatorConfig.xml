@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<!-- el变量值见os-core项目pom.xml中的properties节点配置 -->
+<generatorConfiguration>
+	<classPathEntry location="${classPathEntry.location}" />
+
+	<context id="MySqlTables" targetRuntime="MyBatis3">
+		<!-- 按名字识别实体生成面向对象代码的插件 -->
+		<!-- <plugin type="org.lemonPig.os.assist.mybatisGenerator.AutoRecOOPlugin"> -->
+		<!-- 识别column是否对应实体的表达式 -->
+		<!-- <property name="colRegex" value="" /> -->
+		<!-- </plugin> -->
+
+		<jdbcConnection driverClass="${mybatis.generator.jdbcDriver}"
+			connectionURL="${mybatis.generator.jdbcURL}" userId="${mybatis.generator.jdbcUserId}"
+			password="${mybatis.generator.jdbcPassword}">
+		</jdbcConnection>
+
+		<javaTypeResolver>
+			<property name="forceBigDecimals" value="false" />
+		</javaTypeResolver>
+
+		<javaModelGenerator targetPackage="org.lemonPig.os.core.pojo"
+			targetProject="${mybatis.generator.outputDirectory}">
+			<property name="enableSubPackages" value="true" />
+			<property name="trimStrings" value="true" />
+		</javaModelGenerator>
+
+		<sqlMapGenerator targetPackage="org.lemonPig.os.core.mybatis.mappings"
+			targetProject="${mybatis.generator.outputDirectory}">
+			<property name="enableSubPackages" value="true" />
+		</sqlMapGenerator>
+
+		<javaClientGenerator type="XMLMAPPER"
+			targetPackage="org.lemonPig.os.core.mapper" targetProject="${mybatis.generator.outputDirectory}">
+			<property name="enableSubPackages" value="true" />
+		</javaClientGenerator>
+
+
+		<table tableName="user" domainObjectName="UserPOJO" alias="user"
+			enableCountByExample="true" enableDeleteByExample="true"
+			enableSelectByExample="true" enableUpdateByExample="true">
+			<property name="useActualColumnNames" value="true" />
+			<generatedKey column="ID" sqlStatement="MySql" identity="true" />
+		</table>
+		<table tableName="resource" domainObjectName="ResourcePOJO" alias="resource"
+			enableCountByExample="true" enableDeleteByExample="true"
+			enableSelectByExample="true" enableUpdateByExample="true">
+			<property name="useActualColumnNames" value="true" />
+			<generatedKey column="ID" sqlStatement="MySql" identity="true" />
+		</table>
+		<table tableName="user_metadata" domainObjectName="UserMetadataPOJO"
+			alias="userMetadata" enableCountByExample="true"
+			enableDeleteByExample="true" enableSelectByExample="true"
+			enableUpdateByExample="true">
+			<property name="useActualColumnNames" value="true" />
+			<generatedKey column="ID" sqlStatement="MySql" identity="true" />
+		</table>
+		<table tableName="role" domainObjectName="RolePOJO"
+			alias="role" enableCountByExample="true"
+			enableDeleteByExample="true" enableSelectByExample="true"
+			enableUpdateByExample="true">
+			<property name="useActualColumnNames" value="true" />
+			<generatedKey column="ID" sqlStatement="MySql" identity="true" />
+		</table>
+		<table tableName="role_resource" domainObjectName="RoleResourcePOJO"
+			alias="roleResource" enableCountByExample="true"
+			enableDeleteByExample="true" enableSelectByExample="false"
+			enableUpdateByExample="true">
+			<property name="useActualColumnNames" value="true" />
+			<generatedKey column="ID" sqlStatement="MySql" identity="true" />
+		</table>
+		<table tableName="user_role" domainObjectName="UserRolePOJO"
+			alias="userRole" enableCountByExample="true"
+			enableDeleteByExample="true" enableSelectByExample="true"
+			enableUpdateByExample="true">
+			<property name="useActualColumnNames" value="true" />
+			<generatedKey column="ID" sqlStatement="MySql" identity="true" />
+		</table>
+		<table tableName="user_resource" domainObjectName="UserResourcePOJO"
+			alias="userResource" enableCountByExample="true"
+			enableDeleteByExample="true" enableSelectByExample="true"
+			enableUpdateByExample="true">
+			<property name="useActualColumnNames" value="true" />
+			<generatedKey column="ID" sqlStatement="MySql" identity="true" />
+		</table>
+	</context>
+</generatorConfiguration>
