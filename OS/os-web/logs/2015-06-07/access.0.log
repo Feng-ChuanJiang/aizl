@@ -1,0 +1,1484 @@
+2015-06-07 13:32:00.506 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-07 13:32:00.517 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-07 13:32:00.517 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-07 13:32:00.518 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-07 13:32:00.518 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-07 13:32:00.518 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-07 13:32:00.518 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-07 13:32:00.518 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-07 13:32:00.518 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-07 13:32:00.519 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-07 13:32:00.519 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-07 13:32:00.519 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-07 13:32:00.519 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-07 13:32:00.519 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-07 13:32:00.519 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-07 13:32:00.519 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-07 13:32:00.519 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-07 13:32:00.519 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-07 13:32:00.519 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-07 13:32:00.519 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-07 13:32:00.519 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-07 13:32:00.519 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-07 13:32:00.519 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-07 13:32:00.519 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-07 13:32:00.519 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-07 13:32:00.519 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-07 13:32:00.520 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-07 13:32:00.520 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-07 13:32:00.520 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-07 13:32:00.520 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-07 13:32:00.910 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-07 13:32:00.910 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-07 13:39:10.103 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-07 13:39:10.113 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-07 13:39:10.113 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-07 13:39:10.114 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-07 13:39:10.114 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-07 13:39:10.114 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-07 13:39:10.115 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-07 13:39:10.115 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-07 13:39:10.115 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-07 13:39:10.115 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-07 13:39:10.115 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-07 13:39:10.115 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-07 13:39:10.115 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-07 13:39:10.115 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-07 13:39:10.115 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-07 13:39:10.115 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-07 13:39:10.115 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-07 13:39:10.115 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-07 13:39:10.116 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-07 13:39:10.116 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-07 13:39:10.116 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-07 13:39:10.116 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-07 13:39:10.116 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-07 13:39:10.116 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-07 13:39:10.116 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-07 13:39:10.116 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-07 13:39:10.116 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-07 13:39:10.116 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-07 13:39:10.116 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-07 13:39:10.116 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-07 13:39:10.478 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-07 13:39:10.478 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-07 14:00:31.033 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-07 14:00:31.043 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-07 14:00:31.043 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-07 14:00:31.044 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-07 14:00:31.044 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-07 14:00:31.044 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-07 14:00:31.045 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-07 14:00:31.045 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-07 14:00:31.045 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-07 14:00:31.045 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-07 14:00:31.045 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-07 14:00:31.045 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-07 14:00:31.045 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-07 14:00:31.045 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-07 14:00:31.045 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-07 14:00:31.045 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-07 14:00:31.045 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-07 14:00:31.045 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-07 14:00:31.045 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-07 14:00:31.045 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-07 14:00:31.045 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-07 14:00:31.046 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-07 14:00:31.046 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-07 14:00:31.046 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-07 14:00:31.046 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-07 14:00:31.046 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-07 14:00:31.046 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-07 14:00:31.046 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-07 14:00:31.046 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-07 14:00:31.046 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-07 14:00:31.438 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-07 14:00:31.439 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-07 14:02:28.749 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-07 14:02:28.758 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-07 14:02:28.759 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-07 14:02:28.759 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-07 14:02:28.759 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-07 14:02:28.759 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-07 14:02:28.759 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-07 14:02:28.759 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-07 14:02:28.759 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-07 14:02:28.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-07 14:02:28.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-07 14:02:28.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-07 14:02:28.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-07 14:02:28.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-07 14:02:28.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-07 14:02:28.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-07 14:02:28.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-07 14:02:28.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-07 14:02:28.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-07 14:02:28.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-07 14:02:28.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-07 14:02:28.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-07 14:02:28.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-07 14:02:28.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-07 14:02:28.761 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-07 14:02:28.761 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-07 14:02:28.761 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-07 14:02:28.761 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-07 14:02:28.761 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-07 14:02:28.761 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-07 14:02:29.103 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-07 14:02:29.104 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-07 14:02:32.576 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-06-07 14:02:32.612 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6528571] was not registered for synchronization because synchronization is not active
+2015-06-07 14:02:32.668 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [424771226(com.mysql.jdbc.JDBC4Connection@354ebd72)] will not be managed by Spring
+2015-06-07 14:02:32.671 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				ooo Using Connection [424771226(com.mysql.jdbc.JDBC4Connection@354ebd72)]
+2015-06-07 14:02:32.705 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==>  Preparing: insert into RESOURCE (SECURITY_LEVEL, REQUEST_MAPPING_INFO, HANDLERMETHOD, PERMISSION_ID) values (?, ?, ?, ?) 
+2015-06-07 14:02:33.226 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==> Parameters: null, {"patternsCondition":{"patterns":["/user/login"]},"methodsCondition":{"methods":[]},"paramsCondition":{"expressions":[]},"headersCondition":{"expressions":[]},"consumesCondition":{"expressions":[],"empty":true,"consumableMediaTypes":[]},"producesCondition":{"expressions":[],"empty":true,"producibleMediaTypes":[]},"customCondition":null}(String), org.lemonPig.os.web.vo.Result org.lemonPig.os.web.controller.UserController.login(javax.servlet.http.HttpServletRequest)(String), null
+2015-06-07 14:02:33.390 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6528571]
+2015-06-07 14:03:37.626 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-07 14:03:37.636 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-07 14:03:37.636 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-07 14:03:37.637 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-07 14:03:37.637 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-07 14:03:37.637 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-07 14:03:37.637 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-07 14:03:37.638 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-07 14:03:37.638 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-07 14:03:37.638 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-07 14:03:37.638 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-07 14:03:37.638 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-07 14:03:37.638 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-07 14:03:37.638 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-07 14:03:37.638 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-07 14:03:37.638 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-07 14:03:37.638 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-07 14:03:37.638 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-07 14:03:37.638 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-07 14:03:37.638 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-07 14:03:37.638 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-07 14:03:37.638 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-07 14:03:37.638 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-07 14:03:37.638 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-07 14:03:37.639 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-07 14:03:37.639 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-07 14:03:37.639 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-07 14:03:37.639 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-07 14:03:37.639 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-07 14:03:37.639 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-07 14:03:38.001 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-07 14:03:38.002 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-07 14:03:40.171 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-06-07 14:03:40.178 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@612e4813] was not registered for synchronization because synchronization is not active
+2015-06-07 14:03:40.201 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [450515615(com.mysql.jdbc.JDBC4Connection@7366527e)] will not be managed by Spring
+2015-06-07 14:03:40.202 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				ooo Using Connection [450515615(com.mysql.jdbc.JDBC4Connection@7366527e)]
+2015-06-07 14:03:40.205 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==>  Preparing: insert into RESOURCE (SECURITY_LEVEL, REQUEST_MAPPING_INFO, HANDLERMETHOD, PERMISSION_ID) values (?, ?, ?, ?) 
+2015-06-07 14:03:40.247 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==> Parameters: null, {"patternsCondition":{"patterns":["/user/login"]},"methodsCondition":{"methods":[]},"paramsCondition":{"expressions":[]},"headersCondition":{"expressions":[]},"consumesCondition":{"expressions":[],"empty":true,"consumableMediaTypes":[]},"producesCondition":{"expressions":[],"empty":true,"producibleMediaTypes":[]},"customCondition":null}(String), org.lemonPig.os.web.vo.Result org.lemonPig.os.web.controller.UserController.login(javax.servlet.http.HttpServletRequest)(String), null
+2015-06-07 14:03:40.251 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				<==    Updates: 1
+2015-06-07 14:03:40.254 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				ooo Using Connection [450515615(com.mysql.jdbc.JDBC4Connection@7366527e)]
+2015-06-07 14:03:40.254 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				==>  Preparing: SELECT LAST_INSERT_ID() 
+2015-06-07 14:03:40.255 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				==> Parameters: 
+2015-06-07 14:03:40.264 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				<==      Total: 1
+2015-06-07 14:03:40.265 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@612e4813]
+2015-06-07 14:03:40.273 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-06-07 14:03:40.273 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1b9ccd98] was not registered for synchronization because synchronization is not active
+2015-06-07 14:03:40.274 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [1400751185(com.mysql.jdbc.JDBC4Connection@7366527e)] will not be managed by Spring
+2015-06-07 14:03:40.274 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				ooo Using Connection [1400751185(com.mysql.jdbc.JDBC4Connection@7366527e)]
+2015-06-07 14:03:40.274 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==>  Preparing: insert into RESOURCE (SECURITY_LEVEL, REQUEST_MAPPING_INFO, HANDLERMETHOD, PERMISSION_ID) values (?, ?, ?, ?) 
+2015-06-07 14:03:40.275 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==> Parameters: null, {"patternsCondition":{"patterns":["/user/regist"]},"methodsCondition":{"methods":[]},"paramsCondition":{"expressions":[]},"headersCondition":{"expressions":[]},"consumesCondition":{"expressions":[],"empty":true,"consumableMediaTypes":[]},"producesCondition":{"expressions":[],"empty":true,"producibleMediaTypes":[]},"customCondition":null}(String), org.lemonPig.os.web.vo.Result org.lemonPig.os.web.controller.UserController.regist(org.lemonPig.os.core.dto.User)(String), null
+2015-06-07 14:03:40.277 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				<==    Updates: 1
+2015-06-07 14:03:40.278 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				ooo Using Connection [1400751185(com.mysql.jdbc.JDBC4Connection@7366527e)]
+2015-06-07 14:03:40.278 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				==>  Preparing: SELECT LAST_INSERT_ID() 
+2015-06-07 14:03:40.278 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				==> Parameters: 
+2015-06-07 14:03:40.279 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				<==      Total: 1
+2015-06-07 14:03:40.279 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1b9ccd98]
+2015-06-07 14:03:40.287 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-06-07 14:03:40.287 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4dd286ca] was not registered for synchronization because synchronization is not active
+2015-06-07 14:03:40.287 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [948920240(com.mysql.jdbc.JDBC4Connection@7366527e)] will not be managed by Spring
+2015-06-07 14:03:40.288 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				ooo Using Connection [948920240(com.mysql.jdbc.JDBC4Connection@7366527e)]
+2015-06-07 14:03:40.288 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==>  Preparing: insert into RESOURCE (SECURITY_LEVEL, REQUEST_MAPPING_INFO, HANDLERMETHOD, PERMISSION_ID) values (?, ?, ?, ?) 
+2015-06-07 14:03:40.288 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==> Parameters: null, {"patternsCondition":{"patterns":["/user/queryPageList"]},"methodsCondition":{"methods":[]},"paramsCondition":{"expressions":[]},"headersCondition":{"expressions":[]},"consumesCondition":{"expressions":[],"empty":true,"consumableMediaTypes":[]},"producesCondition":{"expressions":[],"empty":true,"producibleMediaTypes":[]},"customCondition":null}(String), org.lemonPig.os.web.vo.Result org.lemonPig.os.web.controller.UserController.queryPageList(java.lang.String,[Lorg.lemonPig.os.web.vo.DataTablesVO$KeyValuePair;)(String), null
+2015-06-07 14:03:40.291 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				<==    Updates: 1
+2015-06-07 14:03:40.291 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				ooo Using Connection [948920240(com.mysql.jdbc.JDBC4Connection@7366527e)]
+2015-06-07 14:03:40.291 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				==>  Preparing: SELECT LAST_INSERT_ID() 
+2015-06-07 14:03:40.291 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				==> Parameters: 
+2015-06-07 14:03:40.292 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				<==      Total: 1
+2015-06-07 14:03:40.292 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4dd286ca]
+2015-06-07 14:41:28.021 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-07 14:41:28.029 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-07 14:41:28.030 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-07 14:41:28.030 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-07 14:41:28.030 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-07 14:41:28.030 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-07 14:41:28.030 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-07 14:41:28.031 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-07 14:41:28.031 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-07 14:41:28.031 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-07 14:41:28.031 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-07 14:41:28.031 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-07 14:41:28.031 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-07 14:41:28.031 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-07 14:41:28.031 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-07 14:41:28.031 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-07 14:41:28.031 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-07 14:41:28.031 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-07 14:41:28.031 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-07 14:41:28.031 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-07 14:41:28.031 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-07 14:41:28.031 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-07 14:41:28.032 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-07 14:41:28.032 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-07 14:41:28.032 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-07 14:41:28.032 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-07 14:41:28.032 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-07 14:41:28.032 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-07 14:41:28.032 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-07 14:41:28.032 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-07 14:41:28.398 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-07 14:41:28.399 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-07 14:41:54.562 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-07 14:41:54.573 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-07 14:41:54.573 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-07 14:41:54.574 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-07 14:41:54.574 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-07 14:41:54.574 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-07 14:41:54.574 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-07 14:41:54.574 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-07 14:41:54.574 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-07 14:41:54.574 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-07 14:41:54.574 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-07 14:41:54.574 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-07 14:41:54.574 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-07 14:41:54.575 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-07 14:41:54.575 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-07 14:41:54.575 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-07 14:41:54.575 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-07 14:41:54.575 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-07 14:41:54.575 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-07 14:41:54.575 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-07 14:41:54.575 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-07 14:41:54.575 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-07 14:41:54.575 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-07 14:41:54.575 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-07 14:41:54.575 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-07 14:41:54.575 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-07 14:41:54.575 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-07 14:41:54.576 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-07 14:41:54.576 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-07 14:41:54.576 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-07 14:41:54.962 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-07 14:41:54.962 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-07 14:42:47.835 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-07 14:42:47.843 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-07 14:42:47.844 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-07 14:42:47.844 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-07 14:42:47.844 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-07 14:42:47.844 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-07 14:42:47.845 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-07 14:42:47.845 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-07 14:42:47.845 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-07 14:42:47.845 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-07 14:42:47.845 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-07 14:42:47.845 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-07 14:42:47.845 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-07 14:42:47.845 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-07 14:42:47.845 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-07 14:42:47.845 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-07 14:42:47.845 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-07 14:42:47.845 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-07 14:42:47.845 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-07 14:42:47.845 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-07 14:42:47.845 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-07 14:42:47.846 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-07 14:42:47.846 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-07 14:42:47.846 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-07 14:42:47.846 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-07 14:42:47.846 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-07 14:42:47.846 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-07 14:42:47.846 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-07 14:42:47.846 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-07 14:42:47.846 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-07 14:42:48.171 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-07 14:42:48.171 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-07 14:44:36.112 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-07 14:44:36.122 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-07 14:44:36.122 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-07 14:44:36.123 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-07 14:44:36.123 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-07 14:44:36.123 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-07 14:44:36.123 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-07 14:44:36.123 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-07 14:44:36.123 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-07 14:44:36.123 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-07 14:44:36.123 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-07 14:44:36.124 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-07 14:44:36.124 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-07 14:44:36.124 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-07 14:44:36.124 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-07 14:44:36.124 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-07 14:44:36.124 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-07 14:44:36.124 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-07 14:44:36.124 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-07 14:44:36.124 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-07 14:44:36.124 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-07 14:44:36.124 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-07 14:44:36.124 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-07 14:44:36.124 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-07 14:44:36.124 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-07 14:44:36.124 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-07 14:44:36.124 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-07 14:44:36.124 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-07 14:44:36.124 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-07 14:44:36.125 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-07 14:44:36.468 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-07 14:44:36.468 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-07 14:44:40.565 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-06-07 14:44:40.599 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3aa696ef]
+2015-06-07 14:44:40.699 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [437955815(com.mysql.jdbc.JDBC4Connection@4d4d7f14)] will be managed by Spring
+2015-06-07 14:44:40.701 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				ooo Using Connection [437955815(com.mysql.jdbc.JDBC4Connection@4d4d7f14)]
+2015-06-07 14:44:40.736 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				==>  Preparing: delete from RESOURCE userResource 
+2015-06-07 14:44:41.254 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				==> Parameters: 
+2015-06-07 14:44:41.407 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3aa696ef]
+2015-06-07 14:44:41.410 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization rolling back SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3aa696ef]
+2015-06-07 14:44:41.411 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3aa696ef]
+2015-06-07 14:56:48.390 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-07 14:56:48.399 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-07 14:56:48.399 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-07 14:56:48.400 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-07 14:56:48.400 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-07 14:56:48.400 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-07 14:56:48.400 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-07 14:56:48.400 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-07 14:56:48.400 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-07 14:56:48.400 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-07 14:56:48.400 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-07 14:56:48.400 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-07 14:56:48.400 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-07 14:56:48.401 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-07 14:56:48.401 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-07 14:56:48.401 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-07 14:56:48.401 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-07 14:56:48.401 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-07 14:56:48.401 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-07 14:56:48.401 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-07 14:56:48.401 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-07 14:56:48.401 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-07 14:56:48.401 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-07 14:56:48.401 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-07 14:56:48.401 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-07 14:56:48.401 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-07 14:56:48.401 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-07 14:56:48.401 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-07 14:56:48.401 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-07 14:56:48.401 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-07 14:56:48.780 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-07 14:56:48.781 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-07 14:56:51.370 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-06-07 14:56:51.376 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@288cafb2]
+2015-06-07 14:56:51.411 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [1739220941(com.mysql.jdbc.JDBC4Connection@6484f8e6)] will be managed by Spring
+2015-06-07 14:56:51.412 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				ooo Using Connection [1739220941(com.mysql.jdbc.JDBC4Connection@6484f8e6)]
+2015-06-07 14:56:51.415 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				==>  Preparing: delete from RESOURCE userResource 
+2015-06-07 14:56:51.454 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				==> Parameters: 
+2015-06-07 14:56:51.488 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@288cafb2]
+2015-06-07 14:56:51.489 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization rolling back SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@288cafb2]
+2015-06-07 14:56:51.490 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@288cafb2]
+2015-06-07 14:59:01.888 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-07 14:59:01.897 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-07 14:59:01.897 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-07 14:59:01.898 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-07 14:59:01.898 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-07 14:59:01.898 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-07 14:59:01.898 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-07 14:59:01.898 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-07 14:59:01.898 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-07 14:59:01.898 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-07 14:59:01.898 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-07 14:59:01.899 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-07 14:59:01.899 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-07 14:59:01.899 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-07 14:59:01.899 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-07 14:59:01.899 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-07 14:59:01.899 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-07 14:59:01.899 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-07 14:59:01.899 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-07 14:59:01.899 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-07 14:59:01.899 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-07 14:59:01.899 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-07 14:59:01.899 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-07 14:59:01.899 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-07 14:59:01.899 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-07 14:59:01.899 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-07 14:59:01.899 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-07 14:59:01.900 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-07 14:59:01.900 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-07 14:59:01.900 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-07 14:59:02.283 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-07 14:59:02.284 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-07 14:59:05.033 [net.sf.ehcache.CacheManager@36fdf53a] DEBUG net.sf.ehcache.util.UpdateChecker -
+				Update check failed: 
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.7.0_67]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.7.0_67]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339) ~[na:1.7.0_67]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200) ~[na:1.7.0_67]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182) ~[na:1.7.0_67]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.7.0_67]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.7.0_67]
+	at java.net.Socket.connect(Socket.java:579) ~[na:1.7.0_67]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[na:1.7.0_67]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[na:1.7.0_67]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[na:1.7.0_67]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[na:1.7.0_67]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[na:1.7.0_67]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[na:1.7.0_67]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:996) ~[na:1.7.0_67]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:932) ~[na:1.7.0_67]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:850) ~[na:1.7.0_67]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1300) ~[na:1.7.0_67]
+	at net.sf.ehcache.util.UpdateChecker.getUpdateProperties(UpdateChecker.java:108) [ehcache-core-2.6.8.jar:na]
+	at net.sf.ehcache.util.UpdateChecker.doCheck(UpdateChecker.java:72) [ehcache-core-2.6.8.jar:na]
+	at net.sf.ehcache.util.UpdateChecker.checkForUpdate(UpdateChecker.java:60) [ehcache-core-2.6.8.jar:na]
+	at net.sf.ehcache.util.UpdateChecker.run(UpdateChecker.java:51) [ehcache-core-2.6.8.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.7.0_67]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.7.0_67]
+2015-06-07 14:59:05.192 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-06-07 14:59:05.200 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a5b5673]
+2015-06-07 14:59:05.239 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [1692003566(com.mysql.jdbc.JDBC4Connection@1f5230fc)] will be managed by Spring
+2015-06-07 14:59:05.240 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				ooo Using Connection [1692003566(com.mysql.jdbc.JDBC4Connection@1f5230fc)]
+2015-06-07 14:59:05.243 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				==>  Preparing: delete from RESOURCE userResource 
+2015-06-07 14:59:05.285 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				==> Parameters: 
+2015-06-07 14:59:05.317 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a5b5673]
+2015-06-07 14:59:05.318 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization rolling back SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a5b5673]
+2015-06-07 14:59:05.319 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a5b5673]
+2015-06-07 15:13:35.745 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-07 15:13:35.754 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-07 15:13:35.754 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-07 15:13:35.755 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-07 15:13:35.755 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-07 15:13:35.755 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-07 15:13:35.755 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-07 15:13:35.755 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-07 15:13:35.755 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-07 15:13:35.755 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-07 15:13:35.755 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-07 15:13:35.755 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-07 15:13:35.756 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-07 15:13:35.756 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-07 15:13:35.756 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-07 15:13:35.756 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-07 15:13:35.756 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-07 15:13:35.756 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-07 15:13:35.756 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-07 15:13:35.756 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-07 15:13:35.756 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-07 15:13:35.756 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-07 15:13:35.756 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-07 15:13:35.756 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-07 15:13:35.756 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-07 15:13:35.756 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-07 15:13:35.756 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-07 15:13:35.756 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-07 15:13:35.756 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-07 15:13:35.757 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-07 15:13:36.102 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-07 15:13:36.103 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-07 15:13:39.368 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-06-07 15:13:39.402 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10612e6a]
+2015-06-07 15:13:39.595 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [1441855384(com.mysql.jdbc.JDBC4Connection@3f0f483c)] will be managed by Spring
+2015-06-07 15:13:39.597 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				ooo Using Connection [1441855384(com.mysql.jdbc.JDBC4Connection@3f0f483c)]
+2015-06-07 15:13:39.632 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				==>  Preparing: delete from RESOURCE userResource WHERE ( userResource.ID is null ) 
+2015-06-07 15:13:40.142 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				==> Parameters: 
+2015-06-07 15:13:40.295 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10612e6a]
+2015-06-07 15:13:40.297 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization rolling back SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10612e6a]
+2015-06-07 15:13:40.298 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10612e6a]
+2015-06-07 15:20:57.749 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-07 15:20:57.758 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-07 15:20:57.759 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-07 15:20:57.759 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-07 15:20:57.759 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-07 15:20:57.759 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-07 15:20:57.759 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-07 15:20:57.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-07 15:20:57.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-07 15:20:57.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-07 15:20:57.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-07 15:20:57.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-07 15:20:57.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-07 15:20:57.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-07 15:20:57.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-07 15:20:57.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-07 15:20:57.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-07 15:20:57.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-07 15:20:57.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-07 15:20:57.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-07 15:20:57.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-07 15:20:57.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-07 15:20:57.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-07 15:20:57.760 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-07 15:20:57.761 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-07 15:20:57.761 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-07 15:20:57.761 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-07 15:20:57.761 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-07 15:20:57.761 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-07 15:20:57.761 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-07 15:20:58.100 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-07 15:20:58.101 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-07 15:21:01.005 [net.sf.ehcache.CacheManager@1a29ea14] DEBUG net.sf.ehcache.util.UpdateChecker -
+				Update check failed: 
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.7.0_67]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.7.0_67]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339) ~[na:1.7.0_67]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200) ~[na:1.7.0_67]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182) ~[na:1.7.0_67]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.7.0_67]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.7.0_67]
+	at java.net.Socket.connect(Socket.java:579) ~[na:1.7.0_67]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[na:1.7.0_67]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[na:1.7.0_67]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[na:1.7.0_67]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[na:1.7.0_67]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[na:1.7.0_67]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[na:1.7.0_67]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:996) ~[na:1.7.0_67]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:932) ~[na:1.7.0_67]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:850) ~[na:1.7.0_67]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1300) ~[na:1.7.0_67]
+	at net.sf.ehcache.util.UpdateChecker.getUpdateProperties(UpdateChecker.java:108) [ehcache-core-2.6.8.jar:na]
+	at net.sf.ehcache.util.UpdateChecker.doCheck(UpdateChecker.java:72) [ehcache-core-2.6.8.jar:na]
+	at net.sf.ehcache.util.UpdateChecker.checkForUpdate(UpdateChecker.java:60) [ehcache-core-2.6.8.jar:na]
+	at net.sf.ehcache.util.UpdateChecker.run(UpdateChecker.java:51) [ehcache-core-2.6.8.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.7.0_67]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.7.0_67]
+2015-06-07 15:21:01.123 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-06-07 15:21:01.130 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@29efca24]
+2015-06-07 15:21:01.171 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [396589309(com.mysql.jdbc.JDBC4Connection@6d5c362a)] will be managed by Spring
+2015-06-07 15:21:01.172 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				ooo Using Connection [396589309(com.mysql.jdbc.JDBC4Connection@6d5c362a)]
+2015-06-07 15:21:01.174 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				==>  Preparing: delete from RESOURCE 
+2015-06-07 15:21:01.214 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				==> Parameters: 
+2015-06-07 15:21:01.216 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				<==    Updates: 0
+2015-06-07 15:21:01.216 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@29efca24]
+2015-06-07 15:21:01.217 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@29efca24]
+2015-06-07 15:21:01.217 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@29efca24]
+2015-06-07 15:21:01.257 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-06-07 15:21:01.258 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32502e43]
+2015-06-07 15:21:01.259 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [1968406234(com.mysql.jdbc.JDBC4Connection@6d5c362a)] will be managed by Spring
+2015-06-07 15:21:01.259 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				ooo Using Connection [1968406234(com.mysql.jdbc.JDBC4Connection@6d5c362a)]
+2015-06-07 15:21:01.259 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==>  Preparing: insert into RESOURCE (SECURITY_LEVEL, REQUEST_MAPPING_INFO, HANDLERMETHOD, PERMISSION_ID) values (?, ?, ?, ?) 
+2015-06-07 15:21:01.261 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==> Parameters: null, {"patternsCondition":{"patterns":["/user/regist"]},"methodsCondition":{"methods":[]},"paramsCondition":{"expressions":[]},"headersCondition":{"expressions":[]},"consumesCondition":{"expressions":[],"empty":true,"consumableMediaTypes":[]},"producesCondition":{"expressions":[],"empty":true,"producibleMediaTypes":[]},"customCondition":null}(String), org.lemonPig.os.web.vo.Result org.lemonPig.os.web.controller.UserController.regist(org.lemonPig.os.core.dto.User)(String), null
+2015-06-07 15:21:01.261 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				<==    Updates: 1
+2015-06-07 15:21:01.263 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				ooo Using Connection [1968406234(com.mysql.jdbc.JDBC4Connection@6d5c362a)]
+2015-06-07 15:21:01.264 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				==>  Preparing: SELECT LAST_INSERT_ID() 
+2015-06-07 15:21:01.264 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				==> Parameters: 
+2015-06-07 15:21:01.274 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				<==      Total: 1
+2015-06-07 15:21:01.274 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32502e43]
+2015-06-07 15:21:01.277 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32502e43]
+2015-06-07 15:21:01.277 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32502e43]
+2015-06-07 15:21:01.285 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-06-07 15:21:01.286 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@647af9aa]
+2015-06-07 15:21:01.286 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [772233561(com.mysql.jdbc.JDBC4Connection@6d5c362a)] will be managed by Spring
+2015-06-07 15:21:01.286 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				ooo Using Connection [772233561(com.mysql.jdbc.JDBC4Connection@6d5c362a)]
+2015-06-07 15:21:01.286 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==>  Preparing: insert into RESOURCE (SECURITY_LEVEL, REQUEST_MAPPING_INFO, HANDLERMETHOD, PERMISSION_ID) values (?, ?, ?, ?) 
+2015-06-07 15:21:01.287 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==> Parameters: null, {"patternsCondition":{"patterns":["/user/queryPageList"]},"methodsCondition":{"methods":[]},"paramsCondition":{"expressions":[]},"headersCondition":{"expressions":[]},"consumesCondition":{"expressions":[],"empty":true,"consumableMediaTypes":[]},"producesCondition":{"expressions":[],"empty":true,"producibleMediaTypes":[]},"customCondition":null}(String), org.lemonPig.os.web.vo.Result org.lemonPig.os.web.controller.UserController.queryPageList(java.lang.String,[Lorg.lemonPig.os.web.vo.DataTablesVO$KeyValuePair;)(String), null
+2015-06-07 15:21:01.288 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				<==    Updates: 1
+2015-06-07 15:21:01.288 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				ooo Using Connection [772233561(com.mysql.jdbc.JDBC4Connection@6d5c362a)]
+2015-06-07 15:21:01.288 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				==>  Preparing: SELECT LAST_INSERT_ID() 
+2015-06-07 15:21:01.288 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				==> Parameters: 
+2015-06-07 15:21:01.289 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				<==      Total: 1
+2015-06-07 15:21:01.290 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@647af9aa]
+2015-06-07 15:21:01.292 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@647af9aa]
+2015-06-07 15:21:01.292 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@647af9aa]
+2015-06-07 15:21:01.301 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-06-07 15:21:01.301 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6756223f]
+2015-06-07 15:21:01.301 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [51340194(com.mysql.jdbc.JDBC4Connection@6d5c362a)] will be managed by Spring
+2015-06-07 15:21:01.301 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				ooo Using Connection [51340194(com.mysql.jdbc.JDBC4Connection@6d5c362a)]
+2015-06-07 15:21:01.302 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==>  Preparing: insert into RESOURCE (SECURITY_LEVEL, REQUEST_MAPPING_INFO, HANDLERMETHOD, PERMISSION_ID) values (?, ?, ?, ?) 
+2015-06-07 15:21:01.302 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==> Parameters: null, {"patternsCondition":{"patterns":["/user/login"]},"methodsCondition":{"methods":[]},"paramsCondition":{"expressions":[]},"headersCondition":{"expressions":[]},"consumesCondition":{"expressions":[],"empty":true,"consumableMediaTypes":[]},"producesCondition":{"expressions":[],"empty":true,"producibleMediaTypes":[]},"customCondition":null}(String), org.lemonPig.os.web.vo.Result org.lemonPig.os.web.controller.UserController.login(javax.servlet.http.HttpServletRequest)(String), null
+2015-06-07 15:21:01.303 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				<==    Updates: 1
+2015-06-07 15:21:01.303 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				ooo Using Connection [51340194(com.mysql.jdbc.JDBC4Connection@6d5c362a)]
+2015-06-07 15:21:01.303 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				==>  Preparing: SELECT LAST_INSERT_ID() 
+2015-06-07 15:21:01.304 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				==> Parameters: 
+2015-06-07 15:21:01.304 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				<==      Total: 1
+2015-06-07 15:21:01.305 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6756223f]
+2015-06-07 15:21:01.307 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6756223f]
+2015-06-07 15:21:01.307 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6756223f]
+2015-06-07 15:24:16.385 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-07 15:24:16.394 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-07 15:24:16.395 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-07 15:24:16.395 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-07 15:24:16.396 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-07 15:24:16.396 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-07 15:24:16.396 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-07 15:24:16.396 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-07 15:24:16.396 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-07 15:24:16.396 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-07 15:24:16.396 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-07 15:24:16.396 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-07 15:24:16.396 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-07 15:24:16.396 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-07 15:24:16.396 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-07 15:24:16.396 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-07 15:24:16.397 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-07 15:24:16.397 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-07 15:24:16.397 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-07 15:24:16.397 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-07 15:24:16.397 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-07 15:24:16.397 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-07 15:24:16.397 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-07 15:24:16.397 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-07 15:24:16.397 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-07 15:24:16.397 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-07 15:24:16.397 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-07 15:24:16.397 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-07 15:24:16.397 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-07 15:24:16.397 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-07 15:24:16.816 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-07 15:24:16.817 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-07 15:24:33.444 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-06-07 15:24:33.450 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f0842de]
+2015-06-07 15:24:33.485 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [1731651134(com.mysql.jdbc.JDBC4Connection@45462562)] will be managed by Spring
+2015-06-07 15:24:33.486 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				ooo Using Connection [1731651134(com.mysql.jdbc.JDBC4Connection@45462562)]
+2015-06-07 15:24:33.488 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				==>  Preparing: delete from RESOURCE 
+2015-06-07 15:24:33.532 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				==> Parameters: 
+2015-06-07 15:24:33.535 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				<==    Updates: 3
+2015-06-07 15:24:33.535 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f0842de]
+2015-06-07 15:24:33.538 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f0842de]
+2015-06-07 15:24:33.538 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f0842de]
+2015-06-07 15:24:33.578 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-06-07 15:24:33.578 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@385cb34]
+2015-06-07 15:24:33.580 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [1819206370(com.mysql.jdbc.JDBC4Connection@45462562)] will be managed by Spring
+2015-06-07 15:24:33.580 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				ooo Using Connection [1819206370(com.mysql.jdbc.JDBC4Connection@45462562)]
+2015-06-07 15:24:33.580 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==>  Preparing: insert into RESOURCE (SECURITY_LEVEL, REQUEST_MAPPING_INFO, HANDLERMETHOD, PERMISSION_ID) values (?, ?, ?, ?) 
+2015-06-07 15:24:33.581 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==> Parameters: null, {"patternsCondition":{"patterns":["/user/login"]},"methodsCondition":{"methods":[]},"paramsCondition":{"expressions":[]},"headersCondition":{"expressions":[]},"consumesCondition":{"expressions":[],"empty":true,"consumableMediaTypes":[]},"producesCondition":{"expressions":[],"empty":true,"producibleMediaTypes":[]},"customCondition":null}(String), org.lemonPig.os.web.vo.Result org.lemonPig.os.web.controller.UserController.login(javax.servlet.http.HttpServletRequest)(String), null
+2015-06-07 15:24:33.582 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				<==    Updates: 1
+2015-06-07 15:24:33.584 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				ooo Using Connection [1819206370(com.mysql.jdbc.JDBC4Connection@45462562)]
+2015-06-07 15:24:33.584 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				==>  Preparing: SELECT LAST_INSERT_ID() 
+2015-06-07 15:24:33.584 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				==> Parameters: 
+2015-06-07 15:24:33.593 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				<==      Total: 1
+2015-06-07 15:24:33.594 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@385cb34]
+2015-06-07 15:24:33.596 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@385cb34]
+2015-06-07 15:24:33.597 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@385cb34]
+2015-06-07 15:24:33.607 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-06-07 15:24:33.608 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@17b17789]
+2015-06-07 15:24:33.608 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [139168632(com.mysql.jdbc.JDBC4Connection@45462562)] will be managed by Spring
+2015-06-07 15:24:33.608 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				ooo Using Connection [139168632(com.mysql.jdbc.JDBC4Connection@45462562)]
+2015-06-07 15:24:33.608 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==>  Preparing: insert into RESOURCE (SECURITY_LEVEL, REQUEST_MAPPING_INFO, HANDLERMETHOD, PERMISSION_ID) values (?, ?, ?, ?) 
+2015-06-07 15:24:33.609 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==> Parameters: null, {"patternsCondition":{"patterns":["/user/regist"]},"methodsCondition":{"methods":[]},"paramsCondition":{"expressions":[]},"headersCondition":{"expressions":[]},"consumesCondition":{"expressions":[],"empty":true,"consumableMediaTypes":[]},"producesCondition":{"expressions":[],"empty":true,"producibleMediaTypes":[]},"customCondition":null}(String), org.lemonPig.os.web.vo.Result org.lemonPig.os.web.controller.UserController.regist(org.lemonPig.os.core.dto.User)(String), null
+2015-06-07 15:24:33.611 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				<==    Updates: 1
+2015-06-07 15:24:33.613 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				ooo Using Connection [139168632(com.mysql.jdbc.JDBC4Connection@45462562)]
+2015-06-07 15:24:33.613 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				==>  Preparing: SELECT LAST_INSERT_ID() 
+2015-06-07 15:24:33.614 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				==> Parameters: 
+2015-06-07 15:24:33.616 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				<==      Total: 1
+2015-06-07 15:24:33.617 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@17b17789]
+2015-06-07 15:24:33.622 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@17b17789]
+2015-06-07 15:24:33.623 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@17b17789]
+2015-06-07 15:24:33.632 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-06-07 15:24:33.632 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a9b4d36]
+2015-06-07 15:24:33.633 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [2016702425(com.mysql.jdbc.JDBC4Connection@45462562)] will be managed by Spring
+2015-06-07 15:24:33.633 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				ooo Using Connection [2016702425(com.mysql.jdbc.JDBC4Connection@45462562)]
+2015-06-07 15:24:33.633 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==>  Preparing: insert into RESOURCE (SECURITY_LEVEL, REQUEST_MAPPING_INFO, HANDLERMETHOD, PERMISSION_ID) values (?, ?, ?, ?) 
+2015-06-07 15:24:33.634 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==> Parameters: null, {"patternsCondition":{"patterns":["/user/queryPageList"]},"methodsCondition":{"methods":[]},"paramsCondition":{"expressions":[]},"headersCondition":{"expressions":[]},"consumesCondition":{"expressions":[],"empty":true,"consumableMediaTypes":[]},"producesCondition":{"expressions":[],"empty":true,"producibleMediaTypes":[]},"customCondition":null}(String), org.lemonPig.os.web.vo.Result org.lemonPig.os.web.controller.UserController.queryPageList(java.lang.String,[Lorg.lemonPig.os.web.vo.DataTablesVO$KeyValuePair;)(String), null
+2015-06-07 15:24:33.634 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				<==    Updates: 1
+2015-06-07 15:24:33.635 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				ooo Using Connection [2016702425(com.mysql.jdbc.JDBC4Connection@45462562)]
+2015-06-07 15:24:33.635 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				==>  Preparing: SELECT LAST_INSERT_ID() 
+2015-06-07 15:24:33.635 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				==> Parameters: 
+2015-06-07 15:24:33.635 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				<==      Total: 1
+2015-06-07 15:24:33.636 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a9b4d36]
+2015-06-07 15:24:33.637 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a9b4d36]
+2015-06-07 15:24:33.638 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a9b4d36]
+2015-06-07 15:25:05.001 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-07 15:25:05.012 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-07 15:25:05.012 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-07 15:25:05.013 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-07 15:25:05.013 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-07 15:25:05.013 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-07 15:25:05.013 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-07 15:25:05.013 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-07 15:25:05.013 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-07 15:25:05.013 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-07 15:25:05.014 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-07 15:25:05.014 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-07 15:25:05.014 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-07 15:25:05.014 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-07 15:25:05.014 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-07 15:25:05.014 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-07 15:25:05.014 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-07 15:25:05.014 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-07 15:25:05.014 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-07 15:25:05.015 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-07 15:25:05.015 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-07 15:25:05.015 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-07 15:25:05.015 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-07 15:25:05.015 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-07 15:25:05.015 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-07 15:25:05.015 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-07 15:25:05.015 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-07 15:25:05.015 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-07 15:25:05.015 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-07 15:25:05.015 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-07 15:25:05.422 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-07 15:25:05.423 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-07 15:25:05.796 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-06-07 15:25:05.804 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1af0058d]
+2015-06-07 15:25:05.850 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [1744992391(com.mysql.jdbc.JDBC4Connection@7a371c69)] will be managed by Spring
+2015-06-07 15:25:05.852 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				ooo Using Connection [1744992391(com.mysql.jdbc.JDBC4Connection@7a371c69)]
+2015-06-07 15:25:05.857 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				==>  Preparing: delete from RESOURCE 
+2015-06-07 15:25:05.907 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				==> Parameters: 
+2015-06-07 15:25:05.909 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				<==    Updates: 3
+2015-06-07 15:25:05.909 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1af0058d]
+2015-06-07 15:25:05.911 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1af0058d]
+2015-06-07 15:25:05.911 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1af0058d]
+2015-06-07 15:25:05.953 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-06-07 15:25:05.953 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ec0273b]
+2015-06-07 15:25:05.955 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [1087926819(com.mysql.jdbc.JDBC4Connection@7a371c69)] will be managed by Spring
+2015-06-07 15:25:05.956 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				ooo Using Connection [1087926819(com.mysql.jdbc.JDBC4Connection@7a371c69)]
+2015-06-07 15:25:05.956 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==>  Preparing: insert into RESOURCE (SECURITY_LEVEL, REQUEST_MAPPING_INFO, HANDLERMETHOD, PERMISSION_ID) values (?, ?, ?, ?) 
+2015-06-07 15:25:05.957 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==> Parameters: null, {"patternsCondition":{"patterns":["/user/login"]},"methodsCondition":{"methods":[]},"paramsCondition":{"expressions":[]},"headersCondition":{"expressions":[]},"consumesCondition":{"expressions":[],"empty":true,"consumableMediaTypes":[]},"producesCondition":{"expressions":[],"empty":true,"producibleMediaTypes":[]},"customCondition":null}(String), org.lemonPig.os.web.vo.Result org.lemonPig.os.web.controller.UserController.login(javax.servlet.http.HttpServletRequest)(String), null
+2015-06-07 15:25:05.958 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				<==    Updates: 1
+2015-06-07 15:25:05.961 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				ooo Using Connection [1087926819(com.mysql.jdbc.JDBC4Connection@7a371c69)]
+2015-06-07 15:25:05.961 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				==>  Preparing: SELECT LAST_INSERT_ID() 
+2015-06-07 15:25:05.962 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				==> Parameters: 
+2015-06-07 15:25:05.973 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				<==      Total: 1
+2015-06-07 15:25:05.973 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ec0273b]
+2015-06-07 15:25:05.975 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ec0273b]
+2015-06-07 15:25:05.975 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ec0273b]
+2015-06-07 15:25:05.985 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-06-07 15:25:05.986 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67f8c455]
+2015-06-07 15:25:05.986 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [20930814(com.mysql.jdbc.JDBC4Connection@7a371c69)] will be managed by Spring
+2015-06-07 15:25:05.986 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				ooo Using Connection [20930814(com.mysql.jdbc.JDBC4Connection@7a371c69)]
+2015-06-07 15:25:05.986 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==>  Preparing: insert into RESOURCE (SECURITY_LEVEL, REQUEST_MAPPING_INFO, HANDLERMETHOD, PERMISSION_ID) values (?, ?, ?, ?) 
+2015-06-07 15:25:05.987 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==> Parameters: null, {"patternsCondition":{"patterns":["/user/regist"]},"methodsCondition":{"methods":[]},"paramsCondition":{"expressions":[]},"headersCondition":{"expressions":[]},"consumesCondition":{"expressions":[],"empty":true,"consumableMediaTypes":[]},"producesCondition":{"expressions":[],"empty":true,"producibleMediaTypes":[]},"customCondition":null}(String), org.lemonPig.os.web.vo.Result org.lemonPig.os.web.controller.UserController.regist(org.lemonPig.os.core.dto.User)(String), null
+2015-06-07 15:25:05.989 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				<==    Updates: 1
+2015-06-07 15:25:05.990 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				ooo Using Connection [20930814(com.mysql.jdbc.JDBC4Connection@7a371c69)]
+2015-06-07 15:25:05.990 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				==>  Preparing: SELECT LAST_INSERT_ID() 
+2015-06-07 15:25:05.991 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				==> Parameters: 
+2015-06-07 15:25:05.992 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				<==      Total: 1
+2015-06-07 15:25:05.993 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67f8c455]
+2015-06-07 15:25:05.995 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67f8c455]
+2015-06-07 15:25:05.996 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67f8c455]
+2015-06-07 15:25:06.006 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-06-07 15:25:06.007 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45063cad]
+2015-06-07 15:25:06.008 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [891286754(com.mysql.jdbc.JDBC4Connection@7a371c69)] will be managed by Spring
+2015-06-07 15:25:06.008 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				ooo Using Connection [891286754(com.mysql.jdbc.JDBC4Connection@7a371c69)]
+2015-06-07 15:25:06.008 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==>  Preparing: insert into RESOURCE (SECURITY_LEVEL, REQUEST_MAPPING_INFO, HANDLERMETHOD, PERMISSION_ID) values (?, ?, ?, ?) 
+2015-06-07 15:25:06.009 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==> Parameters: null, {"patternsCondition":{"patterns":["/user/queryPageList"]},"methodsCondition":{"methods":[]},"paramsCondition":{"expressions":[]},"headersCondition":{"expressions":[]},"consumesCondition":{"expressions":[],"empty":true,"consumableMediaTypes":[]},"producesCondition":{"expressions":[],"empty":true,"producibleMediaTypes":[]},"customCondition":null}(String), org.lemonPig.os.web.vo.Result org.lemonPig.os.web.controller.UserController.queryPageList(java.lang.String,[Lorg.lemonPig.os.web.vo.DataTablesVO$KeyValuePair;)(String), null
+2015-06-07 15:25:06.010 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				<==    Updates: 1
+2015-06-07 15:25:06.011 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				ooo Using Connection [891286754(com.mysql.jdbc.JDBC4Connection@7a371c69)]
+2015-06-07 15:25:06.011 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				==>  Preparing: SELECT LAST_INSERT_ID() 
+2015-06-07 15:25:06.012 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				==> Parameters: 
+2015-06-07 15:25:06.014 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert!selectKey -
+				<==      Total: 1
+2015-06-07 15:25:06.014 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45063cad]
+2015-06-07 15:25:06.016 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45063cad]
+2015-06-07 15:25:06.017 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45063cad]

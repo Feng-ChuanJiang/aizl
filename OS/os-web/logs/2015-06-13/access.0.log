@@ -1,0 +1,1492 @@
+2015-06-13 11:41:13.773 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-13 11:41:13.782 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-13 11:41:13.782 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-13 11:41:13.783 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-13 11:41:13.783 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-13 11:41:13.783 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-13 11:41:13.783 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-13 11:41:13.783 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-13 11:41:13.784 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-13 11:41:13.784 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-13 11:41:13.784 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-13 11:41:13.784 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-13 11:41:13.784 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-13 11:41:13.784 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-13 11:41:13.784 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-13 11:41:13.784 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-13 11:41:13.785 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-13 11:41:13.785 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-13 11:41:13.785 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-13 11:41:13.785 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-13 11:41:13.785 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-13 11:41:13.785 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-13 11:41:13.785 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-13 11:41:13.785 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-13 11:41:13.785 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-13 11:41:13.786 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-13 11:41:13.786 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-13 11:41:13.786 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-13 11:41:13.786 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-13 11:41:13.786 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-13 11:41:14.048 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-13 11:41:14.048 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-13 11:41:20.539 [btpool0-3] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [79973d2e-6f8e-414b-9b97-848c7bbaf57e]
+2015-06-13 11:41:20.545 [btpool0-3] DEBUG org.apache.shiro.mgt.DefaultSecurityManager -
+				Resolved SubjectContext context session is invalid.  Ignoring and creating an anonymous (session-less) Subject instance.
+org.apache.shiro.session.UnknownSessionException: There is no session with id [79973d2e-6f8e-414b-9b97-848c7bbaf57e]
+	at org.apache.shiro.session.mgt.eis.AbstractSessionDAO.readSession(AbstractSessionDAO.java:170) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.eis.CachingSessionDAO.readSession(CachingSessionDAO.java:261) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.DefaultSessionManager.retrieveSessionFromDataSource(DefaultSessionManager.java:236) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.DefaultSessionManager.retrieveSession(DefaultSessionManager.java:222) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractValidatingSessionManager.doGetSession(AbstractValidatingSessionManager.java:118) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractNativeSessionManager.lookupSession(AbstractNativeSessionManager.java:108) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractNativeSessionManager.getSession(AbstractNativeSessionManager.java:100) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.SessionsSecurityManager.getSession(SessionsSecurityManager.java:125) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolveContextSession(DefaultSecurityManager.java:456) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolveSession(DefaultSecurityManager.java:442) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.createSubject(DefaultSecurityManager.java:338) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.subject.Subject$Builder.buildSubject(Subject.java:846) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.subject.WebSubject$Builder.buildWebSubject(WebSubject.java:148) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.createSubject(AbstractShiroFilter.java:292) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:359) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.2.3.jar:1.2.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:343) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:260) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084) [jetty-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:726) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:405) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.Server.handle(Server.java:324) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:828) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:514) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:450) [jetty-util-6.1.8.jar:6.1.8]
+2015-06-13 11:41:20.554 [btpool0-3] DEBUG org.apache.shiro.session.mgt.DefaultSessionManager -
+				Creating new EIS record for new session instance [org.lemonPig.os.assist.shiro.session.OnlineSession,id=null]
+2015-06-13 11:41:20.555 [btpool0-3] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Added HttpServletResponse Cookie [sid=4af25447-20c7-4213-98b8-7452fde97f92; Path=/OS; Max-Age=180000; Expires=Mon, 15-Jun-2015 05:41:20 GMT; HttpOnly]
+2015-06-13 11:41:20.561 [btpool0-3] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [4af25447-20c7-4213-98b8-7452fde97f92]
+2015-06-13 11:41:20.655 [btpool0-3] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [4af25447-20c7-4213-98b8-7452fde97f92]
+2015-06-13 11:41:20.759 [btpool0-3] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [4af25447-20c7-4213-98b8-7452fde97f92]
+2015-06-13 11:41:20.781 [btpool0-3] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [4af25447-20c7-4213-98b8-7452fde97f92]
+2015-06-13 11:41:49.527 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-13 11:41:49.534 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-13 11:41:49.534 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-13 11:41:49.535 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-13 11:41:49.535 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-13 11:41:49.535 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-13 11:41:49.535 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-13 11:41:49.536 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-13 11:41:49.536 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-13 11:41:49.536 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-13 11:41:49.536 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-13 11:41:49.536 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-13 11:41:49.536 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-13 11:41:49.536 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-13 11:41:49.536 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-13 11:41:49.536 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-13 11:41:49.536 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-13 11:41:49.537 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-13 11:41:49.537 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-13 11:41:49.537 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-13 11:41:49.537 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-13 11:41:49.537 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-13 11:41:49.537 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-13 11:41:49.537 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-13 11:41:49.537 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-13 11:41:49.537 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-13 11:41:49.537 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-13 11:41:49.538 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-13 11:41:49.538 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-13 11:41:49.538 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-13 11:41:49.844 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-13 11:41:49.845 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-13 11:41:52.874 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [4af25447-20c7-4213-98b8-7452fde97f92]
+2015-06-13 11:41:52.880 [btpool0-1] DEBUG org.apache.shiro.mgt.DefaultSecurityManager -
+				Resolved SubjectContext context session is invalid.  Ignoring and creating an anonymous (session-less) Subject instance.
+org.apache.shiro.session.UnknownSessionException: There is no session with id [4af25447-20c7-4213-98b8-7452fde97f92]
+	at org.apache.shiro.session.mgt.eis.AbstractSessionDAO.readSession(AbstractSessionDAO.java:170) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.eis.CachingSessionDAO.readSession(CachingSessionDAO.java:261) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.DefaultSessionManager.retrieveSessionFromDataSource(DefaultSessionManager.java:236) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.DefaultSessionManager.retrieveSession(DefaultSessionManager.java:222) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractValidatingSessionManager.doGetSession(AbstractValidatingSessionManager.java:118) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractNativeSessionManager.lookupSession(AbstractNativeSessionManager.java:108) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractNativeSessionManager.getSession(AbstractNativeSessionManager.java:100) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.SessionsSecurityManager.getSession(SessionsSecurityManager.java:125) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolveContextSession(DefaultSecurityManager.java:456) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolveSession(DefaultSecurityManager.java:442) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.createSubject(DefaultSecurityManager.java:338) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.subject.Subject$Builder.buildSubject(Subject.java:846) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.subject.WebSubject$Builder.buildWebSubject(WebSubject.java:148) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.createSubject(AbstractShiroFilter.java:292) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:359) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.2.3.jar:1.2.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:343) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:260) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084) [jetty-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:726) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:405) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.Server.handle(Server.java:324) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:828) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:514) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:450) [jetty-util-6.1.8.jar:6.1.8]
+2015-06-13 11:41:52.913 [btpool0-1] DEBUG org.apache.shiro.session.mgt.DefaultSessionManager -
+				Creating new EIS record for new session instance [org.lemonPig.os.assist.shiro.session.OnlineSession,id=null]
+2015-06-13 11:41:52.915 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Added HttpServletResponse Cookie [sid=42fa09ff-aaa3-4905-9d20-1a1861bc8873; Path=/OS; Max-Age=180000; Expires=Mon, 15-Jun-2015 05:41:52 GMT; HttpOnly]
+2015-06-13 11:41:52.958 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [42fa09ff-aaa3-4905-9d20-1a1861bc8873]
+2015-06-13 11:42:42.579 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-13 11:42:42.589 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-13 11:42:42.589 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-13 11:42:42.590 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-13 11:42:42.591 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-13 11:42:42.591 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-13 11:42:42.591 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-13 11:42:42.591 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-13 11:42:42.592 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-13 11:42:42.592 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-13 11:42:42.592 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-13 11:42:42.592 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-13 11:42:42.592 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-13 11:42:42.592 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-13 11:42:42.592 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-13 11:42:42.593 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-13 11:42:42.593 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-13 11:42:42.593 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-13 11:42:42.593 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-13 11:42:42.593 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-13 11:42:42.593 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-13 11:42:42.593 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-13 11:42:42.593 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-13 11:42:42.593 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-13 11:42:42.593 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-13 11:42:42.594 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-13 11:42:42.594 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-13 11:42:42.594 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-13 11:42:42.594 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-13 11:42:42.594 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-13 11:42:42.932 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-13 11:42:42.933 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-13 11:42:43.885 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [42fa09ff-aaa3-4905-9d20-1a1861bc8873]
+2015-06-13 11:42:43.890 [btpool0-1] DEBUG org.apache.shiro.mgt.DefaultSecurityManager -
+				Resolved SubjectContext context session is invalid.  Ignoring and creating an anonymous (session-less) Subject instance.
+org.apache.shiro.session.UnknownSessionException: There is no session with id [42fa09ff-aaa3-4905-9d20-1a1861bc8873]
+	at org.apache.shiro.session.mgt.eis.AbstractSessionDAO.readSession(AbstractSessionDAO.java:170) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.eis.CachingSessionDAO.readSession(CachingSessionDAO.java:261) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.DefaultSessionManager.retrieveSessionFromDataSource(DefaultSessionManager.java:236) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.DefaultSessionManager.retrieveSession(DefaultSessionManager.java:222) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractValidatingSessionManager.doGetSession(AbstractValidatingSessionManager.java:118) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractNativeSessionManager.lookupSession(AbstractNativeSessionManager.java:108) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractNativeSessionManager.getSession(AbstractNativeSessionManager.java:100) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.SessionsSecurityManager.getSession(SessionsSecurityManager.java:125) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolveContextSession(DefaultSecurityManager.java:456) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolveSession(DefaultSecurityManager.java:442) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.createSubject(DefaultSecurityManager.java:338) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.subject.Subject$Builder.buildSubject(Subject.java:846) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.subject.WebSubject$Builder.buildWebSubject(WebSubject.java:148) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.createSubject(AbstractShiroFilter.java:292) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:359) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.2.3.jar:1.2.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:343) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:260) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084) [jetty-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:726) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:405) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.Server.handle(Server.java:324) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:828) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:514) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:450) [jetty-util-6.1.8.jar:6.1.8]
+2015-06-13 11:42:43.924 [btpool0-1] DEBUG org.apache.shiro.session.mgt.DefaultSessionManager -
+				Creating new EIS record for new session instance [org.lemonPig.os.assist.shiro.session.OnlineSession,id=null]
+2015-06-13 11:42:43.926 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Added HttpServletResponse Cookie [sid=e1ba3d08-994c-4f5d-88d3-96e86a5d3e95; Path=/OS; Max-Age=180000; Expires=Mon, 15-Jun-2015 05:42:43 GMT; HttpOnly]
+2015-06-13 11:42:43.970 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [e1ba3d08-994c-4f5d-88d3-96e86a5d3e95]
+2015-06-13 11:42:44.215 [btpool0-4] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [e1ba3d08-994c-4f5d-88d3-96e86a5d3e95]
+2015-06-13 11:48:36.844 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-13 11:48:36.851 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-13 11:48:36.852 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-13 11:48:36.853 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-13 11:48:36.853 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-13 11:48:36.853 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-13 11:48:36.853 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-13 11:48:36.854 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-13 11:48:36.854 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-13 11:48:36.854 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-13 11:48:36.854 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-13 11:48:36.854 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-13 11:48:36.854 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-13 11:48:36.855 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-13 11:48:36.855 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-13 11:48:36.855 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-13 11:48:36.855 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-13 11:48:36.855 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-13 11:48:36.856 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-13 11:48:36.856 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-13 11:48:36.856 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-13 11:48:36.856 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-13 11:48:36.856 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-13 11:48:36.856 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-13 11:48:36.856 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-13 11:48:36.856 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-13 11:48:36.857 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-13 11:48:36.857 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-13 11:48:36.857 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-13 11:48:36.857 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-13 11:48:37.197 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-13 11:48:37.198 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-13 11:48:47.443 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [e1ba3d08-994c-4f5d-88d3-96e86a5d3e95]
+2015-06-13 11:48:47.448 [btpool0-1] DEBUG org.apache.shiro.mgt.DefaultSecurityManager -
+				Resolved SubjectContext context session is invalid.  Ignoring and creating an anonymous (session-less) Subject instance.
+org.apache.shiro.session.UnknownSessionException: There is no session with id [e1ba3d08-994c-4f5d-88d3-96e86a5d3e95]
+	at org.apache.shiro.session.mgt.eis.AbstractSessionDAO.readSession(AbstractSessionDAO.java:170) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.eis.CachingSessionDAO.readSession(CachingSessionDAO.java:261) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.DefaultSessionManager.retrieveSessionFromDataSource(DefaultSessionManager.java:236) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.DefaultSessionManager.retrieveSession(DefaultSessionManager.java:222) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractValidatingSessionManager.doGetSession(AbstractValidatingSessionManager.java:118) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractNativeSessionManager.lookupSession(AbstractNativeSessionManager.java:108) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractNativeSessionManager.getSession(AbstractNativeSessionManager.java:100) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.SessionsSecurityManager.getSession(SessionsSecurityManager.java:125) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolveContextSession(DefaultSecurityManager.java:456) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolveSession(DefaultSecurityManager.java:442) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.createSubject(DefaultSecurityManager.java:338) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.subject.Subject$Builder.buildSubject(Subject.java:846) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.subject.WebSubject$Builder.buildWebSubject(WebSubject.java:148) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.createSubject(AbstractShiroFilter.java:292) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:359) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.2.3.jar:1.2.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:343) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:260) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084) [jetty-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:726) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:405) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.Server.handle(Server.java:324) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:828) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:514) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:450) [jetty-util-6.1.8.jar:6.1.8]
+2015-06-13 11:48:48.232 [btpool0-1] DEBUG org.apache.shiro.session.mgt.DefaultSessionManager -
+				Creating new EIS record for new session instance [org.lemonPig.os.assist.shiro.session.OnlineSession,id=null]
+2015-06-13 11:48:48.234 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Added HttpServletResponse Cookie [sid=79214ec6-df28-46f5-bfbb-5dc68c283ee4; Path=/OS; Max-Age=180000; Expires=Mon, 15-Jun-2015 05:48:48 GMT; HttpOnly]
+2015-06-13 11:48:48.296 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [79214ec6-df28-46f5-bfbb-5dc68c283ee4]
+2015-06-13 11:48:48.297 [btpool0-5] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [79214ec6-df28-46f5-bfbb-5dc68c283ee4]
+2015-06-13 11:48:48.298 [btpool0-3] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [79214ec6-df28-46f5-bfbb-5dc68c283ee4]
+2015-06-13 11:48:48.298 [btpool0-4] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [79214ec6-df28-46f5-bfbb-5dc68c283ee4]
+2015-06-13 11:48:48.385 [btpool0-4] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [79214ec6-df28-46f5-bfbb-5dc68c283ee4]
+2015-06-13 11:48:48.387 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [79214ec6-df28-46f5-bfbb-5dc68c283ee4]
+2015-06-13 11:48:48.390 [btpool0-5] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [79214ec6-df28-46f5-bfbb-5dc68c283ee4]
+2015-06-13 11:48:48.391 [btpool0-4] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [79214ec6-df28-46f5-bfbb-5dc68c283ee4]
+2015-06-13 11:48:48.396 [btpool0-3] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [79214ec6-df28-46f5-bfbb-5dc68c283ee4]
+2015-06-13 11:48:48.397 [btpool0-7] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [79214ec6-df28-46f5-bfbb-5dc68c283ee4]
+2015-06-13 11:48:48.400 [btpool0-6] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [79214ec6-df28-46f5-bfbb-5dc68c283ee4]
+2015-06-13 11:48:48.401 [btpool0-3] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [79214ec6-df28-46f5-bfbb-5dc68c283ee4]
+2015-06-13 11:48:48.401 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [79214ec6-df28-46f5-bfbb-5dc68c283ee4]
+2015-06-13 11:48:48.406 [btpool0-5] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [79214ec6-df28-46f5-bfbb-5dc68c283ee4]
+2015-06-13 11:48:48.436 [btpool0-5] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [79214ec6-df28-46f5-bfbb-5dc68c283ee4]
+2015-06-13 11:48:48.501 [btpool0-5] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [79214ec6-df28-46f5-bfbb-5dc68c283ee4]
+2015-06-13 11:48:48.781 [btpool0-5] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [79214ec6-df28-46f5-bfbb-5dc68c283ee4]
+2015-06-13 11:48:48.949 [btpool0-5] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [79214ec6-df28-46f5-bfbb-5dc68c283ee4]
+2015-06-13 11:48:48.949 [btpool0-3] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [79214ec6-df28-46f5-bfbb-5dc68c283ee4]
+2015-06-13 11:48:48.963 [btpool0-5] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [79214ec6-df28-46f5-bfbb-5dc68c283ee4]
+2015-06-13 11:48:49.036 [btpool0-5] DEBUG org.lemonPig.os.web.controller.UserController -
+				debug123
+2015-06-13 11:48:49.493 [btpool0-3] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [79214ec6-df28-46f5-bfbb-5dc68c283ee4]
+2015-06-13 11:49:14.616 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-13 11:49:14.623 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-13 11:49:14.623 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-13 11:49:14.624 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-13 11:49:14.624 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-13 11:49:14.624 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-13 11:49:14.625 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-13 11:49:14.625 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-13 11:49:14.625 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-13 11:49:14.625 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-13 11:49:14.625 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-13 11:49:14.625 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-13 11:49:14.625 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-13 11:49:14.625 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-13 11:49:14.626 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-13 11:49:14.626 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-13 11:49:14.626 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-13 11:49:14.626 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-13 11:49:14.626 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-13 11:49:14.626 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-13 11:49:14.626 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-13 11:49:14.626 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-13 11:49:14.626 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-13 11:49:14.627 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-13 11:49:14.627 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-13 11:49:14.627 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-13 11:49:14.627 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-13 11:49:14.627 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-13 11:49:14.627 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-13 11:49:14.627 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-13 11:49:14.953 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-13 11:49:14.953 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-13 11:49:46.423 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [79214ec6-df28-46f5-bfbb-5dc68c283ee4]
+2015-06-13 11:49:46.429 [btpool0-1] DEBUG org.apache.shiro.mgt.DefaultSecurityManager -
+				Resolved SubjectContext context session is invalid.  Ignoring and creating an anonymous (session-less) Subject instance.
+org.apache.shiro.session.UnknownSessionException: There is no session with id [79214ec6-df28-46f5-bfbb-5dc68c283ee4]
+	at org.apache.shiro.session.mgt.eis.AbstractSessionDAO.readSession(AbstractSessionDAO.java:170) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.eis.CachingSessionDAO.readSession(CachingSessionDAO.java:261) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.DefaultSessionManager.retrieveSessionFromDataSource(DefaultSessionManager.java:236) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.DefaultSessionManager.retrieveSession(DefaultSessionManager.java:222) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractValidatingSessionManager.doGetSession(AbstractValidatingSessionManager.java:118) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractNativeSessionManager.lookupSession(AbstractNativeSessionManager.java:108) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractNativeSessionManager.getSession(AbstractNativeSessionManager.java:100) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.SessionsSecurityManager.getSession(SessionsSecurityManager.java:125) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolveContextSession(DefaultSecurityManager.java:456) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolveSession(DefaultSecurityManager.java:442) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.createSubject(DefaultSecurityManager.java:338) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.subject.Subject$Builder.buildSubject(Subject.java:846) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.subject.WebSubject$Builder.buildWebSubject(WebSubject.java:148) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.createSubject(AbstractShiroFilter.java:292) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:359) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.2.3.jar:1.2.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:343) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:260) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084) [jetty-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:726) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:405) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.Server.handle(Server.java:324) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:828) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:514) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:450) [jetty-util-6.1.8.jar:6.1.8]
+2015-06-13 11:49:46.461 [btpool0-1] DEBUG org.apache.shiro.session.mgt.DefaultSessionManager -
+				Creating new EIS record for new session instance [org.lemonPig.os.assist.shiro.session.OnlineSession,id=null]
+2015-06-13 11:49:46.463 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Added HttpServletResponse Cookie [sid=4e56c738-3ace-4c6e-bd00-1e9fdaa72176; Path=/OS; Max-Age=180000; Expires=Mon, 15-Jun-2015 05:49:46 GMT; HttpOnly]
+2015-06-13 11:49:46.524 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [4e56c738-3ace-4c6e-bd00-1e9fdaa72176]
+2015-06-13 11:49:46.780 [btpool0-2] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [4e56c738-3ace-4c6e-bd00-1e9fdaa72176]
+2015-06-13 11:51:08.475 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-13 11:51:08.483 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-13 11:51:08.483 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-13 11:51:08.484 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-13 11:51:08.484 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-13 11:51:08.484 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-13 11:51:08.484 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-13 11:51:08.484 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-13 11:51:08.484 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-13 11:51:08.484 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-13 11:51:08.484 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-13 11:51:08.485 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-13 11:51:08.485 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-13 11:51:08.485 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-13 11:51:08.485 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-13 11:51:08.485 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-13 11:51:08.485 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-13 11:51:08.485 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-13 11:51:08.486 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-13 11:51:08.486 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-13 11:51:08.486 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-13 11:51:08.486 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-13 11:51:08.486 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-13 11:51:08.486 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-13 11:51:08.486 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-13 11:51:08.486 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-13 11:51:08.487 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-13 11:51:08.487 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-13 11:51:08.487 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-13 11:51:08.487 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-13 11:51:08.853 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-13 11:51:08.854 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-13 11:51:11.529 [net.sf.ehcache.CacheManager@722ef4bf] DEBUG net.sf.ehcache.util.UpdateChecker -
+				Update check failed: 
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[na:1.7.0_67]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[na:1.7.0_67]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339) ~[na:1.7.0_67]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200) ~[na:1.7.0_67]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182) ~[na:1.7.0_67]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[na:1.7.0_67]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.7.0_67]
+	at java.net.Socket.connect(Socket.java:579) ~[na:1.7.0_67]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[na:1.7.0_67]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[na:1.7.0_67]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[na:1.7.0_67]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[na:1.7.0_67]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[na:1.7.0_67]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[na:1.7.0_67]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:996) ~[na:1.7.0_67]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:932) ~[na:1.7.0_67]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:850) ~[na:1.7.0_67]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1300) ~[na:1.7.0_67]
+	at net.sf.ehcache.util.UpdateChecker.getUpdateProperties(UpdateChecker.java:108) [ehcache-core-2.6.8.jar:na]
+	at net.sf.ehcache.util.UpdateChecker.doCheck(UpdateChecker.java:72) [ehcache-core-2.6.8.jar:na]
+	at net.sf.ehcache.util.UpdateChecker.checkForUpdate(UpdateChecker.java:60) [ehcache-core-2.6.8.jar:na]
+	at net.sf.ehcache.util.UpdateChecker.run(UpdateChecker.java:51) [ehcache-core-2.6.8.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.7.0_67]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.7.0_67]
+2015-06-13 11:51:23.223 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [4e56c738-3ace-4c6e-bd00-1e9fdaa72176]
+2015-06-13 11:51:23.225 [btpool0-1] DEBUG org.apache.shiro.mgt.DefaultSecurityManager -
+				Resolved SubjectContext context session is invalid.  Ignoring and creating an anonymous (session-less) Subject instance.
+org.apache.shiro.session.UnknownSessionException: There is no session with id [4e56c738-3ace-4c6e-bd00-1e9fdaa72176]
+	at org.apache.shiro.session.mgt.eis.AbstractSessionDAO.readSession(AbstractSessionDAO.java:170) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.eis.CachingSessionDAO.readSession(CachingSessionDAO.java:261) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.DefaultSessionManager.retrieveSessionFromDataSource(DefaultSessionManager.java:236) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.DefaultSessionManager.retrieveSession(DefaultSessionManager.java:222) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractValidatingSessionManager.doGetSession(AbstractValidatingSessionManager.java:118) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractNativeSessionManager.lookupSession(AbstractNativeSessionManager.java:108) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractNativeSessionManager.getSession(AbstractNativeSessionManager.java:100) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.SessionsSecurityManager.getSession(SessionsSecurityManager.java:125) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolveContextSession(DefaultSecurityManager.java:456) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolveSession(DefaultSecurityManager.java:442) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.createSubject(DefaultSecurityManager.java:338) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.subject.Subject$Builder.buildSubject(Subject.java:846) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.subject.WebSubject$Builder.buildWebSubject(WebSubject.java:148) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.createSubject(AbstractShiroFilter.java:292) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:359) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.2.3.jar:1.2.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:343) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:260) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084) [jetty-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:726) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:405) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.Server.handle(Server.java:324) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:828) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:514) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:450) [jetty-util-6.1.8.jar:6.1.8]
+2015-06-13 11:51:23.261 [btpool0-1] DEBUG org.apache.shiro.session.mgt.DefaultSessionManager -
+				Creating new EIS record for new session instance [org.lemonPig.os.assist.shiro.session.OnlineSession,id=null]
+2015-06-13 11:51:23.262 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Added HttpServletResponse Cookie [sid=3af04b85-4a74-44cb-9b27-e4c95a742a8f; Path=/OS; Max-Age=180000; Expires=Mon, 15-Jun-2015 05:51:23 GMT; HttpOnly]
+2015-06-13 11:51:23.307 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [3af04b85-4a74-44cb-9b27-e4c95a742a8f]
+2015-06-13 11:51:23.602 [btpool0-5] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [3af04b85-4a74-44cb-9b27-e4c95a742a8f]
+2015-06-13 12:50:49.033 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-13 12:50:49.039 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-13 12:50:49.040 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-13 12:50:49.040 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-13 12:50:49.040 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-13 12:50:49.041 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-13 12:50:49.041 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-13 12:50:49.041 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-13 12:50:49.041 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-13 12:50:49.041 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-13 12:50:49.041 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-13 12:50:49.041 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-13 12:50:49.041 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-13 12:50:49.042 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-13 12:50:49.042 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-13 12:50:49.042 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-13 12:50:49.042 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-13 12:50:49.042 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-13 12:50:49.042 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-13 12:50:49.042 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-13 12:50:49.042 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-13 12:50:49.042 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-13 12:50:49.042 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-13 12:50:49.043 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-13 12:50:49.043 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-13 12:50:49.043 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-13 12:50:49.043 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-13 12:50:49.043 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-13 12:50:49.043 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-13 12:50:49.043 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-13 12:50:49.349 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-13 12:50:49.350 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-13 12:51:08.768 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [3af04b85-4a74-44cb-9b27-e4c95a742a8f]
+2015-06-13 12:51:08.773 [btpool0-1] DEBUG org.apache.shiro.mgt.DefaultSecurityManager -
+				Resolved SubjectContext context session is invalid.  Ignoring and creating an anonymous (session-less) Subject instance.
+org.apache.shiro.session.UnknownSessionException: There is no session with id [3af04b85-4a74-44cb-9b27-e4c95a742a8f]
+	at org.apache.shiro.session.mgt.eis.AbstractSessionDAO.readSession(AbstractSessionDAO.java:170) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.eis.CachingSessionDAO.readSession(CachingSessionDAO.java:261) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.DefaultSessionManager.retrieveSessionFromDataSource(DefaultSessionManager.java:236) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.DefaultSessionManager.retrieveSession(DefaultSessionManager.java:222) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractValidatingSessionManager.doGetSession(AbstractValidatingSessionManager.java:118) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractNativeSessionManager.lookupSession(AbstractNativeSessionManager.java:108) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractNativeSessionManager.getSession(AbstractNativeSessionManager.java:100) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.SessionsSecurityManager.getSession(SessionsSecurityManager.java:125) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolveContextSession(DefaultSecurityManager.java:456) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolveSession(DefaultSecurityManager.java:442) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.createSubject(DefaultSecurityManager.java:338) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.subject.Subject$Builder.buildSubject(Subject.java:846) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.subject.WebSubject$Builder.buildWebSubject(WebSubject.java:148) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.createSubject(AbstractShiroFilter.java:292) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:359) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.2.3.jar:1.2.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:343) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:260) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084) [jetty-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:726) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:405) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.Server.handle(Server.java:324) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:828) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:514) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:450) [jetty-util-6.1.8.jar:6.1.8]
+2015-06-13 12:51:10.387 [btpool0-1] DEBUG org.apache.shiro.session.mgt.DefaultSessionManager -
+				Creating new EIS record for new session instance [org.lemonPig.os.assist.shiro.session.OnlineSession,id=null]
+2015-06-13 12:51:10.390 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Added HttpServletResponse Cookie [sid=0f0fbb67-7122-454d-9d8b-9fd53acf7c16; Path=/OS; Max-Age=180000; Expires=Mon, 15-Jun-2015 06:51:10 GMT; HttpOnly]
+2015-06-13 12:51:10.452 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [0f0fbb67-7122-454d-9d8b-9fd53acf7c16]
+2015-06-13 12:51:10.806 [btpool0-4] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [0f0fbb67-7122-454d-9d8b-9fd53acf7c16]
+2015-06-13 12:51:47.157 [btpool0-4] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [0f0fbb67-7122-454d-9d8b-9fd53acf7c16]
+2015-06-13 12:51:58.962 [btpool0-4] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-06-13 12:51:58.969 [btpool0-4] DEBUG org.mybatis.spring.SqlSessionUtils -
+				SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52e022a8] was not registered for synchronization because synchronization is not active
+2015-06-13 12:51:59.035 [btpool0-4] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [699026499(com.mysql.jdbc.JDBC4Connection@6b74d813)] will not be managed by Spring
+2015-06-13 12:51:59.036 [btpool0-4] DEBUG org.lemonPig.os.core.mapper.UserPOJOMapper.selectByExample -
+				ooo Using Connection [699026499(com.mysql.jdbc.JDBC4Connection@6b74d813)]
+2015-06-13 12:51:59.040 [btpool0-4] DEBUG org.lemonPig.os.core.mapper.UserPOJOMapper.selectByExample -
+				==>  Preparing: select ID, USERNAME, PASSWORD, STATUS, SALT, TEL, MAIL from USER WHERE ( USERNAME = ? ) 
+2015-06-13 12:51:59.080 [btpool0-4] DEBUG org.lemonPig.os.core.mapper.UserPOJOMapper.selectByExample -
+				==> Parameters: admin(String)
+2015-06-13 12:51:59.210 [btpool0-4] DEBUG org.lemonPig.os.core.mapper.UserPOJOMapper.selectByExample -
+				<==      Total: 0
+2015-06-13 12:51:59.211 [btpool0-4] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52e022a8]
+2015-06-13 12:51:59.212 [btpool0-4] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Added HttpServletResponse Cookie [rememberMe=deleteMe; Path=/OS; Max-Age=0; Expires=Fri, 12-Jun-2015 04:51:59 GMT]
+2015-06-13 12:56:57.037 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [0f0fbb67-7122-454d-9d8b-9fd53acf7c16]
+2015-06-13 12:56:57.038 [btpool0-1] DEBUG org.apache.shiro.mgt.DefaultSecurityManager -
+				Resolved SubjectContext context session is invalid.  Ignoring and creating an anonymous (session-less) Subject instance.
+org.apache.shiro.session.UnknownSessionException: There is no session with id [0f0fbb67-7122-454d-9d8b-9fd53acf7c16]
+	at org.apache.shiro.session.mgt.eis.AbstractSessionDAO.readSession(AbstractSessionDAO.java:170) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.eis.CachingSessionDAO.readSession(CachingSessionDAO.java:261) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.DefaultSessionManager.retrieveSessionFromDataSource(DefaultSessionManager.java:236) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.DefaultSessionManager.retrieveSession(DefaultSessionManager.java:222) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractValidatingSessionManager.doGetSession(AbstractValidatingSessionManager.java:118) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractNativeSessionManager.lookupSession(AbstractNativeSessionManager.java:108) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractNativeSessionManager.getSession(AbstractNativeSessionManager.java:100) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.SessionsSecurityManager.getSession(SessionsSecurityManager.java:125) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolveContextSession(DefaultSecurityManager.java:456) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolveSession(DefaultSecurityManager.java:442) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.createSubject(DefaultSecurityManager.java:338) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.subject.Subject$Builder.buildSubject(Subject.java:846) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.subject.WebSubject$Builder.buildWebSubject(WebSubject.java:148) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.createSubject(AbstractShiroFilter.java:292) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:359) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.2.3.jar:1.2.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:343) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:260) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084) [jetty-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:726) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:405) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.Server.handle(Server.java:324) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:828) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:514) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:450) [jetty-util-6.1.8.jar:6.1.8]
+2015-06-13 12:57:07.285 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-13 12:57:07.291 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-13 12:57:07.291 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-13 12:57:07.292 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-13 12:57:07.292 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-13 12:57:07.292 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-13 12:57:07.293 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-13 12:57:07.293 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-13 12:57:07.293 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-13 12:57:07.293 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-13 12:57:07.293 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-13 12:57:07.293 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-13 12:57:07.293 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-13 12:57:07.293 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-13 12:57:07.293 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-13 12:57:07.294 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-13 12:57:07.294 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-13 12:57:07.294 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-13 12:57:07.294 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-13 12:57:07.294 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-13 12:57:07.294 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-13 12:57:07.294 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-13 12:57:07.294 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-13 12:57:07.295 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-13 12:57:07.295 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-13 12:57:07.295 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-13 12:57:07.295 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-13 12:57:07.295 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-13 12:57:07.295 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-13 12:57:07.295 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-13 12:57:07.617 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-13 12:57:07.618 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-13 12:58:12.088 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [0f0fbb67-7122-454d-9d8b-9fd53acf7c16]
+2015-06-13 12:58:12.093 [btpool0-1] DEBUG org.apache.shiro.mgt.DefaultSecurityManager -
+				Resolved SubjectContext context session is invalid.  Ignoring and creating an anonymous (session-less) Subject instance.
+org.apache.shiro.session.UnknownSessionException: There is no session with id [0f0fbb67-7122-454d-9d8b-9fd53acf7c16]
+	at org.apache.shiro.session.mgt.eis.AbstractSessionDAO.readSession(AbstractSessionDAO.java:170) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.eis.CachingSessionDAO.readSession(CachingSessionDAO.java:261) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.DefaultSessionManager.retrieveSessionFromDataSource(DefaultSessionManager.java:236) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.DefaultSessionManager.retrieveSession(DefaultSessionManager.java:222) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractValidatingSessionManager.doGetSession(AbstractValidatingSessionManager.java:118) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractNativeSessionManager.lookupSession(AbstractNativeSessionManager.java:108) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractNativeSessionManager.getSession(AbstractNativeSessionManager.java:100) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.SessionsSecurityManager.getSession(SessionsSecurityManager.java:125) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolveContextSession(DefaultSecurityManager.java:456) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolveSession(DefaultSecurityManager.java:442) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.createSubject(DefaultSecurityManager.java:338) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.subject.Subject$Builder.buildSubject(Subject.java:846) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.subject.WebSubject$Builder.buildWebSubject(WebSubject.java:148) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.createSubject(AbstractShiroFilter.java:292) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:359) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.2.3.jar:1.2.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:343) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:260) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084) [jetty-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:726) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:405) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.Server.handle(Server.java:324) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:828) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:514) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:450) [jetty-util-6.1.8.jar:6.1.8]
+2015-06-13 13:00:32.356 [btpool0-1] DEBUG org.apache.shiro.session.mgt.DefaultSessionManager -
+				Creating new EIS record for new session instance [org.lemonPig.os.assist.shiro.session.OnlineSession,id=null]
+2015-06-13 13:00:32.359 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Added HttpServletResponse Cookie [sid=1adc0d51-2911-4b11-a6e1-69d33cee0c01; Path=/OS; Max-Age=180000; Expires=Mon, 15-Jun-2015 07:00:32 GMT; HttpOnly]
+2015-06-13 13:00:32.412 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [1adc0d51-2911-4b11-a6e1-69d33cee0c01]
+2015-06-13 13:00:32.720 [btpool0-5] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [1adc0d51-2911-4b11-a6e1-69d33cee0c01]
+2015-06-13 13:00:45.595 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [1adc0d51-2911-4b11-a6e1-69d33cee0c01]
+2015-06-13 13:04:37.126 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-13 13:04:37.132 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-13 13:04:37.133 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-13 13:04:37.133 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-13 13:04:37.134 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-13 13:04:37.134 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-13 13:04:37.134 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-13 13:04:37.134 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-13 13:04:37.134 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-13 13:04:37.134 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-13 13:04:37.134 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-13 13:04:37.134 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-13 13:04:37.134 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-13 13:04:37.135 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-13 13:04:37.135 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-13 13:04:37.135 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-13 13:04:37.135 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-13 13:04:37.135 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-13 13:04:37.135 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-13 13:04:37.135 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-13 13:04:37.135 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-13 13:04:37.135 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-13 13:04:37.135 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-13 13:04:37.136 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-13 13:04:37.136 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-13 13:04:37.136 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-13 13:04:37.136 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-13 13:04:37.136 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-13 13:04:37.136 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-13 13:04:37.136 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-13 13:04:37.508 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-13 13:04:37.509 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-13 13:04:54.266 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [1adc0d51-2911-4b11-a6e1-69d33cee0c01]
+2015-06-13 13:04:54.271 [btpool0-1] DEBUG org.apache.shiro.mgt.DefaultSecurityManager -
+				Resolved SubjectContext context session is invalid.  Ignoring and creating an anonymous (session-less) Subject instance.
+org.apache.shiro.session.UnknownSessionException: There is no session with id [1adc0d51-2911-4b11-a6e1-69d33cee0c01]
+	at org.apache.shiro.session.mgt.eis.AbstractSessionDAO.readSession(AbstractSessionDAO.java:170) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.eis.CachingSessionDAO.readSession(CachingSessionDAO.java:261) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.DefaultSessionManager.retrieveSessionFromDataSource(DefaultSessionManager.java:236) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.DefaultSessionManager.retrieveSession(DefaultSessionManager.java:222) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractValidatingSessionManager.doGetSession(AbstractValidatingSessionManager.java:118) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractNativeSessionManager.lookupSession(AbstractNativeSessionManager.java:108) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractNativeSessionManager.getSession(AbstractNativeSessionManager.java:100) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.SessionsSecurityManager.getSession(SessionsSecurityManager.java:125) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolveContextSession(DefaultSecurityManager.java:456) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolveSession(DefaultSecurityManager.java:442) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.createSubject(DefaultSecurityManager.java:338) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.subject.Subject$Builder.buildSubject(Subject.java:846) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.subject.WebSubject$Builder.buildWebSubject(WebSubject.java:148) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.createSubject(AbstractShiroFilter.java:292) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:359) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.2.3.jar:1.2.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:343) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:260) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084) [jetty-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:726) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:405) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.Server.handle(Server.java:324) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:828) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:514) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:450) [jetty-util-6.1.8.jar:6.1.8]
+2015-06-13 13:10:36.419 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-13 13:10:36.427 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-13 13:10:36.427 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-13 13:10:36.428 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-13 13:10:36.428 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-13 13:10:36.428 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-13 13:10:36.428 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-13 13:10:36.429 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-13 13:10:36.429 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-13 13:10:36.429 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-13 13:10:36.429 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-13 13:10:36.429 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-13 13:10:36.429 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-13 13:10:36.429 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-13 13:10:36.430 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-13 13:10:36.430 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-13 13:10:36.430 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-13 13:10:36.430 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-13 13:10:36.430 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-13 13:10:36.430 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-13 13:10:36.430 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-13 13:10:36.430 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-13 13:10:36.430 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-13 13:10:36.431 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-13 13:10:36.431 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-13 13:10:36.431 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-13 13:10:36.431 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-13 13:10:36.431 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-13 13:10:36.431 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-13 13:10:36.431 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-13 13:10:36.780 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-13 13:10:36.781 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-13 13:10:46.363 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [1adc0d51-2911-4b11-a6e1-69d33cee0c01]
+2015-06-13 13:10:46.368 [btpool0-1] DEBUG org.apache.shiro.mgt.DefaultSecurityManager -
+				Resolved SubjectContext context session is invalid.  Ignoring and creating an anonymous (session-less) Subject instance.
+org.apache.shiro.session.UnknownSessionException: There is no session with id [1adc0d51-2911-4b11-a6e1-69d33cee0c01]
+	at org.apache.shiro.session.mgt.eis.AbstractSessionDAO.readSession(AbstractSessionDAO.java:170) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.eis.CachingSessionDAO.readSession(CachingSessionDAO.java:261) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.DefaultSessionManager.retrieveSessionFromDataSource(DefaultSessionManager.java:236) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.DefaultSessionManager.retrieveSession(DefaultSessionManager.java:222) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractValidatingSessionManager.doGetSession(AbstractValidatingSessionManager.java:118) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractNativeSessionManager.lookupSession(AbstractNativeSessionManager.java:108) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractNativeSessionManager.getSession(AbstractNativeSessionManager.java:100) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.SessionsSecurityManager.getSession(SessionsSecurityManager.java:125) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolveContextSession(DefaultSecurityManager.java:456) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolveSession(DefaultSecurityManager.java:442) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.createSubject(DefaultSecurityManager.java:338) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.subject.Subject$Builder.buildSubject(Subject.java:846) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.subject.WebSubject$Builder.buildWebSubject(WebSubject.java:148) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.createSubject(AbstractShiroFilter.java:292) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:359) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.2.3.jar:1.2.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:343) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:260) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084) [jetty-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:726) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:405) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.Server.handle(Server.java:324) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:828) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:514) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:450) [jetty-util-6.1.8.jar:6.1.8]
+2015-06-13 13:11:09.723 [btpool0-1] DEBUG org.apache.shiro.session.mgt.DefaultSessionManager -
+				Creating new EIS record for new session instance [org.lemonPig.os.assist.shiro.session.OnlineSession,id=null]
+2015-06-13 13:11:09.727 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Added HttpServletResponse Cookie [sid=e0692b51-966b-483b-acac-64545adb0231; Path=/OS; Max-Age=180000; Expires=Mon, 15-Jun-2015 07:11:09 GMT; HttpOnly]
+2015-06-13 13:11:09.777 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [e0692b51-966b-483b-acac-64545adb0231]
+2015-06-13 13:11:10.063 [btpool0-2] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [e0692b51-966b-483b-acac-64545adb0231]
+2015-06-13 13:11:20.988 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [e0692b51-966b-483b-acac-64545adb0231]
+2015-06-13 13:21:39.226 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-13 13:21:39.233 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-13 13:21:39.234 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-13 13:21:39.234 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-13 13:21:39.234 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-13 13:21:39.235 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-13 13:21:39.235 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-13 13:21:39.235 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-13 13:21:39.235 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-13 13:21:39.235 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-13 13:21:39.235 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-13 13:21:39.235 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-13 13:21:39.235 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-13 13:21:39.235 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-13 13:21:39.235 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-13 13:21:39.236 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-13 13:21:39.236 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-13 13:21:39.236 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-13 13:21:39.236 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-13 13:21:39.236 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-13 13:21:39.236 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-13 13:21:39.236 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-13 13:21:39.237 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-13 13:21:39.237 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-13 13:21:39.237 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-13 13:21:39.237 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-13 13:21:39.237 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-13 13:21:39.237 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-13 13:21:39.237 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-13 13:21:39.237 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-13 13:21:39.579 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-13 13:21:39.579 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-13 13:21:51.660 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [e0692b51-966b-483b-acac-64545adb0231]
+2015-06-13 13:21:51.665 [btpool0-1] DEBUG org.apache.shiro.mgt.DefaultSecurityManager -
+				Resolved SubjectContext context session is invalid.  Ignoring and creating an anonymous (session-less) Subject instance.
+org.apache.shiro.session.UnknownSessionException: There is no session with id [e0692b51-966b-483b-acac-64545adb0231]
+	at org.apache.shiro.session.mgt.eis.AbstractSessionDAO.readSession(AbstractSessionDAO.java:170) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.eis.CachingSessionDAO.readSession(CachingSessionDAO.java:261) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.DefaultSessionManager.retrieveSessionFromDataSource(DefaultSessionManager.java:236) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.DefaultSessionManager.retrieveSession(DefaultSessionManager.java:222) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractValidatingSessionManager.doGetSession(AbstractValidatingSessionManager.java:118) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractNativeSessionManager.lookupSession(AbstractNativeSessionManager.java:108) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractNativeSessionManager.getSession(AbstractNativeSessionManager.java:100) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.SessionsSecurityManager.getSession(SessionsSecurityManager.java:125) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolveContextSession(DefaultSecurityManager.java:456) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolveSession(DefaultSecurityManager.java:442) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.createSubject(DefaultSecurityManager.java:338) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.subject.Subject$Builder.buildSubject(Subject.java:846) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.subject.WebSubject$Builder.buildWebSubject(WebSubject.java:148) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.createSubject(AbstractShiroFilter.java:292) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:359) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.2.3.jar:1.2.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:343) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:260) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084) [jetty-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:726) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:405) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.Server.handle(Server.java:324) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:828) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:514) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:450) [jetty-util-6.1.8.jar:6.1.8]
+2015-06-13 13:23:33.912 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-06-13 13:23:33.919 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-06-13 13:23:33.919 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-06-13 13:23:33.920 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-06-13 13:23:33.920 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-06-13 13:23:33.920 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-06-13 13:23:33.920 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-06-13 13:23:33.920 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-06-13 13:23:33.920 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-06-13 13:23:33.921 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-06-13 13:23:33.921 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-06-13 13:23:33.921 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-06-13 13:23:33.921 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-06-13 13:23:33.921 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-06-13 13:23:33.921 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-06-13 13:23:33.921 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-06-13 13:23:33.921 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-06-13 13:23:33.921 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-06-13 13:23:33.921 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-06-13 13:23:33.922 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-06-13 13:23:33.922 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-06-13 13:23:33.922 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-06-13 13:23:33.922 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-06-13 13:23:33.922 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login] from String definition [jcapv,authc]
+2015-06-13 13:23:33.922 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [jcapv] with config [null]
+2015-06-13 13:23:33.922 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login] to filter [authc] with config [null]
+2015-06-13 13:23:33.922 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-06-13 13:23:33.922 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-06-13 13:23:33.922 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-06-13 13:23:33.923 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-06-13 13:23:34.262 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-06-13 13:23:34.262 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-06-13 13:23:40.840 [btpool0-1] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Found 'sid' cookie value [e0692b51-966b-483b-acac-64545adb0231]
+2015-06-13 13:23:40.845 [btpool0-1] DEBUG org.apache.shiro.mgt.DefaultSecurityManager -
+				Resolved SubjectContext context session is invalid.  Ignoring and creating an anonymous (session-less) Subject instance.
+org.apache.shiro.session.UnknownSessionException: There is no session with id [e0692b51-966b-483b-acac-64545adb0231]
+	at org.apache.shiro.session.mgt.eis.AbstractSessionDAO.readSession(AbstractSessionDAO.java:170) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.eis.CachingSessionDAO.readSession(CachingSessionDAO.java:261) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.DefaultSessionManager.retrieveSessionFromDataSource(DefaultSessionManager.java:236) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.DefaultSessionManager.retrieveSession(DefaultSessionManager.java:222) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractValidatingSessionManager.doGetSession(AbstractValidatingSessionManager.java:118) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractNativeSessionManager.lookupSession(AbstractNativeSessionManager.java:108) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.session.mgt.AbstractNativeSessionManager.getSession(AbstractNativeSessionManager.java:100) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.SessionsSecurityManager.getSession(SessionsSecurityManager.java:125) ~[shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolveContextSession(DefaultSecurityManager.java:456) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.resolveSession(DefaultSecurityManager.java:442) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.mgt.DefaultSecurityManager.createSubject(DefaultSecurityManager.java:338) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.subject.Subject$Builder.buildSubject(Subject.java:846) [shiro-core-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.subject.WebSubject$Builder.buildWebSubject(WebSubject.java:148) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.createSubject(AbstractShiroFilter.java:292) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:359) [shiro-web-1.2.3.jar:1.2.3]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.2.3.jar:1.2.3]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:343) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:260) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084) [jetty-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-3.2.8.RELEASE.jar:3.2.8.RELEASE]
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1084) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:360) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:181) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:726) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:405) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:206) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.HandlerCollection.handle(HandlerCollection.java:114) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.Server.handle(Server.java:324) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:505) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:828) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:514) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:211) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:380) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:395) [jetty-6.1.8.jar:6.1.8]
+	at org.mortbay.thread.BoundedThreadPool$PoolThread.run(BoundedThreadPool.java:450) [jetty-util-6.1.8.jar:6.1.8]
