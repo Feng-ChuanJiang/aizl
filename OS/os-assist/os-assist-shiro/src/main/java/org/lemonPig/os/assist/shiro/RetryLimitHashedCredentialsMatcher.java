@@ -31,7 +31,6 @@ public class RetryLimitHashedCredentialsMatcher extends SimpleCredentialsMatcher
 		}
 		//token密码hash后匹配储存密码
 		boolean matches =saltHashHelper.hashMache(token, info);
-
 		if (matches) {
 			// clear retry count
 			passwordRetryCache.remove(username);

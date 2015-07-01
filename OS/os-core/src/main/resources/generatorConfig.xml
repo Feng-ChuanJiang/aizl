@@ -39,51 +39,54 @@
 		</javaClientGenerator>
 
 
-		<table tableName="user" domainObjectName="UserPOJO" alias="user"
+		<table tableName="USER" domainObjectName="UserPOJO"
 			enableCountByExample="true" enableDeleteByExample="true"
 			enableSelectByExample="true" enableUpdateByExample="true">
-			<property name="useActualColumnNames" value="true" />
+			<property name="useActualColumnNames" value="false" />
+
 			<generatedKey column="ID" sqlStatement="MySql" identity="true" />
 		</table>
-		<table tableName="resource" domainObjectName="ResourcePOJO" alias="resource"
+		<table tableName="PERMISSION" domainObjectName="PermissionPOJO"
 			enableCountByExample="true" enableDeleteByExample="true"
 			enableSelectByExample="true" enableUpdateByExample="true">
-			<property name="useActualColumnNames" value="true" />
+			<property name="useActualColumnNames" value="false" />
 			<generatedKey column="ID" sqlStatement="MySql" identity="true" />
 		</table>
-		<table tableName="user_metadata" domainObjectName="UserMetadataPOJO"
-			alias="userMetadata" enableCountByExample="true"
-			enableDeleteByExample="true" enableSelectByExample="true"
-			enableUpdateByExample="true">
-			<property name="useActualColumnNames" value="true" />
+		<table tableName="USER_METADATA" domainObjectName="UserMetadataPOJO"
+			enableCountByExample="true" enableDeleteByExample="true"
+			enableSelectByExample="true" enableUpdateByExample="true">
+			<property name="useActualColumnNames" value="false" />
 			<generatedKey column="ID" sqlStatement="MySql" identity="true" />
 		</table>
-		<table tableName="role" domainObjectName="RolePOJO"
-			alias="role" enableCountByExample="true"
-			enableDeleteByExample="true" enableSelectByExample="true"
-			enableUpdateByExample="true">
-			<property name="useActualColumnNames" value="true" />
+		<table tableName="ROLE" domainObjectName="RolePOJO"
+			enableCountByExample="true" enableDeleteByExample="true"
+			enableSelectByExample="true" enableUpdateByExample="true">
+			<property name="useActualColumnNames" value="false" />
 			<generatedKey column="ID" sqlStatement="MySql" identity="true" />
 		</table>
-		<table tableName="role_resource" domainObjectName="RoleResourcePOJO"
-			alias="roleResource" enableCountByExample="true"
-			enableDeleteByExample="true" enableSelectByExample="false"
-			enableUpdateByExample="true">
-			<property name="useActualColumnNames" value="true" />
+		<table tableName="ROLE_PERMISSION" domainObjectName="RolePermissionPOJO"
+			enableCountByExample="true" enableDeleteByExample="true"
+			enableSelectByExample="false" enableUpdateByExample="true">
+			<property name="useActualColumnNames" value="false" />
 			<generatedKey column="ID" sqlStatement="MySql" identity="true" />
 		</table>
-		<table tableName="user_role" domainObjectName="UserRolePOJO"
-			alias="userRole" enableCountByExample="true"
-			enableDeleteByExample="true" enableSelectByExample="true"
-			enableUpdateByExample="true">
-			<property name="useActualColumnNames" value="true" />
+		<table tableName="USER_ROLE" domainObjectName="UserRolePOJO"
+			enableCountByExample="true" enableDeleteByExample="true"
+			enableSelectByExample="true" enableUpdateByExample="true">
+			<property name="useActualColumnNames" value="false" />
 			<generatedKey column="ID" sqlStatement="MySql" identity="true" />
 		</table>
-		<table tableName="user_resource" domainObjectName="UserResourcePOJO"
-			alias="userResource" enableCountByExample="true"
-			enableDeleteByExample="true" enableSelectByExample="true"
-			enableUpdateByExample="true">
-			<property name="useActualColumnNames" value="true" />
+		<table tableName="USER_PERMISSION" domainObjectName="UserPermissionPOJO"
+			enableCountByExample="true" enableDeleteByExample="true"
+			enableSelectByExample="true" enableUpdateByExample="true">
+			<property name="useActualColumnNames" value="false" />
+			<generatedKey column="ID" sqlStatement="MySql" identity="true" />
+		</table>
+		<table tableName="RESOURCE" domainObjectName="ResourcePOJO"
+			enableCountByExample="true" enableDeleteByExample="true"
+			enableSelectByExample="true" enableUpdateByExample="true">
+			<!-- useActualColumnNames 自动转驼峰命名 -->
+			<property name="useActualColumnNames" value="false" />
 			<generatedKey column="ID" sqlStatement="MySql" identity="true" />
 		</table>
 	</context>

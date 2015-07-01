@@ -3,7 +3,9 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-<%String path=request.getContextPath(); %>
+<%
+	String path = request.getContextPath();
+%>
 <meta charset="utf-8">
 <!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
 <title>智能运维</title>
@@ -19,33 +21,8 @@
 <meta name="viewport"
 	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<!-- Basic Styles -->
-<link rel="stylesheet" type="text/css" media="screen"
-	href="<%=path%>/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" media="screen"
-	href="<%=path%>/css/font-awesome.min.css">
-
-<!-- SmartAdmin Styles : Please note (smartadmin-production.css) was created using LESS variables -->
-<link rel="stylesheet" type="text/css" media="screen"
-	href="<%=path%>/css/smartadmin-production.css">
-<link rel="stylesheet" type="text/css" media="screen"
-	href="<%=path%>/css/smartadmin-skins.css">
-
-<!-- SmartAdmin RTL Support is under construction
-			<link rel="stylesheet" type="text/css" media="screen" href="css/smartadmin-rtl.css"> -->
-
-<!-- Demo purpose only: goes with demo.js, you can delete this css when designing your own WebApp -->
-<link rel="stylesheet" type="text/css" media="screen"
-	href="<%=path%>/css/demo.css">
-
-<!-- FAVICONS -->
-<link rel="shortcut icon" href="<%=path%>/img/favicon/favicon.ico"
-	type="image/x-icon">
-<link rel="icon" href="<%=path%>/img/favicon/favicon.ico" type="image/x-icon">
-
-<!-- GOOGLE FONT -->
-<link rel="stylesheet" href="<%=path%>/css/googlefonts.css">
-
+<script data-contextpath="<%=path%>" src="<%=path%>/js/os/os.js"></script>
+<script src="<%=path%>/js/os/permission/login.js"></script>
 </head>
 <body id="login" class="animated fadeInDown">
 	<!-- possible classes: minified, no-right-panel, fixed-ribbon, fixed-header, fixed-width-->
@@ -53,15 +30,16 @@
 		<!--<span id="logo"></span>-->
 
 		<div id="logo-group">
-			<span id="logo"> <img src="<%=path%>/img/logo.png" alt="SmartAdmin">
+			<span id="logo"> <img src="<%=path%>/img/logo.png"
+				alt="SmartAdmin">
 			</span>
 
 			<!-- END AJAX-DROPDOWN -->
 		</div>
 
 		<span id="login-header-space"> <span class="hidden-mobile">Need
-				an account?</span> <a href="<%=path%>/jsp/permission/user/register.jsp" class="btn btn-danger">Creat
-				account</a>
+				an account?</span> <a href="<%=path%>/jsp/permission/user/register.jsp"
+			class="btn btn-danger">Creat account</a>
 		</span>
 
 	</header>
@@ -110,8 +88,7 @@
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
 					<div class="well no-padding">
-						<form id="login-form"
-							class="smart-form client-form" method="post">
+						<form id="login-form" class="smart-form client-form" method="post">
 							<header> 登 录 </header>
 
 							<fieldset>
@@ -134,15 +111,29 @@
 										<a href="forgotpassword.html">忘记密码?</a>
 									</div>
 								</section>
-
 								<section>
 									<label class="checkbox"> <input type="checkbox"
 										name="remember" checked="checked"> <i></i>记住登录
 									</label>
 								</section>
 							</fieldset>
+							<fieldset>
+								<div class="row">
+									<section class="col col-6">
+										<label class="input"> <input type="text"
+											name="jcaptcha" placeholder="请输入验证码">
+										</label>
+									</section>
+									<section class="col col-6">
+										<label class="input"> <img name="jCaptchaImage"
+											src="<%=path%>/jcaptcha">
+										</label>
+									</section>
+								</div>
+							</fieldset>
 							<footer>
-								<button id="loginBtn" type="submit" class="btn btn-primary">登 录</button>
+								<button id="loginBtn" type="submit" class="btn btn-primary">登
+									录</button>
 							</footer>
 						</form>
 
@@ -168,100 +159,11 @@
 
 	</div>
 
-	<!--================================================== -->
-
-	<!-- PACE LOADER - turn this on if you want ajax loading to show (caution: uses lots of memory on iDevices)-->
-	<script src="<%=path%>/js/plugin/pace/pace.min.js"></script>
-
-	<!-- Link to Google CDN's jQuery + jQueryUI; fall back to local -->
-	<script src="<%=path%>/js/libs/jquery-2.0.2.min.js"></script>
-
-	<script src="<%=path%>/js/libs/jquery-ui-1.10.3.min.js"></script>
-
-	<!-- JS TOUCH : include this plugin for mobile drag / drop touch events 		
-		<script src="<%=path%>/js/plugin/jquery-touch/jquery.ui.touch-punch.min.js"></script> -->
-
-	<!-- BOOTSTRAP JS -->
-	<script src="<%=path%>/js/bootstrap/bootstrap.min.js"></script>
-
-	<!-- CUSTOM NOTIFICATION -->
-	<script src="<%=path%>/js/notification/SmartNotification.min.js"></script>
-
-	<!-- JARVIS WIDGETS -->
-	<script src="<%=path%>/js/smartwidgets/jarvis.widget.min.js"></script>
-
-	<!-- EASY PIE CHARTS -->
-	<script src="<%=path%>/js/plugin/easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
-
-	<!-- SPARKLINES -->
-	<script src="<%=path%>/js/plugin/sparkline/jquery.sparkline.min.js"></script>
-
-	<!-- JQUERY VALIDATE -->
-	<script src="<%=path%>/js/plugin/jquery-validate/jquery.validate.min.js"></script>
-
-	<!-- JQUERY MASKED INPUT -->
-	<script src="<%=path%>/js/plugin/masked-input/jquery.maskedinput.min.js"></script>
-
-	<!-- JQUERY SELECT2 INPUT -->
-	<script src="<%=path%>/js/plugin/select2/select2.min.js"></script>
-
-	<!-- JQUERY UI + Bootstrap Slider -->
-	<script src<%=path%>/js/s/plugin/bootstrap-slider/bootstrap-slider.min.js"></script>
-
-	<!-- browser msie issue fix -->
-	<script src="<%=path%>/js/plugin/msie-fix/jquery.mb.browser.min.js"></script>
-
-	<!-- FastClick: For mobile devices -->
-	<script src="<%=path%>/js/plugin/fastclick/fastclick.js"></script>
 	<!-- 全局工具包 -->
-	<script data-contextpath="<%=path%>" src="<%=path%>/js/os/os.js"></script>
-	
-	<script src="<%=path%>/js/os/permission/login.js"></script>
-	<!--[if IE 7]>
-			
-			<h1>Your browser is out of date, please update your browser by going to www.microsoft.com/download</h1>
-			
-		<![endif]-->
 
-	<!-- MAIN APP JS FILE -->
-	<script src="<%=path%>/js/app.js"></script>
 
 	<script type="text/javascript">
 		runAllForms();
-
-		$(function() {
-			// Validation
-			$("#login-form").validate({
-				// Rules for form validation
-				rules : {
-					email : {
-						required : true,
-						email : true
-					},
-					password : {
-						required : true,
-						minlength : 3,
-						maxlength : 20
-					}
-				},
-
-				// Messages for form validation
-				messages : {
-					email : {
-						required : 'Please enter your email address',
-						email : 'Please enter a VALID email address'
-					},
-					password : {
-						required : 'Please enter your password'
-					}
-				},
-
-				// Do not change code below
-				errorPlacement : function(error, element) {
-					error.insertAfter(element.parent());
-				}
-			});
-		});
 	</script>
 
 </body>

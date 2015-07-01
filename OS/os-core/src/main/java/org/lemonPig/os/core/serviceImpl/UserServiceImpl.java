@@ -17,7 +17,7 @@ public class UserServiceImpl implements IUserService{
 	public User findUserByUserName(String username) {
 		User user=new User();
 		UserPOJOExample userPOJOExample=new UserPOJOExample();
-		userPOJOExample.createCriteria().andUserNameEqualTo(username);
+		userPOJOExample.createCriteria().andUsernameEqualTo(username);
 		UserPOJO userPOJO=iUserDao.selectOneByExample(userPOJOExample);
 		BeanUtils.copyProperties(userPOJO, user);
 		return user;

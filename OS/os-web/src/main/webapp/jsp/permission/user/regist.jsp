@@ -3,6 +3,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
+		<%
+			String path = request.getContextPath();
+		%>
 		<meta charset="utf-8">
 		<!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
 
@@ -19,12 +22,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<!-- Basic Styles -->
-		<link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">	
-		<link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" media="screen" href="<%=path%>/css/bootstrap.min.css">	
+		<link rel="stylesheet" type="text/css" media="screen" href="<%=path%>/css/font-awesome.min.css">
 
 		<!-- SmartAdmin Styles : Please note (smartadmin-production.css) was created using LESS variables -->
-		<link rel="stylesheet" type="text/css" media="screen" href="css/smartadmin-production.css">
-		<link rel="stylesheet" type="text/css" media="screen" href="css/smartadmin-skins.css">	
+		<link rel="stylesheet" type="text/css" media="screen" href="<%=path%>/css/smartadmin-production.css">
+		<link rel="stylesheet" type="text/css" media="screen" href="<%=path%>/css/smartadmin-skins.css">	
 		
 		<!-- SmartAdmin RTL Support is under construction
 			<link rel="stylesheet" type="text/css" media="screen" href="css/smartadmin-rtl.css"> -->
@@ -34,11 +37,11 @@
 		<link rel="stylesheet" type="text/css" media="screen" href="css/your_style.css"> -->
 		
 		<!-- Demo purpose only: goes with demo.js, you can delete this css when designing your own WebApp -->
-		<link rel="stylesheet" type="text/css" media="screen" href="css/demo.css">
+		<link rel="stylesheet" type="text/css" media="screen" href="<%=path%>/css/demo.css">
 
 		<!-- FAVICONS -->
-		<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-		<link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="<%=path%>/img/favicon/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="<%=path%>/img/favicon/favicon.ico" type="image/x-icon">
 
 		<!-- GOOGLE FONT -->
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,300,400,700">
@@ -50,7 +53,7 @@
 			<!--<span id="logo"></span>-->
 
 			<div id="logo-group">
-				<span id="logo"> <img src="img/logo.png" alt="SmartAdmin"> </span>
+				<span id="logo"> <img src="<%=path%>/img/logo.png" alt="SmartAdmin"> </span>
 
 				<!-- END AJAX-DROPDOWN -->
 			</div>

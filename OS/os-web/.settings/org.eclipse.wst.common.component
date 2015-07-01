@@ -16,10 +16,13 @@
         <dependent-module archiveName="os-assist-shiro-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/os-assist-shiro/os-assist-shiro">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="os-assist-logback-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/os-assist-logback/os-assist-logback">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <dependent-module archiveName="os-assist-spring-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/os-assist-spring/os-assist-spring">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <property name="java-output-path" value="/os-web/target/classes"/>
-        <property name="context-root" value="gisEngine"/>
+        <property name="context-root" value="OS"/>
     </wb-module>
 </project-modules>

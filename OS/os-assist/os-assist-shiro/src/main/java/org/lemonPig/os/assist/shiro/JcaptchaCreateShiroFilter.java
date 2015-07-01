@@ -12,7 +12,9 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.web.servlet.OncePerRequestFilter;
+import org.apache.shiro.web.servlet.ShiroHttpServletRequest;
 import org.apache.shiro.web.util.WebUtils;
 
 public class JcaptchaCreateShiroFilter extends OncePerRequestFilter {
@@ -30,6 +32,9 @@ public class JcaptchaCreateShiroFilter extends OncePerRequestFilter {
 		httpServletResponse.setHeader("Pragma", "no-cache");
 		response.setContentType("image/jpeg");
 		String id = httpServletRequest.getRequestedSessionId();
+//		String id=String.valueOf(SecurityUtils.getSubject().getSession().getId());
+		SecurityUtils.getSubject().getSession().setAttribute("xxx", 123);
+		System.out.println(httpServletRequest.getSession().getId());
 		BufferedImage bi = JCaptcha.getCapachaImage(id);
 		ServletOutputStream out = response.getOutputStream();
 		ImageIO.write(bi, "jpg", out);

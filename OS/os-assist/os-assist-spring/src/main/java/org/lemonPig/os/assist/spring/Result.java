@@ -1,4 +1,4 @@
-package org.lemonPig.os.web.vo;
+package org.lemonPig.os.assist.spring;
 
 import java.io.IOException;
 
@@ -46,6 +46,7 @@ public class Result {
 		Result result= new Result();
 		result.setSuccess(false);
 		result.setMessages(errors);
+		result.setCode("9999999999");
 		return result;
 	}
 	public static Result buildSuccessResult(Object data,String... msg) {
