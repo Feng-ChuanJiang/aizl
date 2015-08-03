@@ -65,7 +65,7 @@
 </head>
 <body>
 	<decorator:body />
-		<!--================================================== -->
+	<!--================================================== -->
 	<!-- 全局工具包 -->
 	<!-- PACE LOADER - turn this on if you want ajax loading to show (caution: uses lots of memory on iDevices)-->
 	<script src="<%=path%>/js/plugin/pace/pace.min.js"></script>
@@ -96,7 +96,7 @@
 	<script src="<%=path%>/js/plugin/select2/select2.min.js"></script>
 
 	<!-- JQUERY UI + Bootstrap Slider -->
-	<script src<%=path%>/js/s/plugin/bootstrap-slider/bootstrap-slider.min.js"></script>
+	<script src="<%=path%>/js/plugin/bootstrap-slider/bootstrap-slider.min.js"></script>
 
 	<!-- browser msie issue fix -->
 	<script src="<%=path%>/js/plugin/msie-fix/jquery.mb.browser.min.js"></script>
@@ -115,5 +115,17 @@
 
 	<!-- MAIN APP JS FILE -->
 	<script src="<%=path%>/js/app.js"></script>
+
+	<!-- Flot Chart Plugin: Flot Engine, Flot Resizer, Flot Tooltip -->
+	<script src="<%=path%>/js/plugin/flot/jquery.flot.cust.js"></script>
+	<script src="<%=path%>/js/plugin/flot/jquery.flot.resize.js"></script>
+	<script src="<%=path%>/js/plugin/flot/jquery.flot.tooltip.js"></script>
+
+	<!-- Vector Maps Plugin: Vectormap engine, Vectormap language -->
+	<script src="<%=path%>/js/plugin/vectormap/jquery-jvectormap-1.2.2.min.js"></script>
+	<script src="<%=path%>/js/plugin/vectormap/jquery-jvectormap-world-mill-en.js"></script>
+
+	<!-- Full Calendar -->
+	<script src="<%=path%>/js/plugin/fullcalendar/jquery.fullcalendar.min.js"></script>
 </body>
 </html>

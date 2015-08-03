@@ -1,6 +1,7 @@
 package org.lemonPig.os.common;
 
 import java.io.IOException;
+import java.util.List;
 
 import org.codehaus.jackson.map.ObjectMapper;
 
@@ -16,5 +17,4 @@ public class BeanUtils {
 		}
 		return json;
 	}
-	
 }

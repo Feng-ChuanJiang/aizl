@@ -5,19 +5,24 @@ import java.util.concurrent.atomic.AtomicInteger;
 import net.sf.ehcache.Cache;
 import net.sf.ehcache.Element;
 
+import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.authc.ExcessiveAttemptsException;
 import org.apache.shiro.authc.credential.SimpleCredentialsMatcher;
+import org.apache.shiro.subject.Subject;
+import org.lemonPig.os.core.vo.User;
 
 public class RetryLimitHashedCredentialsMatcher extends SimpleCredentialsMatcher {
 	private SaltHashHelper saltHashHelper;
 	private Cache passwordRetryCache;
+	private final String userInSessionKeyName="USER_IN_SESSION";
 	@Override
 	public boolean doCredentialsMatch(AuthenticationToken token,
 			AuthenticationInfo info) {
 		// 按用户名缓存登录失败次数
-		String username = (String) token.getPrincipal();
+		User user = (User) info.getPrincipals().getPrimaryPrincipal();
+		String username=user.getUsername();
 		// retry count + 1
 		Element element = passwordRetryCache.get(username);
 		if (element == null) {
@@ -33,6 +38,8 @@ public class RetryLimitHashedCredentialsMatcher extends SimpleCredentialsMatcher
 		boolean matches =saltHashHelper.hashMache(token, info);
 		if (matches) {
 			// clear retry count
+			Subject subject=SecurityUtils.getSubject();
+			subject.getSession().setAttribute(userInSessionKeyName, user);
 			passwordRetryCache.remove(username);
 		}
 		return matches;

@@ -2,11 +2,11 @@ package org.lemonPig.os.core.serviceImpl;
 
 import java.util.List;
 
-import org.lemonPig.os.core.dto.Resource;
 import org.lemonPig.os.core.idao.IResourceDao;
 import org.lemonPig.os.core.iservice.IResourceService;
 import org.lemonPig.os.core.pojo.ResourcePOJO;
 import org.lemonPig.os.core.pojo.ResourcePOJOExample;
+import org.lemonPig.os.core.vo.Resource;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

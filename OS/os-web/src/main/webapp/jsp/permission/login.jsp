@@ -18,11 +18,13 @@
 		<meta name="HandheldFriendly" content="True">
 		<meta name="MobileOptimized" content="320">-->
 
-<meta name="viewport"
-	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!-- JQUERY VALIDATE -->
+<script src="<%=path%>/js/plugin/jquery-validate/jquery.validate.min.js"></script>
 <script data-contextpath="<%=path%>" src="<%=path%>/js/os/os.js"></script>
 <script src="<%=path%>/js/os/permission/login.js"></script>
+	<!-- MAIN APP JS FILE -->
+<script src="<%=path %>/js/app.js"></script>
 </head>
 <body id="login" class="animated fadeInDown">
 	<!-- possible classes: minified, no-right-panel, fixed-ribbon, fixed-header, fixed-width-->
@@ -158,13 +160,6 @@
 		</div>
 
 	</div>
-
-	<!-- 全局工具包 -->
-
-
-	<script type="text/javascript">
-		runAllForms();
-	</script>
 
 </body>
 </html>

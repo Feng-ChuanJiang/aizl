@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -20,6 +21,7 @@ public class DefaultExceptionHandler {
 	 */
 	@ExceptionHandler({ Exception.class })
 	@ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+	@ResponseBody
 	public ModelAndView processException(Exception e) {
 		logger.error("系统执行异常", e);
 		ModelAndView mv = new ModelAndView();
@@ -29,9 +31,10 @@ public class DefaultExceptionHandler {
 		return mv;
 	}
 
-	@ExceptionHandler({ RuntimeException.class })
+	@ExceptionHandler({ BizException.class })
 	@ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
-	public ModelAndView processRuntimeException(Exception e) {
+	@ResponseBody
+	public ModelAndView processRuntimeException(BizException e) {
 		ModelAndView mv = new ModelAndView();
 		Result result = Result.buildErrorResult(e.getMessage());
 		mv.addObject("error", result);

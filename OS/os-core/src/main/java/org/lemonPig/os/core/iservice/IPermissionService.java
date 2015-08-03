@@ -1,6 +1,6 @@
 package org.lemonPig.os.core.iservice;
 
-import org.lemonPig.os.core.dto.Permission;
+import org.lemonPig.os.core.vo.Permission;
 
 public interface IPermissionService {
 

@@ -5,7 +5,7 @@ import java.util.List;
 import org.lemonPig.os.assist.mybaties.bean.PageList;
 import org.lemonPig.os.assist.mybaties.bean.Paginator;
 
-
+@Deprecated
 public class Page<T> {
 	private List<T> datas;
 	private Paginator paginator;

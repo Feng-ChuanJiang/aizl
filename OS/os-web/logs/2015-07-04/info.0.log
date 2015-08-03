@@ -1,0 +1,168 @@
+2015-07-04 01:27:14.325 [btpool0-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Enabling session validation scheduler...
+2015-07-04 01:27:14.365 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 01:27:14.366 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Using existing EHCache named [shiro-activeSessionCache]
+2015-07-04 01:27:14.369 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 01:28:49.941 [btpool0-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Enabling session validation scheduler...
+2015-07-04 01:28:49.976 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Using existing EHCache named [shiro-activeSessionCache]
+2015-07-04 01:28:49.982 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 01:28:49.986 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 01:38:47.030 [btpool0-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Enabling session validation scheduler...
+2015-07-04 01:38:47.066 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Using existing EHCache named [shiro-activeSessionCache]
+2015-07-04 01:38:47.071 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 01:38:47.075 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 01:54:25.305 [btpool0-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Enabling session validation scheduler...
+2015-07-04 01:54:25.343 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Using existing EHCache named [shiro-activeSessionCache]
+2015-07-04 01:54:25.347 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 01:54:25.352 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 12:23:06.316 [btpool0-3] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Enabling session validation scheduler...
+2015-07-04 12:23:06.357 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 12:23:06.358 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Using existing EHCache named [shiro-activeSessionCache]
+2015-07-04 12:23:06.364 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 12:30:48.614 [btpool0-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Enabling session validation scheduler...
+2015-07-04 12:30:48.650 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Using existing EHCache named [shiro-activeSessionCache]
+2015-07-04 12:30:48.657 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 12:30:48.661 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 12:33:03.839 [btpool0-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Enabling session validation scheduler...
+2015-07-04 12:33:03.872 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Using existing EHCache named [shiro-activeSessionCache]
+2015-07-04 12:33:03.878 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 12:33:03.881 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 12:52:35.124 [btpool0-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Enabling session validation scheduler...
+2015-07-04 12:52:35.159 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Using existing EHCache named [shiro-activeSessionCache]
+2015-07-04 12:52:35.164 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 12:52:35.170 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 12:58:09.680 [btpool0-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Enabling session validation scheduler...
+2015-07-04 12:58:09.718 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Using existing EHCache named [shiro-activeSessionCache]
+2015-07-04 12:58:09.724 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 12:58:09.728 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 13:24:38.427 [btpool0-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Enabling session validation scheduler...
+2015-07-04 13:24:38.463 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Using existing EHCache named [shiro-activeSessionCache]
+2015-07-04 13:24:38.467 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 13:24:38.472 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 14:46:02.359 [btpool0-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Enabling session validation scheduler...
+2015-07-04 14:46:02.393 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Using existing EHCache named [shiro-activeSessionCache]
+2015-07-04 14:46:02.398 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 14:46:02.402 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 14:49:22.550 [btpool0-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Enabling session validation scheduler...
+2015-07-04 14:49:22.585 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Using existing EHCache named [shiro-activeSessionCache]
+2015-07-04 14:49:22.590 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 14:49:22.594 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 14:50:24.494 [btpool0-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Enabling session validation scheduler...
+2015-07-04 14:50:24.528 [btpool0-1] INFO  org.apache.shiro.cache.ehcache.EhCacheManager -
+				Using existing EHCache named [shiro-activeSessionCache]
+2015-07-04 14:50:24.533 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 14:50:24.537 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 15:20:24.495 [DefaultQuartzScheduler_Worker-2] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 15:20:24.496 [DefaultQuartzScheduler_Worker-2] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 15:50:24.495 [DefaultQuartzScheduler_Worker-3] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 15:50:24.495 [DefaultQuartzScheduler_Worker-3] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 16:20:24.495 [DefaultQuartzScheduler_Worker-4] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 16:20:24.495 [DefaultQuartzScheduler_Worker-4] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 16:50:24.495 [DefaultQuartzScheduler_Worker-5] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 16:50:24.495 [DefaultQuartzScheduler_Worker-5] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 17:20:24.495 [DefaultQuartzScheduler_Worker-6] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 17:20:24.495 [DefaultQuartzScheduler_Worker-6] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 17:50:24.495 [DefaultQuartzScheduler_Worker-7] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 17:50:24.495 [DefaultQuartzScheduler_Worker-7] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 18:20:24.495 [DefaultQuartzScheduler_Worker-8] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 18:20:24.495 [DefaultQuartzScheduler_Worker-8] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 18:50:24.496 [DefaultQuartzScheduler_Worker-9] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 18:50:24.496 [DefaultQuartzScheduler_Worker-9] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 19:20:24.495 [DefaultQuartzScheduler_Worker-10] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 19:20:24.495 [DefaultQuartzScheduler_Worker-10] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 19:50:24.514 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 19:50:24.540 [DefaultQuartzScheduler_Worker-1] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 20:20:24.497 [DefaultQuartzScheduler_Worker-2] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 20:20:24.517 [DefaultQuartzScheduler_Worker-2] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 20:50:24.496 [DefaultQuartzScheduler_Worker-3] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 20:50:24.496 [DefaultQuartzScheduler_Worker-3] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 21:20:24.496 [DefaultQuartzScheduler_Worker-4] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 21:20:24.496 [DefaultQuartzScheduler_Worker-4] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 21:50:24.496 [DefaultQuartzScheduler_Worker-5] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 21:50:24.497 [DefaultQuartzScheduler_Worker-5] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 22:20:24.505 [DefaultQuartzScheduler_Worker-6] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 22:20:24.505 [DefaultQuartzScheduler_Worker-6] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.
+2015-07-04 22:50:24.496 [DefaultQuartzScheduler_Worker-7] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Validating all active sessions...
+2015-07-04 22:50:24.497 [DefaultQuartzScheduler_Worker-7] INFO  org.apache.shiro.session.mgt.AbstractValidatingSessionManager -
+				Finished session validation.  No sessions were stopped.

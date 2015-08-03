@@ -5,6 +5,9 @@ $.validator.setDefaults({
 	}
 });
 $(document).ready(function() {
+	//模版自带
+	runAllForms();
+	//以下为开发代码
 	var loginValidator=new OSystem.Permission.LoginValidator();
 	loginValidator.registValidate();
 });
@@ -59,15 +62,17 @@ OSystem.Permission.User = OSystem.Class({
 	// 用户登录
 	login : function() {
 
-		var urlManager = new OSystem.Manager.UrlManager();
+		var pageManager = new OSystem.Manager.PageManager();
 		$.ajax({
 			"type" : "POST",
-			"url" : urlManager.getContextPath() + "/user/login",
+			"url" : pageManager.getContextPath() + "/user/login",
 			"dataType" : "json",
 			"data" : OSystem.Permission.loginForm.serialize(),
 			"success" : function(resp) {
 				// {"code":null,"success":false,"data":null,"messages":["验证码错误"]}
-
+				if(resp.success){
+					pageManager.redirectPage(resp.data.successUrl);
+				}
 			}
 		});
 	}

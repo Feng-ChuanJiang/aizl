@@ -2,7 +2,7 @@ package org.lemonPig.os.core.idao;
 
 import java.util.List;
 
-import org.lemonPig.os.core.support.Page;
+import org.lemonPig.os.assist.mybaties.bean.PageList;
 
 public interface IGeneralDao<T, K, E> {
 	void insert(T t);
@@ -17,7 +17,7 @@ public interface IGeneralDao<T, K, E> {
 
 	List<T> selectByExample(E example);
 
-	Page<T> selectPageByExample(E example, Integer currentPage, Integer pageSize);
+	PageList<T> selectPageByExample(E example, Integer start, Integer length);
 
 	T selectByPrimaryKey(Object pk);
 
@@ -30,4 +30,5 @@ public interface IGeneralDao<T, K, E> {
 	void updateByPrimaryKey(T pojo);
 
 	T selectOneByExample(E example);
+
 }

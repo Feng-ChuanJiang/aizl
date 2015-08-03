@@ -1,5 +1,6 @@
 package org.lemonPig.os.common;
 
+import java.sql.Timestamp;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -35,6 +36,9 @@ public class DateUtils extends Date {
 		return System.currentTimeMillis();
 	}
 	
+	public static Timestamp getCurrentTimestamp() {
+		return new Timestamp(System.currentTimeMillis());
+	}
 	/**
 	 * 获取任意时间后num天的时间
 	 * 

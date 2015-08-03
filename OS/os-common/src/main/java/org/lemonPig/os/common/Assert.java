@@ -136,7 +136,13 @@ public class Assert {
 	 * @param message
 	 */
 	public static void assertLengthEqual(Collection<?> collection,Integer num,String message) {
-		if (collection==null||collection.size()==num) {
+		if (collection==null||collection.size()!=num) {
+			buildException(message);
+		}
+	}
+	
+	public static void assertGt(Integer max,Integer min,String message){
+		if (max==null||min==null||min>max) {
 			buildException(message);
 		}
 	}

@@ -72,12 +72,12 @@ OSystem.Manager.UrlManager=OSystem.Class({
 	}
 });
 OSystem.Manager.PageManager=OSystem.Class(OSystem.Manager.UrlManager,{
-	initialize:function(){
-		contextPath=this.getContextPath();
-	},
 	contextPath:null,
+	initialize:function(){
+		this.contextPath=this.getContextPath();
+	},
 	loadPage:function(uri,target){
-		var url=contextPath+uri;
+		var url=this.contextPath+uri;
 		if(target instanceof Window){
 			target.load(url);
 		}else{
@@ -91,9 +91,59 @@ OSystem.Manager.PageManager=OSystem.Class(OSystem.Manager.UrlManager,{
 				}
 			});
 		}
+	},
+	redirectPage:function(uri){
+		window.location.href=this.contextPath+uri;
+	},
+	openPage:function(uri){
+		window.open(this.contextPath+uri);
+	},
+	showMenus:function() {
+		$.ajax({
+			"url":this.contextPath+"/user/findCategory.json",
+			"type":"get",
+			"dataType":"json",
+			"async":false,
+			"success":function(resp){
+				if(resp.success){
+					var permissions=resp.data.permissions;
+					$.each(permissions,function(i,permission){
+						var target=$("#"+permission.ename);
+						if(target){
+							target.show();
+						}
+					});
+				}
+			}
+		});
+	},
+	showMainContent:function(uri){
+		var mainDiv = $("#main");
+		this.loadPage(uri, mainDiv);
 	}
 });
 OSystem.Manager.JsManager=OSystem.Class({
 	initialize:function(){},
 	loadJs:function(uri){}
 });
+//静态工具类
+OSystem.Util={
+		Event:{
+			//显示、隐藏开关
+			displaySwitch:function(expression){
+				var taget=$(expression);
+				var visible=taget.is(":visible");
+				if(visible){
+					taget.hide();
+				}else{
+					taget.show();
+				}
+			}
+		},
+		Page:{
+			showMainContent:function(uri){
+				var pageManager=new OSystem.Manager.PageManager();
+				pageManager.showMainContent(uri);
+			}
+		}
+	};

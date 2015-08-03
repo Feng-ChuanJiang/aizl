@@ -6,7 +6,7 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 
 import org.apache.shiro.web.util.WebUtils;
-import org.lemonPig.os.core.dto.User;
+import org.lemonPig.os.core.vo.User;
 
 
 public class OsContext {

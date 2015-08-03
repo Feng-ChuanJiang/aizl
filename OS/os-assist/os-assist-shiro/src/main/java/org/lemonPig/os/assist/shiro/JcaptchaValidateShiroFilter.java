@@ -38,7 +38,6 @@ public class JcaptchaValidateShiroFilter extends AccessControlFilter{
         if (jcaptchaEbabled == false || !"post".equalsIgnoreCase(httpServletRequest.getMethod())) {  
             return true;
         }
-        System.out.println(httpServletRequest.getSession().getAttribute("xxx"));
         boolean isRight= JCaptcha.validateResponse(httpServletRequest, httpServletRequest.getParameter(jcaptchaParam));  
         return isRight;
     }

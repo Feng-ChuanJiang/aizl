@@ -11,7 +11,6 @@ import org.lemonPig.os.assist.mybaties.bean.PageList;
 import org.lemonPig.os.common.Assert;
 import org.lemonPig.os.common.ReflectUtils;
 import org.lemonPig.os.core.idao.IGeneralDao;
-import org.lemonPig.os.core.support.Page;
 import org.mybatis.spring.support.SqlSessionDaoSupport;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -99,13 +98,12 @@ public abstract class GeneralDao<T, K, E> extends SqlSessionDaoSupport implement
 		return list.get(0);
 	}
 	@Override
-	public Page<T> selectPageByExample(E example,Integer currentPage,Integer pageSize) {
-		RowBounds rowBounds=new RowBounds((currentPage-1)*pageSize, pageSize);
-		List<T> list= getSqlSession().selectList("selectByExample", example, rowBounds);
+	public PageList<T> selectPageByExample(E example,Integer start,Integer length) {
+		RowBounds rowBounds=new RowBounds(start, length);
+		List<T> list= getSqlSession().selectList(mapperClass.getName()+".selectByExample", example, rowBounds);
 		PageList<T> pageList=(PageList<T>) list;
-		return new Page<T>(pageList);
+		return pageList;
 	}
-	
 	
 	@SuppressWarnings("unchecked")
 	@Override
@@ -115,6 +113,8 @@ public abstract class GeneralDao<T, K, E> extends SqlSessionDaoSupport implement
 		T t = (T) ReflectUtils.invokeMethod(selectMethod, mapper, pk);
 		return t;
 	}
+	
+	
 	/**
 	 * 按条件更新，更新字段根据pojo属性是否非空选择性添加
 	 * 

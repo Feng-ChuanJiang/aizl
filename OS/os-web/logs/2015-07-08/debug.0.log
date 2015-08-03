@@ -1,0 +1,466 @@
+2015-07-08 18:01:27.683 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-07-08 18:01:27.690 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-07-08 18:01:27.690 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-07-08 18:01:27.691 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-07-08 18:01:27.691 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-07-08 18:01:27.691 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-07-08 18:01:27.691 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-07-08 18:01:27.691 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/regist.jsp] from String definition [anon]
+2015-07-08 18:01:27.691 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/regist.jsp] to filter [anon] with config [null]
+2015-07-08 18:01:27.691 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-07-08 18:01:27.691 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-07-08 18:01:27.691 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-07-08 18:01:27.691 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-07-08 18:01:27.691 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-07-08 18:01:27.691 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-07-08 18:01:27.692 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-07-08 18:01:27.692 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-07-08 18:01:27.692 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-07-08 18:01:27.692 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-07-08 18:01:27.692 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-07-08 18:01:27.692 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-07-08 18:01:27.692 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-07-08 18:01:27.692 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-07-08 18:01:27.692 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-07-08 18:01:27.692 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-07-08 18:01:27.692 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login*] from String definition [jcapv,authc]
+2015-07-08 18:01:27.692 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login*] to filter [jcapv] with config [null]
+2015-07-08 18:01:27.692 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login*] to filter [authc] with config [null]
+2015-07-08 18:01:27.692 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-07-08 18:01:27.692 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-07-08 18:01:27.692 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/regist*] from String definition [anon]
+2015-07-08 18:01:27.693 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/regist*] to filter [anon] with config [null]
+2015-07-08 18:01:27.693 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/test*] from String definition [anon]
+2015-07-08 18:01:27.693 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/test*] to filter [anon] with config [null]
+2015-07-08 18:01:27.693 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-07-08 18:01:27.693 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-07-08 18:01:28.080 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-07-08 18:01:28.080 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-07-08 18:01:28.397 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-07-08 18:01:28.403 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@66574026]
+2015-07-08 18:01:28.437 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [1432026030(com.mysql.jdbc.JDBC4Connection@48418849)] will be managed by Spring
+2015-07-08 18:01:28.438 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				ooo Using Connection [1432026030(com.mysql.jdbc.JDBC4Connection@48418849)]
+2015-07-08 18:01:28.440 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				==>  Preparing: delete from RESOURCE 
+2015-07-08 18:01:28.481 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				==> Parameters: 
+2015-07-08 18:01:28.483 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				<==    Updates: 5
+2015-07-08 18:01:28.484 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@66574026]
+2015-07-08 18:01:28.486 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@66574026]
+2015-07-08 18:01:28.487 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@66574026]
+2015-07-08 18:01:28.530 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-07-08 18:01:28.530 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47382a41]
+2015-07-08 18:01:28.532 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [1963694612(com.mysql.jdbc.JDBC4Connection@48418849)] will be managed by Spring
+2015-07-08 18:01:28.533 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				ooo Using Connection [1963694612(com.mysql.jdbc.JDBC4Connection@48418849)]
+2015-07-08 18:01:28.533 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==>  Preparing: insert into RESOURCE (ID, SECURITY_LEVEL, REQUEST_MAPPING_INFO, HANDLERMETHOD) values (?, ?, ?, ?) 
+2015-07-08 18:01:28.534 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==> Parameters: null, null, {"patternsCondition":{"patterns":["/user/forward/{toGO}"]},"methodsCondition":{"methods":[]},"paramsCondition":{"expressions":[]},"headersCondition":{"expressions":[]},"consumesCondition":{"expressions":[],"empty":true,"consumableMediaTypes":[]},"producesCondition":{"expressions":[],"empty":true,"producibleMediaTypes":[]},"customCondition":null}(String), java.lang.String org.lemonPig.os.web.controller.UserController.forward(java.lang.String)(String)
+2015-07-08 18:01:28.535 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				<==    Updates: 1
+2015-07-08 18:01:28.535 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47382a41]
+2015-07-08 18:01:28.536 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47382a41]
+2015-07-08 18:01:28.537 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47382a41]
+2015-07-08 18:01:28.545 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-07-08 18:01:28.545 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d8967b8]
+2015-07-08 18:01:28.546 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [1362730329(com.mysql.jdbc.JDBC4Connection@48418849)] will be managed by Spring
+2015-07-08 18:01:28.546 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				ooo Using Connection [1362730329(com.mysql.jdbc.JDBC4Connection@48418849)]
+2015-07-08 18:01:28.546 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==>  Preparing: insert into RESOURCE (ID, SECURITY_LEVEL, REQUEST_MAPPING_INFO, HANDLERMETHOD) values (?, ?, ?, ?) 
+2015-07-08 18:01:28.547 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==> Parameters: null, null, {"patternsCondition":{"patterns":["/user/regist"]},"methodsCondition":{"methods":[]},"paramsCondition":{"expressions":[]},"headersCondition":{"expressions":[]},"consumesCondition":{"expressions":[],"empty":true,"consumableMediaTypes":[]},"producesCondition":{"expressions":[],"empty":true,"producibleMediaTypes":[]},"customCondition":null}(String), org.lemonPig.os.assist.spring.Result org.lemonPig.os.web.controller.UserController.regist(org.lemonPig.os.core.vo.User,org.springframework.validation.BindingResult)(String)
+2015-07-08 18:01:28.548 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				<==    Updates: 1
+2015-07-08 18:01:28.549 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d8967b8]
+2015-07-08 18:01:28.551 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d8967b8]
+2015-07-08 18:01:28.551 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d8967b8]
+2015-07-08 18:01:28.561 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-07-08 18:01:28.561 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d6ea9d0]
+2015-07-08 18:01:28.561 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [1287216282(com.mysql.jdbc.JDBC4Connection@48418849)] will be managed by Spring
+2015-07-08 18:01:28.561 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				ooo Using Connection [1287216282(com.mysql.jdbc.JDBC4Connection@48418849)]
+2015-07-08 18:01:28.561 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==>  Preparing: insert into RESOURCE (ID, SECURITY_LEVEL, REQUEST_MAPPING_INFO, HANDLERMETHOD) values (?, ?, ?, ?) 
+2015-07-08 18:01:28.562 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==> Parameters: null, null, {"patternsCondition":{"patterns":["/user/findCategory"]},"methodsCondition":{"methods":[]},"paramsCondition":{"expressions":[]},"headersCondition":{"expressions":[]},"consumesCondition":{"expressions":[],"empty":true,"consumableMediaTypes":[]},"producesCondition":{"expressions":[],"empty":true,"producibleMediaTypes":[]},"customCondition":null}(String), org.lemonPig.os.assist.spring.Result org.lemonPig.os.web.controller.UserController.findCategory()(String)
+2015-07-08 18:01:28.563 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				<==    Updates: 1
+2015-07-08 18:01:28.563 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d6ea9d0]
+2015-07-08 18:01:28.565 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d6ea9d0]
+2015-07-08 18:01:28.565 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1d6ea9d0]
+2015-07-08 18:01:28.574 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-07-08 18:01:28.575 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c619323]
+2015-07-08 18:01:28.575 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [1578378341(com.mysql.jdbc.JDBC4Connection@48418849)] will be managed by Spring
+2015-07-08 18:01:28.575 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				ooo Using Connection [1578378341(com.mysql.jdbc.JDBC4Connection@48418849)]
+2015-07-08 18:01:28.575 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==>  Preparing: insert into RESOURCE (ID, SECURITY_LEVEL, REQUEST_MAPPING_INFO, HANDLERMETHOD) values (?, ?, ?, ?) 
+2015-07-08 18:01:28.576 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==> Parameters: null, null, {"patternsCondition":{"patterns":["/user/queryPageList"]},"methodsCondition":{"methods":[]},"paramsCondition":{"expressions":[]},"headersCondition":{"expressions":[]},"consumesCondition":{"expressions":[],"empty":true,"consumableMediaTypes":[]},"producesCondition":{"expressions":[],"empty":true,"producibleMediaTypes":[]},"customCondition":null}(String), org.lemonPig.os.assist.spring.Result org.lemonPig.os.web.controller.UserController.queryPageList(java.lang.String,[Lorg.lemonPig.os.web.vo.DataTables$KeyValuePair;)(String)
+2015-07-08 18:01:28.576 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				<==    Updates: 1
+2015-07-08 18:01:28.576 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c619323]
+2015-07-08 18:01:28.578 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c619323]
+2015-07-08 18:01:28.578 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c619323]
+2015-07-08 18:01:28.586 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-07-08 18:01:28.587 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3843cd2f]
+2015-07-08 18:01:28.587 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [196826845(com.mysql.jdbc.JDBC4Connection@48418849)] will be managed by Spring
+2015-07-08 18:01:28.587 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				ooo Using Connection [196826845(com.mysql.jdbc.JDBC4Connection@48418849)]
+2015-07-08 18:01:28.587 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==>  Preparing: insert into RESOURCE (ID, SECURITY_LEVEL, REQUEST_MAPPING_INFO, HANDLERMETHOD) values (?, ?, ?, ?) 
+2015-07-08 18:01:28.588 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==> Parameters: null, null, {"patternsCondition":{"patterns":["/user/{login:login;?.*}"]},"methodsCondition":{"methods":[]},"paramsCondition":{"expressions":[]},"headersCondition":{"expressions":[]},"consumesCondition":{"expressions":[],"empty":true,"consumableMediaTypes":[]},"producesCondition":{"expressions":[],"empty":true,"producibleMediaTypes":[]},"customCondition":null}(String), org.lemonPig.os.assist.spring.Result org.lemonPig.os.web.controller.UserController.login(javax.servlet.http.HttpServletRequest)(String)
+2015-07-08 18:01:28.588 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				<==    Updates: 1
+2015-07-08 18:01:28.588 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3843cd2f]
+2015-07-08 18:01:28.590 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3843cd2f]
+2015-07-08 18:01:28.590 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3843cd2f]
+2015-07-08 18:01:55.873 [btpool0-2] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-07-08 18:01:55.874 [btpool0-2] DEBUG org.mybatis.spring.SqlSessionUtils -
+				SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@565b3520] was not registered for synchronization because synchronization is not active
+2015-07-08 18:01:55.877 [btpool0-2] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [1706028618(com.mysql.jdbc.JDBC4Connection@48418849)] will not be managed by Spring
+2015-07-08 18:01:55.877 [btpool0-2] DEBUG org.lemonPig.os.core.mapper.ShiroUserMapper.selectLoginUserByUsername -
+				ooo Using Connection [1706028618(com.mysql.jdbc.JDBC4Connection@48418849)]
+2015-07-08 18:01:55.877 [btpool0-2] DEBUG org.lemonPig.os.core.mapper.ShiroUserMapper.selectLoginUserByUsername -
+				==>  Preparing: SELECT ur.*, up.ID AS USER_PERMISSION_ID, up.ENAME AS USER_PERMISSION_ENAME, up.CNAME AS USER_PERMISSION_CNAME, up.GRANTABLE AS USER_PERMISSION_GRANTABLE, rp.ID AS ROLE_PERMISSION_ID, rp.ENAME AS ROLE_PERMISSION_ENAME, rp.CNAME AS ROLE_PERMISSION_CNAME, rp.GRANTABLE AS ROLE_PERMISSION_GRANTABLE FROM ( SELECT u.ID AS USER_ID, u.USERNAME AS USER_USERNAME, u.`PASSWORD` AS USER_PASSWORD, u.SALT AS USER_SALT, u.`STATUS` AS USER_STATUS, u.TEL AS USER_TEL, r.ID AS ROLE_ID, r.ENAME AS ROLE_ENAME, r.CNAME AS ROLE_CNAME, r.GRANTABLE AS ROLE_GRANTABLE FROM USER_ROLE ur RIGHT JOIN USER u ON ur.USER_ID = u.ID LEFT JOIN ROLE r ON ur.ROLE_ID = r.ID WHERE u.USERNAME=? )ur LEFT JOIN( SELECT up.USER_ID, p.* FROM USER_PERMISSION up LEFT JOIN PERMISSION p ON up.PERMISSION_ID = p.ID )up ON ur.USER_ID = up.USER_ID LEFT JOIN( SELECT rp.ROLE_ID, p.* FROM ROLE_PERMISSION rp LEFT JOIN PERMISSION p ON rp.PERMISSION_ID = p.ID )rp ON rp.ROLE_ID = ur.ROLE_ID 
+2015-07-08 18:01:55.878 [btpool0-2] DEBUG org.lemonPig.os.core.mapper.ShiroUserMapper.selectLoginUserByUsername -
+				==> Parameters: admin(String)
+2015-07-08 18:01:55.890 [btpool0-2] DEBUG org.lemonPig.os.core.mapper.ShiroUserMapper.selectLoginUserByUsername -
+				<==      Total: 1
+2015-07-08 18:01:55.891 [btpool0-2] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@565b3520]
+2015-07-08 18:01:55.893 [btpool0-2] DEBUG org.apache.shiro.realm.AuthenticatingRealm -
+				Looked up AuthenticationInfo [org.lemonPig.os.core.vo.User@619e85da] from doGetAuthenticationInfo
+2015-07-08 18:01:55.897 [btpool0-2] DEBUG org.apache.shiro.authc.AbstractAuthenticator -
+				Authentication successful for token [org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=false (0:0:0:0:0:0:0:1)].  Returned account [org.lemonPig.os.core.vo.User@619e85da]
+2015-07-08 18:01:55.897 [btpool0-2] DEBUG org.apache.shiro.subject.support.DefaultSubjectContext -
+				No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2015-07-08 18:01:55.897 [btpool0-2] DEBUG org.apache.shiro.mgt.DefaultSecurityManager -
+				Context already contains a session.  Returning.
+2015-07-08 18:01:55.898 [btpool0-2] DEBUG org.apache.shiro.subject.support.DefaultSubjectContext -
+				No SecurityManager available in subject context map.  Falling back to SecurityUtils.getSecurityManager() lookup.
+2015-07-08 18:01:55.898 [btpool0-2] DEBUG org.apache.shiro.web.servlet.SimpleCookie -
+				Added HttpServletResponse Cookie [rememberMe=deleteMe; Path=/OS; Max-Age=0; Expires=Tue, 07-Jul-2015 10:01:55 GMT]
+2015-07-08 18:01:55.898 [btpool0-2] DEBUG org.apache.shiro.mgt.AbstractRememberMeManager -
+				AuthenticationToken did not indicate RememberMe is requested.  RememberMe functionality will not be executed for corresponding account.
+2015-07-08 18:02:02.769 [btpool0-7] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-07-08 18:02:02.769 [btpool0-7] DEBUG org.mybatis.spring.SqlSessionUtils -
+				SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@257013b9] was not registered for synchronization because synchronization is not active
+2015-07-08 18:02:02.789 [btpool0-7] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [1205321972(com.mysql.jdbc.JDBC4Connection@48418849)] will not be managed by Spring
+2015-07-08 18:02:02.789 [btpool0-7] DEBUG org.lemonPig.os.core.mapper.UserPOJOMapper.selectByExample -
+				ooo Using Connection [1205321972(com.mysql.jdbc.JDBC4Connection@48418849)]
+2015-07-08 18:02:02.789 [btpool0-7] DEBUG org.lemonPig.os.core.mapper.UserPOJOMapper.selectByExample -
+				==>  Preparing: select ID, USERNAME, PASSWORD, STATUS, SALT, TEL, MAIL from USER WHERE ( STATUS = ? ) or( STATUS = ? ) or( STATUS = ? ) order by ID asc limit 10 
+2015-07-08 18:02:02.790 [btpool0-7] DEBUG org.lemonPig.os.core.mapper.UserPOJOMapper.selectByExample -
+				==> Parameters: 0(Integer), 0(Integer), 0(Integer)
+2015-07-08 18:02:02.792 [btpool0-7] DEBUG org.lemonPig.os.core.mapper.UserPOJOMapper.selectByExample -
+				<==      Total: 1
+2015-07-08 18:02:02.793 [btpool0-7] DEBUG org.lemonPig.os.assist.mybaties.support.SQLHelp -
+				Total count SQL: select count(1) from (select
+     
+     
+    
+    ID, USERNAME, PASSWORD, STATUS, SALT, TEL, MAIL
+   
+    from USER
+     
+       
+    
+     WHERE (  STATUS = ? )
+        
+      
+        
+          or(  STATUS = ? )
+        
+      
+        
+          or(  STATUS = ? ) 
+   
+     
+     
+      order by ID asc) tmp_count
+2015-07-08 18:02:02.793 [btpool0-7] DEBUG org.lemonPig.os.assist.mybaties.support.SQLHelp -
+				Total count Parameters: org.lemonPig.os.core.pojo.UserPOJOExample@fb04727
+2015-07-08 18:02:02.802 [btpool0-7] DEBUG org.lemonPig.os.assist.mybaties.support.SQLHelp -
+				Total count: 1
+2015-07-08 18:02:02.803 [btpool0-7] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@257013b9]
+2015-07-08 18:20:55.198 [main] DEBUG org.apache.shiro.spring.web.ShiroFilterFactoryBean -
+				Creating Shiro Filter instance.
+2015-07-08 18:20:55.205 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/login.jsp] from String definition [anon]
+2015-07-08 18:20:55.206 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/login.jsp] to filter [anon] with config [null]
+2015-07-08 18:20:55.206 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/queryPageList] from String definition [anon]
+2015-07-08 18:20:55.207 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/queryPageList] to filter [anon] with config [null]
+2015-07-08 18:20:55.207 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/user.jsp] from String definition [anon]
+2015-07-08 18:20:55.207 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/user.jsp] to filter [anon] with config [null]
+2015-07-08 18:20:55.207 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jsp/permission/user/regist.jsp] from String definition [anon]
+2015-07-08 18:20:55.207 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jsp/permission/user/regist.jsp] to filter [anon] with config [null]
+2015-07-08 18:20:55.207 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/ajax/**] from String definition [anon]
+2015-07-08 18:20:55.207 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/ajax/**] to filter [anon] with config [null]
+2015-07-08 18:20:55.207 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/css/**] from String definition [anon]
+2015-07-08 18:20:55.207 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/css/**] to filter [anon] with config [null]
+2015-07-08 18:20:55.207 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/fonts/**] from String definition [anon]
+2015-07-08 18:20:55.207 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/fonts/**] to filter [anon] with config [null]
+2015-07-08 18:20:55.207 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/img/**] from String definition [anon]
+2015-07-08 18:20:55.207 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/img/**] to filter [anon] with config [null]
+2015-07-08 18:20:55.207 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/js/**] from String definition [anon]
+2015-07-08 18:20:55.207 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/js/**] to filter [anon] with config [null]
+2015-07-08 18:20:55.208 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/sound/**] from String definition [anon]
+2015-07-08 18:20:55.208 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/sound/**] to filter [anon] with config [null]
+2015-07-08 18:20:55.208 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/index.jsp] from String definition [anon]
+2015-07-08 18:20:55.208 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/index.jsp] to filter [anon] with config [null]
+2015-07-08 18:20:55.208 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/jcaptcha*] from String definition [jcapc]
+2015-07-08 18:20:55.208 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/jcaptcha*] to filter [jcapc] with config [null]
+2015-07-08 18:20:55.208 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/login*] from String definition [jcapv,authc]
+2015-07-08 18:20:55.208 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login*] to filter [jcapv] with config [null]
+2015-07-08 18:20:55.208 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/login*] to filter [authc] with config [null]
+2015-07-08 18:20:55.208 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/logout] from String definition [logout]
+2015-07-08 18:20:55.208 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/logout] to filter [logout] with config [null]
+2015-07-08 18:20:55.208 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/regist*] from String definition [anon]
+2015-07-08 18:20:55.208 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/regist*] to filter [anon] with config [null]
+2015-07-08 18:20:55.208 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/user/test*] from String definition [anon]
+2015-07-08 18:20:55.208 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/user/test*] to filter [anon] with config [null]
+2015-07-08 18:20:55.208 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Creating chain [/**] from String definition [user]
+2015-07-08 18:20:55.209 [main] DEBUG org.apache.shiro.web.filter.mgt.DefaultFilterChainManager -
+				Attempting to apply path [/**] to filter [user] with config [null]
+2015-07-08 18:20:55.638 [main] DEBUG org.hibernate.validator.engine.resolver.DefaultTraversableResolver -
+				Cannot find javax.persistence.PersistenceUtil on classpath. All properties will per default be traversable.
+2015-07-08 18:20:55.639 [main] DEBUG org.hibernate.validator.xml.ValidationXmlParser -
+				No META-INF/validation.xml found. Using annotation based configuration only
+2015-07-08 18:20:55.967 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-07-08 18:20:55.973 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c385690]
+2015-07-08 18:20:56.010 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [421918568(com.mysql.jdbc.JDBC4Connection@b95d9be)] will be managed by Spring
+2015-07-08 18:20:56.011 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				ooo Using Connection [421918568(com.mysql.jdbc.JDBC4Connection@b95d9be)]
+2015-07-08 18:20:56.014 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				==>  Preparing: delete from RESOURCE 
+2015-07-08 18:20:56.056 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				==> Parameters: 
+2015-07-08 18:20:56.058 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.deleteByExample -
+				<==    Updates: 0
+2015-07-08 18:20:56.058 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c385690]
+2015-07-08 18:20:56.059 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c385690]
+2015-07-08 18:20:56.060 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c385690]
+2015-07-08 18:20:56.102 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-07-08 18:20:56.102 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2148222f]
+2015-07-08 18:20:56.104 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [203991236(com.mysql.jdbc.JDBC4Connection@b95d9be)] will be managed by Spring
+2015-07-08 18:20:56.104 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				ooo Using Connection [203991236(com.mysql.jdbc.JDBC4Connection@b95d9be)]
+2015-07-08 18:20:56.105 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==>  Preparing: insert into RESOURCE (ID, SECURITY_LEVEL, REQUEST_MAPPING_INFO, HANDLERMETHOD) values (?, ?, ?, ?) 
+2015-07-08 18:20:56.106 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==> Parameters: null, null, {"patternsCondition":{"patterns":["/user/forward/{toGO}"]},"methodsCondition":{"methods":[]},"paramsCondition":{"expressions":[]},"headersCondition":{"expressions":[]},"consumesCondition":{"expressions":[],"empty":true,"consumableMediaTypes":[]},"producesCondition":{"expressions":[],"empty":true,"producibleMediaTypes":[]},"customCondition":null}(String), java.lang.String org.lemonPig.os.web.controller.UserController.forward(java.lang.String)(String)
+2015-07-08 18:20:56.107 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				<==    Updates: 1
+2015-07-08 18:20:56.107 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2148222f]
+2015-07-08 18:20:56.109 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2148222f]
+2015-07-08 18:20:56.109 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2148222f]
+2015-07-08 18:20:56.120 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-07-08 18:20:56.120 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11f66d7b]
+2015-07-08 18:20:56.120 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [13817433(com.mysql.jdbc.JDBC4Connection@b95d9be)] will be managed by Spring
+2015-07-08 18:20:56.120 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				ooo Using Connection [13817433(com.mysql.jdbc.JDBC4Connection@b95d9be)]
+2015-07-08 18:20:56.120 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==>  Preparing: insert into RESOURCE (ID, SECURITY_LEVEL, REQUEST_MAPPING_INFO, HANDLERMETHOD) values (?, ?, ?, ?) 
+2015-07-08 18:20:56.121 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==> Parameters: null, null, {"patternsCondition":{"patterns":["/user/{login:login;?.*}"]},"methodsCondition":{"methods":[]},"paramsCondition":{"expressions":[]},"headersCondition":{"expressions":[]},"consumesCondition":{"expressions":[],"empty":true,"consumableMediaTypes":[]},"producesCondition":{"expressions":[],"empty":true,"producibleMediaTypes":[]},"customCondition":null}(String), org.lemonPig.os.assist.spring.Result org.lemonPig.os.web.controller.UserController.login(javax.servlet.http.HttpServletRequest)(String)
+2015-07-08 18:20:56.123 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				<==    Updates: 1
+2015-07-08 18:20:56.123 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11f66d7b]
+2015-07-08 18:20:56.128 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11f66d7b]
+2015-07-08 18:20:56.128 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11f66d7b]
+2015-07-08 18:20:56.140 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-07-08 18:20:56.140 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4992a8df]
+2015-07-08 18:20:56.140 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [1592127125(com.mysql.jdbc.JDBC4Connection@b95d9be)] will be managed by Spring
+2015-07-08 18:20:56.141 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				ooo Using Connection [1592127125(com.mysql.jdbc.JDBC4Connection@b95d9be)]
+2015-07-08 18:20:56.141 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==>  Preparing: insert into RESOURCE (ID, SECURITY_LEVEL, REQUEST_MAPPING_INFO, HANDLERMETHOD) values (?, ?, ?, ?) 
+2015-07-08 18:20:56.141 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==> Parameters: null, null, {"patternsCondition":{"patterns":["/user/regist"]},"methodsCondition":{"methods":[]},"paramsCondition":{"expressions":[]},"headersCondition":{"expressions":[]},"consumesCondition":{"expressions":[],"empty":true,"consumableMediaTypes":[]},"producesCondition":{"expressions":[],"empty":true,"producibleMediaTypes":[]},"customCondition":null}(String), org.lemonPig.os.assist.spring.Result org.lemonPig.os.web.controller.UserController.regist(org.lemonPig.os.core.vo.User,org.springframework.validation.BindingResult)(String)
+2015-07-08 18:20:56.142 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				<==    Updates: 1
+2015-07-08 18:20:56.142 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4992a8df]
+2015-07-08 18:20:56.145 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4992a8df]
+2015-07-08 18:20:56.145 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4992a8df]
+2015-07-08 18:20:56.154 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-07-08 18:20:56.154 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47b7d9c9]
+2015-07-08 18:20:56.155 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [1762830227(com.mysql.jdbc.JDBC4Connection@b95d9be)] will be managed by Spring
+2015-07-08 18:20:56.155 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				ooo Using Connection [1762830227(com.mysql.jdbc.JDBC4Connection@b95d9be)]
+2015-07-08 18:20:56.155 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==>  Preparing: insert into RESOURCE (ID, SECURITY_LEVEL, REQUEST_MAPPING_INFO, HANDLERMETHOD) values (?, ?, ?, ?) 
+2015-07-08 18:20:56.155 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==> Parameters: null, null, {"patternsCondition":{"patterns":["/user/findCategory"]},"methodsCondition":{"methods":[]},"paramsCondition":{"expressions":[]},"headersCondition":{"expressions":[]},"consumesCondition":{"expressions":[],"empty":true,"consumableMediaTypes":[]},"producesCondition":{"expressions":[],"empty":true,"producibleMediaTypes":[]},"customCondition":null}(String), org.lemonPig.os.assist.spring.Result org.lemonPig.os.web.controller.UserController.findCategory()(String)
+2015-07-08 18:20:56.156 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				<==    Updates: 1
+2015-07-08 18:20:56.156 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47b7d9c9]
+2015-07-08 18:20:56.158 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47b7d9c9]
+2015-07-08 18:20:56.159 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47b7d9c9]
+2015-07-08 18:20:56.168 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Creating a new SqlSession
+2015-07-08 18:20:56.168 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@769cae70]
+2015-07-08 18:20:56.168 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction -
+				JDBC Connection [646906182(com.mysql.jdbc.JDBC4Connection@b95d9be)] will be managed by Spring
+2015-07-08 18:20:56.168 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				ooo Using Connection [646906182(com.mysql.jdbc.JDBC4Connection@b95d9be)]
+2015-07-08 18:20:56.168 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==>  Preparing: insert into RESOURCE (ID, SECURITY_LEVEL, REQUEST_MAPPING_INFO, HANDLERMETHOD) values (?, ?, ?, ?) 
+2015-07-08 18:20:56.169 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				==> Parameters: null, null, {"patternsCondition":{"patterns":["/user/queryPageList"]},"methodsCondition":{"methods":[]},"paramsCondition":{"expressions":[]},"headersCondition":{"expressions":[]},"consumesCondition":{"expressions":[],"empty":true,"consumableMediaTypes":[]},"producesCondition":{"expressions":[],"empty":true,"producibleMediaTypes":[]},"customCondition":null}(String), org.lemonPig.os.assist.spring.Result org.lemonPig.os.web.controller.UserController.queryPageList(java.lang.String,[Lorg.lemonPig.os.web.vo.DataTables$KeyValuePair;)(String)
+2015-07-08 18:20:56.170 [main] DEBUG org.lemonPig.os.core.mapper.ResourcePOJOMapper.insert -
+				<==    Updates: 1
+2015-07-08 18:20:56.170 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@769cae70]
+2015-07-08 18:20:56.172 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@769cae70]
+2015-07-08 18:20:56.172 [main] DEBUG org.mybatis.spring.SqlSessionUtils -
+				Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@769cae70]

@@ -1,16 +1,18 @@
 package org.lemonPig.os.core.constants;
 
 public enum UserStatus {
-	ACTIVEED("活动的"),LOCKED("锁定的"),DISCARDED("废弃的");
-	private String cname;
-	private UserStatus(String cname){
-		this.cname=cname;
+	ACTIVEED(0,"活动的"),LOCKED(1,"锁定的"),DISCARDED(2,"废弃的");
+	private String name;
+	private int code;
+	private UserStatus(int code,String name){
+		this.name=name;
+		this.code=code;
 	}
-	public String getCname() {
-		return cname;
+	public String getName() {
+		return name;
 	}
-	public void setCname(String cname) {
-		this.cname = cname;
+	public int getCode() {
+		return code;
 	}
 	
 }
