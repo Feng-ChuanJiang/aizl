@@ -85,6 +85,7 @@ OSystem.Manager.PageManager=OSystem.Class(OSystem.Manager.UrlManager,{
 				url:url,
 				dataType:"html",
 				type:"get",
+				async:false,
 				success:function(data){
 					var html=$(data);
 					target.html(html);

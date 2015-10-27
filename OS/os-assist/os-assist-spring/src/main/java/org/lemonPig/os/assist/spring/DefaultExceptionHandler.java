@@ -26,7 +26,7 @@ public class DefaultExceptionHandler {
 		logger.error("系统执行异常", e);
 		ModelAndView mv = new ModelAndView();
 		Result result = Result.buildErrorResult("系统异常：" + e.getMessage());
-		mv.addObject("error", result);
+		mv.addObject(result);
 		mv.setViewName("error/exception");
 		return mv;
 	}
@@ -37,7 +37,7 @@ public class DefaultExceptionHandler {
 	public ModelAndView processRuntimeException(BizException e) {
 		ModelAndView mv = new ModelAndView();
 		Result result = Result.buildErrorResult(e.getMessage());
-		mv.addObject("error", result);
+		mv.addObject(result);
 		mv.setViewName("error/exception");
 		return mv;
 	}

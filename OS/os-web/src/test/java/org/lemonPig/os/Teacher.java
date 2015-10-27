@@ -19,5 +19,4 @@ public class Teacher  {
 	public void setT(Teacher t) {
 		this.t = t;
 	}
-	
 }

@@ -40,46 +40,46 @@
 	</bean>
 	<!--==================== 使用shiro的session管理（可以使用默认就是容器的session） ===开始线====================== -->
 	<!-- 会话ID生成器 -->
-<!-- 	<bean id="sessionIdGenerator" -->
-<!-- 		class="org.apache.shiro.session.mgt.eis.JavaUuidSessionIdGenerator" /> -->
+	<bean id="sessionIdGenerator"
+		class="org.apache.shiro.session.mgt.eis.JavaUuidSessionIdGenerator" />
 	<!-- 会话Cookie模板 -->
-<!-- 	<bean id="sessionIdCookie" class="org.apache.shiro.web.servlet.SimpleCookie"> -->
-<!-- 		<constructor-arg value="${shiro.uid.cookie.name}" /> -->
-<!-- 		<property name="httpOnly" value="${shiro.uid.cookie.httpOnly}" /> -->
-<!-- 		<property name="maxAge" value="${shiro.uid.cookie.maxAge}" /> -->
-<!-- 	</bean> -->
+	<bean id="sessionIdCookie" class="org.apache.shiro.web.servlet.SimpleCookie">
+		<constructor-arg value="${shiro.uid.cookie.name}" />
+		<property name="httpOnly" value="${shiro.uid.cookie.httpOnly}" />
+		<property name="maxAge" value="${shiro.uid.cookie.maxAge}" />
+	</bean>
 	<!-- 会话DAO -->
-<!-- 	<bean id="sessionDAO" -->
-<!-- 		class="org.apache.shiro.session.mgt.eis.EnterpriseCacheSessionDAO"> -->
-<!-- 		<property name="activeSessionsCacheName" value="shiro-activeSessionCache" /> -->
-<!-- 		<property name="sessionIdGenerator" ref="sessionIdGenerator" /> -->
-<!-- 	</bean> -->
+	<bean id="sessionDAO"
+		class="org.apache.shiro.session.mgt.eis.EnterpriseCacheSessionDAO">
+		<property name="activeSessionsCacheName" value="shiro-activeSessionCache" />
+		<property name="sessionIdGenerator" ref="sessionIdGenerator" />
+	</bean>
 	<!-- 会话验证调度器 -->
-<!-- 	<bean id="sessionValidationScheduler" -->
-<!-- 		class="org.apache.shiro.session.mgt.quartz.QuartzSessionValidationScheduler"> -->
-<!-- 		<property name="sessionValidationInterval" value="${shiro.session.validation.interval}" /> -->
-<!-- 		<property name="sessionManager" ref="sessionManager" /> -->
-<!-- 	</bean> -->
-<!-- 	<bean id="onlineSessionFactory" -->
-<!-- 		class="org.lemonPig.os.assist.shiro.session.OnlineSessionFactory" /> -->
+	<bean id="sessionValidationScheduler"
+		class="org.apache.shiro.session.mgt.quartz.QuartzSessionValidationScheduler">
+		<property name="sessionValidationInterval" value="${shiro.session.validation.interval}" />
+		<property name="sessionManager" ref="sessionManager" />
+	</bean>
+	<bean id="onlineSessionFactory"
+		class="org.lemonPig.os.assist.shiro.session.OnlineSessionFactory" />
 
 
 	<!-- 会话管理器 -->
-<!-- 	<bean id="sessionManager" -->
-<!-- 		class="org.lemonPig.os.assist.shiro.session.OnlineWebSessionManager"> -->
-<!-- 		<property name="globalSessionTimeout" value="${shiro.session.globalSessionTimeout}"></property> -->
-<!-- 		<property name="sessionFactory" ref="onlineSessionFactory" /> -->
-<!-- 		<property name="sessionDAO" ref="sessionDAO" /> -->
-<!-- 		<property name="deleteInvalidSessions" value="false" /> -->
+	<bean id="sessionManager"
+		class="org.lemonPig.os.assist.shiro.session.OnlineWebSessionManager">
+		<property name="globalSessionTimeout" value="${shiro.session.globalSessionTimeout}"></property>
+		<property name="sessionFactory" ref="onlineSessionFactory" />
+		<property name="sessionDAO" ref="sessionDAO" />
+		<property name="deleteInvalidSessions" value="false" />
 
-<!-- 		<property name="sessionValidationInterval" value="${shiro.session.validation.interval}" /> -->
-<!-- 		<property name="sessionValidationSchedulerEnabled" value="true" /> -->
-<!-- 		<property name="sessionValidationScheduler" ref="sessionValidationScheduler" /> -->
+		<property name="sessionValidationInterval" value="${shiro.session.validation.interval}" />
+		<property name="sessionValidationSchedulerEnabled" value="true" />
+		<property name="sessionValidationScheduler" ref="sessionValidationScheduler" />
 
-<!-- 		<property name="cacheManager" ref="shiroEhcacheManager" /> -->
-<!-- 		<property name="sessionIdCookieEnabled" value="true" /> -->
-<!-- 		<property name="sessionIdCookie" ref="sessionIdCookie" /> -->
-<!-- 	</bean> -->
+		<property name="cacheManager" ref="shiroEhcacheManager" />
+		<property name="sessionIdCookieEnabled" value="true" />
+		<property name="sessionIdCookie" ref="sessionIdCookie" />
+	</bean>
 	<!-- ===========================使用shiro的session管理==结束线================================ -->
 	<!-- ================================记住登录==开始线========================================= -->
 	<!-- 登录cookie -->
@@ -105,7 +105,7 @@
 		<!-- <property name="sessionMode" value="native" /> -->
 		<property name="realm" ref="userRealm" />
 		<!-- 指定session管理器 ,默认用容器原生的-->
-<!-- 		<property name="sessionManager" ref="sessionManager" /> -->
+		<property name="sessionManager" ref="sessionManager" />
 		<property name="rememberMeManager" ref="rememberMeManager" />
 	</bean>
 	<!-- 相当于调用SecurityUtils.setSecurityManager(securityManager) -->
@@ -120,13 +120,13 @@
 
 	<!-- shiro form表单过滤器 ,仅用于验证登录身份 -->
 	<bean id="formAuthenticationFilter"
-		class="org.lemonPig.os.assist.shiro.CustomFormAuthenticationFilter">
+		class="org.lemonPig.os.assist.shiro.ContentManageFormAuthenticationFilter">
 		<property name="usernameParam" value="${shiro.usernameParam}" />
 		<property name="passwordParam" value="${shiro.passwordParam}" />
 		<!-- 优先获取shiroFilter的loginUrl -->
-		<property name="failureKeyAttribute" value="${shiro.loginFailAttributeName}" />
+		<property name="failureKeyAttribute" value="${shiro.failureKeyAttribute}" />
 		<property name="loginUrl" value="${shiro.loginUrl}" />
-		<property name="loginPage" value="${shiro.loginPage}" />
+<!-- 		<property name="loginPage" value="${shiro.loginPage}" /> -->
 		<property name="successUrl" value="${shiro.successUrl}" />
 	</bean>
 	<!-- 验证码创建过滤器 -->
@@ -137,7 +137,7 @@
 		class="org.lemonPig.os.assist.shiro.JcaptchaValidateShiroFilter">
 		<property name="jcaptchaEbabled" value="${shiro.jcaptchaEbabled}" />
 		<property name="jcaptchaParam" value="${shiro.jcaptchaParam}" />
-		<property name="jcaptchaFailAttributeName" value="${shiro.loginFailAttributeName}" />
+		<property name="jcaptchaFailAttributeName" value="${shiro.failureKeyAttribute}" />
 	</bean>
 	<!-- Shiro的Web过滤器拦截配置 -->
 	<bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
@@ -168,7 +168,7 @@
 				/logout =logout
 				/user/regist* =anon
 				/user/test* =anon
-				/** = user
+				/** = anon
 			</value>
 		</property>
 	</bean>

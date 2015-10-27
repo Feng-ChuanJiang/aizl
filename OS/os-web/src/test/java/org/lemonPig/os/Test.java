@@ -8,6 +8,8 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.lemonPig.os.assist.shiro.SaltHashHelper;
+
 public class Test {
 	public int getMiddle(Integer[] list, int low, int high) {
 		int tmp = list[low]; // 数组的第一个作为中轴
@@ -90,5 +92,9 @@ public class Test {
 				map.put(key, value);
 			}
 		}
+	}
+	
+	@org.junit.Test
+	public void name() {
 	}
 }

@@ -31,6 +31,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.SessionAttributes;
+import org.springframework.web.servlet.ModelAndView;
 
 /**
  * 该controller只有登录失败后才会进入，主要是处理失败跳转和参数处理
@@ -43,11 +44,15 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 @SessionAttributes()
 public class UserController {
 	Logger logger = LoggerFactory.getLogger(UserController.class);
-	@Value(value = "${shiro.loginFailAttributeName}")
+	@Value(value = "${shiro.failureKeyAttribute}")
 	private String loginFailAttributeName;
 
 	@Value(value = "${shiro.successUrl}")
 	private String successUrl;
+	
+	@Value(value="${shiro.loginPage}")
+	private String loginPage;
+	
 	@Autowired
 	IUserService iUserService;
 
@@ -70,7 +75,7 @@ public class UserController {
 	@ResponseBody
 	// spring3.2.2 bug see http://jinnianshilongnian.iteye.com/blog/1831408
 	@RequestMapping(value = { "/{login:login;?.*}" })
-	public Result login(HttpServletRequest request) {
+	public ModelAndView login(HttpServletRequest request) {
 		Result result = null;
 		// Subject subject = SecurityUtils.getSubject();
 		// Session session = subject.getSession();
@@ -85,7 +90,11 @@ public class UserController {
 			result = Result.buildSuccessResult(dataMap, "登录成功!");
 			//更新最后登录时间
 		}
-		return result;
+		//modelAndView 可以用内容协商管理器动态的根据contentType将object转json或者跳转view
+		ModelAndView modelAndView=new ModelAndView();
+		modelAndView.addObject(result);
+		modelAndView.setViewName(loginPage);
+		return modelAndView;
 	}
 
 	@ResponseBody
